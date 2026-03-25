@@ -1,0 +1,732 @@
+{
+  "reporte": "branchMembersClassesReport",
+  "navLog": [
+    "goto: https://deportnet.com/branchMembersClassesReport",
+    "url_final: https://deportnet.com/branchMembersClassesReport",
+    "ok: página del reporte reconocida"
+  ],
+  "sede": "Pilates - Office",
+  "url_final": "https://deportnet.com/branchMembersClassesReport",
+  "headerTexts": [
+    "Profesor",
+    "Servicio/Membresía",
+    "Actividad",
+    "Fecha",
+    "Hora",
+    "Utilizado",
+    "Socio",
+    "Teléfono",
+    "Celular",
+    "Domicilio",
+    "Sexo",
+    "Email",
+    "Fecha nacimiento",
+    "Obra social",
+    "Observaciones",
+    "Nro. Tarjeta"
+  ],
+  "hdrLen": 16,
+  "tdShift": 0,
+  "colSource": "inferido_datos",
+  "cols": {
+    "fechaIdx": 3,
+    "horaIdx": 4,
+    "utilizadoIdx": 5
+  },
+  "rowCountDom": 540,
+  "tieneViewportVirtual": false,
+  "filasRecolectadasVirtual": null,
+  "cellSel": "td, mat-cell, td.mat-mdc-cell, td.mat-cell",
+  "sampleRows": [
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "Arce Yanina",
+      "",
+      "91157023187",
+      "Barrio La Lomada. Lote 732",
+      "Femenino",
+      "yaniarce@yahoo.com.ar",
+      "06/11/1967",
+      "",
+      "",
+      "18584242"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Mensual - Pack 04 - Debito Automático",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "Diana Botia",
+      "",
+      "",
+      "José Tomás guido 1950 , barrio la Angélica lote 62",
+      "Femenino",
+      "dbotia2124@gmail.com",
+      "24/02/1990",
+      "",
+      "",
+      "95365823"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "Lind María Alejandra",
+      "",
+      "1168537035",
+      "",
+      "Femenino",
+      "mariaalejandralind@gmail.com",
+      "29/09/2024",
+      "",
+      "",
+      "22278130"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "López Leila",
+      "",
+      "1138707063",
+      "Ayres de pilar barrio cerrado",
+      "Femenino",
+      "leilalopez680@gmail.com",
+      "28/04/2006",
+      "",
+      "",
+      "47394986"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "Pedreira Juana Suaya",
+      "",
+      "1123870737",
+      "Av. Patricias Argentinas 2009 Barrio Cerrado Las Liebres",
+      "Femenino",
+      "jsuayapedreira@gmail.com",
+      "03/04/2007",
+      "",
+      "",
+      "47955849"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "Pozzoli Mia",
+      "",
+      "11 2373-6002",
+      "Comodoro Rivadavia 3301",
+      "Femenino",
+      "miuchipozzoli@yahoo.com.ar",
+      "23/10/2002",
+      "",
+      "",
+      "94596145"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Mensual - Pack 08 - Debito Automatico",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "Sabate Josefina",
+      "",
+      "1121681607",
+      "Caamaño 3000",
+      "Femenino",
+      "josefinasabate1@gmail.com",
+      "27/01/2000",
+      "",
+      "",
+      "42340510"
+    ],
+    [
+      "Admiraal Lola",
+      "Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia",
+      "Pilates Inicial",
+      "09/03/2026",
+      "10:45",
+      "Si",
+      "sasson Mora",
+      "",
+      "91169601805",
+      "",
+      "Femenino",
+      "morasasson@icloud.com",
+      "05/10/2005",
+      "",
+      "",
+      "47026714"
+    ]
+  ]
+}
+=== FILAS LEÍDAS DEL REPORTE (una por línea, celdas separadas por TAB) ===
+filasProcesadas=540 lineasVolcadasAqui=540 maxConfig=2500 (subí con OCUPACION_DEBUG_MAX_FILAS=5000)
+
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	10:45	Si	Arce Yanina		91157023187	Barrio La Lomada. Lote 732	Femenino	yaniarce@yahoo.com.ar	06/11/1967			18584242
+Admiraal Lola	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Inicial	09/03/2026	10:45	Si	Diana Botia			José Tomás guido 1950 , barrio la Angélica lote 62	Femenino	dbotia2124@gmail.com	24/02/1990			95365823
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	10:45	Si	Lind María Alejandra		1168537035		Femenino	mariaalejandralind@gmail.com	29/09/2024			22278130
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	10:45	Si	López Leila		1138707063	Ayres de pilar barrio cerrado	Femenino	leilalopez680@gmail.com	28/04/2006			47394986
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	10:45	Si	Pedreira Juana Suaya		1123870737	Av. Patricias Argentinas 2009 Barrio Cerrado Las Liebres	Femenino	jsuayapedreira@gmail.com	03/04/2007			47955849
+Admiraal Lola	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	10:45	Si	Pozzoli Mia		11 2373-6002	Comodoro Rivadavia 3301	Femenino	miuchipozzoli@yahoo.com.ar	23/10/2002			94596145
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	09/03/2026	10:45	Si	Sabate Josefina		1121681607	Caamaño 3000	Femenino	josefinasabate1@gmail.com	27/01/2000			42340510
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	10:45	Si	sasson Mora		91169601805		Femenino	morasasson@icloud.com	05/10/2005			47026714
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Inicial	09/03/2026	14:00	Si	Labarthe Marina		1163561327		Femenino	marilabarth@gmail.com	08/06/1970			21671217
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	14:00	Si	Moreno Abalo Maria Dolores		1125891979		Femenino	morenololi@yahoo.com.ar	08/03/1979			27217976
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	09/03/2026	14:00	No	Saqueta Melo Nadia Nerina		1139135259	Palma 977 Villa rosa	Femenino	saquetamelo.nadia@gmail.com	28/08/1987			33061372
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	14:00	No	Youssefian Delfina		1138512276	panamericana ramal pilar km 43,5 barrio Ayres de pilar	Femenino	delfinayoussefian@gmail.com	10/03/2007			47805522
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	No	Asmus Humberto			panamericana 43,5	Masculino	humbert@live.com.ar	18/06/1965			17448786
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	No	Capozzi Luciana		154885434	Juan domingo Perón 2375	Femenino	luli_capozzi@hotmail.com	01/06/1990			35265190
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	No	Chairo Adriana		11 6994-1067	Chile 1820 Barrio La Herradura	Femenino	adrianachairo@yahoo.com.ar	26/08/1953			10834481
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	Si	Gomez Cristina				Femenino	cristinaromerovagni@yahoo.com.ar	29/12/1947			05691797
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	Si	Grazioli Tiziana				Femenino	tizigrazioli@hotmail.com	30/07/2025			37248017
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	10/03/2026	09:45	Si	Lopez Daiana		1140979513		Femenino	dalulopez3@gmail.com	19/11/1993			37929718
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	No	Negri Delfina		11 6457-2627	avenida Patricias Argentinas 2009, Garín, Escobar	Femenino	delfinegri2@gmail.com	26/06/1985			31695320
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	10/03/2026	09:45	No	Rius Moreno Mariana		11 5835-1188	Barrio Santa Maria de los Olivos	Femenino	riusmariana@gmail.com	16/10/1969			20997737
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	Si	Ruprecht Angela		1140606372		Femenino	angieruprecht@gmail.com	26/03/2007			47805603
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	09:45	Si	ZANCOLLI ADRIANA			Las liebres lote 96	Femenino	adrizancolli@gmail.com	22/02/1954			11044099
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	14:00	No	Alvarez María Eva		1132981724	Chillán 1088	Femenino	evaalvarez.alva@gmail.com	18/11/1978			26959408
+Admiraal Lola	Office - Pilates - Clase suelta	Pilates Inicial	10/03/2026	14:00	No	Burdman FIona burdman		1130158532	pangare 65	Femenino	fionaburdman@outlook.com	20/08/2007			48240036
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	14:00	Si	D Elia Karina		1154995918	Av Perón 2505	Femenino	karina.delia@hotmail.com	07/10/1992			36945933
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	10/03/2026	14:00	No	Fernandez María Candelaria		1150995960	Barrio Privado Los Pilares, La Florida s/n	Femenino	ma.candelariafernandez@gmail.com	10/12/2005			47091857
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	10/03/2026	14:00	Si	Quijano Lis		11 5947-5883	la esperanza 1758	Femenino	quijanolis01@hotmail.com	30/06/1999			41917789
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	14:00	No	Reinaudi Lourdes María		1159609116	barrio la masia, lote 62	Femenino	lureinaudi@gmail.com	20/10/2025			36806969
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	10/03/2026	14:00	No	Tallone Delfina			Ayres del Pilar v39	Femenino	delfinattallone@gmail.com	15/12/2005			46960957
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	14:00	Si	Vila Rocio		1161348374		Femenino	rochivila2222@gmail.com	22/02/2006			47165630
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	16:00	Si	Balekjian Mariana		1157660240	Panamericana ramal pilar km 48.5 C C Pueyrredon N/A	Femenino	marianabalekjian@hotmail.com	27/12/1997			40847182
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	16:00	Si	Bauchwitz Claramunt Fernanda			Ayres de pilar	Femenino	ferclaramunt@gmail.com	26/09/1967			18423274
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	10/03/2026	16:00	No	Bengoa Monica		1141624647	Andres Chazarreta 4030 . Casa 18 Zelaya Pilar	Femenino	monibengoa@gmail.com	04/08/1955			11514973
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	16:00	Si	Maria Martina			Barrio Altos de Campo Grande, Pilar	Femenino	martumaria@icloud.com	10/09/2007			48214565
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	16:00	Si	Markunas Catalina		1159338777	caamaño 1103	Femenino	catalinamarkunas@gmail.com	23/08/2007			48240010
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	10/03/2026	16:00	Si	Medico Lucía Inés		1156434979	Trinidad 581 barrio El aljibe (manzana 11 lote 8)	Femenino	lucia.ines.medico@gmail.com	27/01/1983			30037364
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	16:00	Si	Melina Olivera		1121857662	Chillán 1088	Femenino	melinaluz2005@gmail.com	25/11/2005			47063670
+Admiraal Lola	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	10/03/2026	16:00	Si	Monzo Sofia		11 2285-0170		Femenino	sofiagmonzo@gmail.com	17/10/2005			46991047
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	10/03/2026	16:00	Si	Morindo Paulino Yamila		1166805704	Trinidad 581, Manzanares- Pilar (Barrio el aljibe Manzana 12 lote 24)	Femenino	yammi.1401@hotmail.com	14/01/1995			37612723
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	10/03/2026	16:00	Si	Weihs Lara		11 7231-2005	Ayres de Pilar, Arreo 52	Femenino	laraaweihs@gmail.com	28/11/2005			46917443
+Admiraal Lola	Office - Pilates - Clase de prueba	Pilates Inicial	11/03/2026	10:45	Si	Arias Ana Belen		1167239346	Barrio Ayres plaza Chile 849, La Lonja , Pilar	Femenino	ariasanabelen@gmail.com	06/09/1984			31125242
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	10:45	Si	Freixedes Rosario		1168497637	Olivos golf club	Femenino	rosario@popartmusic.com	08/08/1986			32324396
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	11/03/2026	10:45	Si	Gray Verónica		1161709743	La Lomada de Pilar	Femenino	grayvero@gmail.com	29/09/1975			24823279
+Admiraal Lola	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Inicial	11/03/2026	10:45	Si	Guzmán Celeste		1135067386	Santa Julia 1704	Femenino	vannuchi19@hotmail.com	21/02/1989			34227959
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	10:45	Si	Pelegrina Valentina		1144149338	Saravi 400	Femenino	valentinapelegrina@gmail.com	25/09/1970			21688952
+Admiraal Lola	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	11/03/2026	10:45	Si	Pozzoli Mia		11 2373-6002	Comodoro Rivadavia 3301	Femenino	miuchipozzoli@yahoo.com.ar	23/10/2002			94596145
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	11/03/2026	10:45	Si	Romero Alejandra		1150977312	Patricias Argentinas 4597	Femenino	ale3354@hotmail.com	06/05/1965			17367865
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	10:45	Si	Salgado Gabriela		1157495043	Patricias Argentinas 4597 Garin	Femenino	gaby_salga50@hotmail.com	17/04/1963			16591413
+Admiraal Lola	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Inicial	11/03/2026	10:45	Si	Solis Evangelina		5492304365770	French 266 (pilar)	Femenino	evangelinasolis16@gmail.com	08/12/2025			29633525
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	11/03/2026	10:45	Si	sasson Mora		91169601805		Femenino	morasasson@icloud.com	05/10/2005			47026714
+Admiraal Lola	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	13/03/2026	10:45	Si	Boldrini Vanesa			Av. Constitución 1595	Femenino	vanesaboldrini@gmail.com	21/04/1973			23256212
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	13/03/2026	10:45	No	Chairo Adriana		11 6994-1067	Chile 1820 Barrio La Herradura	Femenino	adrianachairo@yahoo.com.ar	26/08/1953			10834481
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	13/03/2026	10:45	Si	Gondell Martina Zoe		BarrioLaMasia,villarosa,pilar		Femenino	martugondell5@gmail.com	19/10/2002			44504509
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	13/03/2026	10:45	Si	Gray Verónica		1161709743	La Lomada de Pilar	Femenino	grayvero@gmail.com	29/09/1975			24823279
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	13/03/2026	10:45	No	Julián Carolina Laura		1161153425	Barrio Los Pilares. Lote 71. Pilar	Femenino	carolinalaurajulian@gmail.com	28/05/1975			24662548
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	13/03/2026	10:45	Si	Lind María Alejandra		1168537035		Femenino	mariaalejandralind@gmail.com	29/09/2024			22278130
+Admiraal Lola	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	13/03/2026	10:45	Si	Monzo Sofia		11 2285-0170		Femenino	sofiagmonzo@gmail.com	17/10/2005			46991047
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	13/03/2026	10:45	Si	Sabate Josefina		1121681607	Caamaño 3000	Femenino	josefinasabate1@gmail.com	27/01/2000			42340510
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	13/03/2026	10:45	No	Sundblad Mia		1141622676	41.5	Femenino	miasundblad@gmail.com	30/08/2002			44448731
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	10:45	Si	Araujo María Silvina		1149947982	Caamaño 699	Femenino	maruaraujofoto@gmail.com	10/02/1978			26424920
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	10:45	Si	Arce Yanina		91157023187	Barrio La Lomada. Lote 732	Femenino	yaniarce@yahoo.com.ar	06/11/1967			18584242
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	10:45	Si	Etchemaite Ana María		91164605858	Zebruno 630	Femenino	etchemaite@hotmail.com	23/03/1964			16843273
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	16/03/2026	10:45	Si	Gray Verónica		1161709743	La Lomada de Pilar	Femenino	grayvero@gmail.com	29/09/1975			24823279
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	10:45	Si	Lind María Alejandra		1168537035		Femenino	mariaalejandralind@gmail.com	29/09/2024			22278130
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	16/03/2026	10:45	No	Medico Lucía Inés		1156434979	Trinidad 581 barrio El aljibe (manzana 11 lote 8)	Femenino	lucia.ines.medico@gmail.com	27/01/1983			30037364
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	16/03/2026	10:45	No	Morindo Paulino Yamila		1166805704	Trinidad 581, Manzanares- Pilar (Barrio el aljibe Manzana 12 lote 24)	Femenino	yammi.1401@hotmail.com	14/01/1995			37612723
+Admiraal Lola	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	16/03/2026	10:45	Si	Pozzoli Mia		11 2373-6002	Comodoro Rivadavia 3301	Femenino	miuchipozzoli@yahoo.com.ar	23/10/2002			94596145
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	10:45	Si	Salgado Gabriela		1157495043	Patricias Argentinas 4597 Garin	Femenino	gaby_salga50@hotmail.com	17/04/1963			16591413
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	14:00	Si	Reinaudi Lourdes María		1159609116	barrio la masia, lote 62	Femenino	lureinaudi@gmail.com	20/10/2025			36806969
+Admiraal Lola	Multisucursal - Pilates - Plan Staff - NO USAR -****	Pilates Inicial	16/03/2026	14:00	Si	Rey Sofia				Femenino	sofi.rey.2000@gmail.com	07/10/2025			42647072
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	14:00	Si	Youssefian Delfina		1138512276	panamericana ramal pilar km 43,5 barrio Ayres de pilar	Femenino	delfinayoussefian@gmail.com	10/03/2007			47805522
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Araujo María Silvina		1149947982	Caamaño 699	Femenino	maruaraujofoto@gmail.com	10/02/1978			26424920
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Asmus Humberto			panamericana 43,5	Masculino	humbert@live.com.ar	18/06/1965			17448786
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Chairo Adriana		11 6994-1067	Chile 1820 Barrio La Herradura	Femenino	adrianachairo@yahoo.com.ar	26/08/1953			10834481
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Gomez Cristina				Femenino	cristinaromerovagni@yahoo.com.ar	29/12/1947			05691797
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Grazioli Tiziana				Femenino	tizigrazioli@hotmail.com	30/07/2025			37248017
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Negri Delfina		11 6457-2627	avenida Patricias Argentinas 2009, Garín, Escobar	Femenino	delfinegri2@gmail.com	26/06/1985			31695320
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	17/03/2026	09:45	No	Rius Moreno Mariana		11 5835-1188	Barrio Santa Maria de los Olivos	Femenino	riusmariana@gmail.com	16/10/1969			20997737
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	Ruprecht Angela		1140606372		Femenino	angieruprecht@gmail.com	26/03/2007			47805603
+Admiraal Lola	Office - Pilates - Plan FF - NO USAR -	Pilates Inicial	17/03/2026	09:45	No	Vanzillotta Tiziana		5491122433943	Av chile 990	Femenino	tizianavanzillotta@gmail.com	09/05/2000			42660704
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	17/03/2026	09:45	Si	ZANCOLLI ADRIANA			Las liebres lote 96	Femenino	adrizancolli@gmail.com	22/02/1954			11044099
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	16:00	Si	Alvarez María Eva		1132981724	Chillán 1088	Femenino	evaalvarez.alva@gmail.com	18/11/1978			26959408
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	17/03/2026	16:00	No	Bengoa Monica		1141624647	Andres Chazarreta 4030 . Casa 18 Zelaya Pilar	Femenino	monibengoa@gmail.com	04/08/1955			11514973
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	17/03/2026	16:00	Si	Leonetti Viviana Elizabeth			Alvarez Jonte 3935 Tortuguitas	Femenino	vivianaleonetti@gmail.com	28/01/1972			22678069
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	16:00	Si	Maria Martina			Barrio Altos de Campo Grande, Pilar	Femenino	martumaria@icloud.com	10/09/2007			48214565
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	16:00	Si	Markunas Catalina		1159338777	caamaño 1103	Femenino	catalinamarkunas@gmail.com	23/08/2007			48240010
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	16:00	Si	Melina Olivera		1121857662	Chillán 1088	Femenino	melinaluz2005@gmail.com	25/11/2005			47063670
+Admiraal Lola	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	16:00	Si	Monzo Sofia		11 2285-0170		Femenino	sofiagmonzo@gmail.com	17/10/2005			46991047
+Admiraal Lola	Office - Pilates - Plan FF - NO USAR -	Pilates Inicial	17/03/2026	16:00	Si	Roque Trinidad		1165420075		Femenino	roquetrini@gmail.com	20/09/2024			42433907
+Admiraal Lola	Office - Pilates - Plan FF - NO USAR -	Pilates Inicial	17/03/2026	16:00	No	Vanzillotta Delfina				Femenino	delfivanzi@gmail.com	22/03/2025			42660709
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	17/03/2026	16:00	Si	Weihs Lara		11 7231-2005	Ayres de Pilar, Arreo 52	Femenino	laraaweihs@gmail.com	28/11/2005			46917443
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	10:45	Si	Araujo María Silvina		1149947982	Caamaño 699	Femenino	maruaraujofoto@gmail.com	10/02/1978			26424920
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	10:45	Si	Freixedes Rosario		1168497637	Olivos golf club	Femenino	rosario@popartmusic.com	08/08/1986			32324396
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	18/03/2026	10:45	Si	Gondell Martina Zoe		BarrioLaMasia,villarosa,pilar		Femenino	martugondell5@gmail.com	19/10/2002			44504509
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	18/03/2026	10:45	Si	Gray Verónica		1161709743	La Lomada de Pilar	Femenino	grayvero@gmail.com	29/09/1975			24823279
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Inicial	18/03/2026	10:45	Si	Labarthe Marina		1163561327		Femenino	marilabarth@gmail.com	08/06/1970			21671217
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	10:45	Si	Lind María Alejandra		1168537035		Femenino	mariaalejandralind@gmail.com	29/09/2024			22278130
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	18/03/2026	10:45	Si	Pedreira Juana Suaya		1123870737	Av. Patricias Argentinas 2009 Barrio Cerrado Las Liebres	Femenino	jsuayapedreira@gmail.com	03/04/2007			47955849
+Admiraal Lola	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	18/03/2026	10:45	Si	Pozzoli Mia		11 2373-6002	Comodoro Rivadavia 3301	Femenino	miuchipozzoli@yahoo.com.ar	23/10/2002			94596145
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	18/03/2026	10:45	Si	sasson Mora		91169601805		Femenino	morasasson@icloud.com	05/10/2005			47026714
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	23/03/2026	10:45	Si	Arce Yanina		91157023187	Barrio La Lomada. Lote 732	Femenino	yaniarce@yahoo.com.ar	06/11/1967			18584242
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	23/03/2026	10:45	No	Gondell Martina Zoe		BarrioLaMasia,villarosa,pilar		Femenino	martugondell5@gmail.com	19/10/2002			44504509
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	23/03/2026	10:45	Si	Gray Verónica		1161709743	La Lomada de Pilar	Femenino	grayvero@gmail.com	29/09/1975			24823279
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	23/03/2026	10:45	No	Guzzo Cecilia		11 2264-2262	Barrio Los Pilares	Femenino	ceciguzzo@yahoo.com.ar	07/09/1977			25967120
+Admiraal Lola	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	23/03/2026	10:45	No	Julián Carolina Laura		1161153425	Barrio Los Pilares. Lote 71. Pilar	Femenino	carolinalaurajulian@gmail.com	28/05/1975			24662548
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	23/03/2026	10:45	Si	Moreno Abalo Maria Dolores		1125891979		Femenino	morenololi@yahoo.com.ar	08/03/1979			27217976
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	23/03/2026	10:45	Si	Morilla Rocio			Los Malvones 2914 M alberti	Femenino	rdcm72@gmail.com	09/10/2024			22745198
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	23/03/2026	10:45	Si	Romero Alejandra		1150977312	Patricias Argentinas 4597	Femenino	ale3354@hotmail.com	06/05/1965			17367865
+Admiraal Lola	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Inicial	23/03/2026	10:45	Si	Santibañez Agustina			Los crisantemos 555	Femenino	agusanti11@gmail.com	04/12/1999			42248327
+Admiraal Lola	Office - Pilates - Mensual - Pack 04 - Efectivo/Transferencia	Pilates Inicial	23/03/2026	10:45	Si	Uslenghi María Victoria				Femenino	madebymaito@gmail.com	14/01/2026			23091868
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	10/03/2026	08:45	Si	Bozzari Virginia			Springpark	Femenino	vlbozzari@hotmail.com	10/04/1977			26047234
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	No	Lanes Sabrina		1130092659	panamericana Ramal Pilar km 43,5 Ayres de Pilar lote D25, Manuel Alberto, Pilar, Provincia Bs. As	Femenino	sabrinalanes@hotmail.com	08/01/1967			18098536
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Level UP	10/03/2026	08:45	Si	Maranesi Rey Marina		1134058617		Femenino	marinamaranesi@hotmail.com	27/09/2024			22697563
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	Pedreira Azul		1136248469		Femenino	azulpedreira@gmail.com	02/10/2024			34390798
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	Pezzia Cecilia		1156950941	Zaino 785	Femenino	mcpezzia@gmail.com	29/08/1987			33220540
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	Pisancin Maria Laura		1145363457		Femenino	mlpisancin@gmail.com	06/01/1976			25096476
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	Raymonda Andrea		1151204018	la lomada de pilar(Florida 9680, del viso,pilar)	Femenino	andrea.raymonda@gmail.com	25/11/1961			14951070
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	Sanguinetti María Cecilia		1137788228	Guayaquil 2075 218	Femenino	cecilia_sanguinetti@hotmail.com	19/12/1983			30639720
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	VARELA MARIANA		115962-8741		Femenino	marianavarela6@hotmail.com	06/08/1977			26039355
+Admiraal Lola	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	08:45	Si	Verdaguer Lucila		1161136786	Albino 805, Highland Park CC	Femenino	lucilaverdaguer@gmail.com	06/03/1984			30819012
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	10/03/2026	10:45	Si	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	10:45	Si	Aragón Pilar			Florida 9680	Femenino	pilararagon.sc@gmail.com	28/05/1990			35242672
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	10:45	No	Dopacio Marcela		1144492791	Village G&TC Manuel Alberti Pilar	Femenino	marceladopacio@gmail.com	07/01/1965			17546611
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	10:45	Si	Mendiburu Eugenia		1130922356	Caamaño 900, Villa Rosa	Femenino	emendiburu@yahoo.com	02/02/1972			22723925
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Level UP	10/03/2026	10:45	Si	Rivero Sofía		1136008737	Tortugas CC	Femenino	sof.rivero@scms.edu.ar	06/07/2004			95356916
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	11/03/2026	09:45	Si	Levis Bárbara		1150407541		Femenino	barbaralevis@gmail.com	12/03/1970			21483641
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	11/03/2026	09:45	Si	Maxwell Sofia				Femenino	popitagut@hotmail.com	20/02/2026			42452561
+Admiraal Lola	Office - Pilates - Trimestral - Pack 36 - Efectivo/Transferencia	Pilates Level UP	11/03/2026	09:45	No	Villalba Candela Oriana		11 6036-6800	Av. Presidente Perón 1351	Femenino	candevillalba17@gmail.com	17/12/2003			45419758
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	17/03/2026	08:45	Si	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	17/03/2026	08:45	Si	Bozzari Virginia			Springpark	Femenino	vlbozzari@hotmail.com	10/04/1977			26047234
+Admiraal Lola	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	08:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Admiraal Lola	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Level UP	17/03/2026	08:45	Si	Maranesi Rey Marina		1134058617		Femenino	marinamaranesi@hotmail.com	27/09/2024			22697563
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	08:45	Si	Pedreira Azul		1136248469		Femenino	azulpedreira@gmail.com	02/10/2024			34390798
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	08:45	Si	Pezzia Cecilia		1156950941	Zaino 785	Femenino	mcpezzia@gmail.com	29/08/1987			33220540
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	08:45	Si	Raymonda Andrea		1151204018	la lomada de pilar(Florida 9680, del viso,pilar)	Femenino	andrea.raymonda@gmail.com	25/11/1961			14951070
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	08:45	Si	Sanguinetti María Cecilia		1137788228	Guayaquil 2075 218	Femenino	cecilia_sanguinetti@hotmail.com	19/12/1983			30639720
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	08:45	Si	VARELA MARIANA		115962-8741		Femenino	marianavarela6@hotmail.com	06/08/1977			26039355
+Admiraal Lola	Multisucursal - Pilates - Plan Staff - NO USAR -****	Pilates Level UP	17/03/2026	10:45	Si	Castañaga Zoe		1155670735	Francisco Romero 3200	Femenino	zoe.castanaga@hotmail.com	27/09/1992			36915897
+Admiraal Lola	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	17/03/2026	10:45	Si	D'Angelo Chiara		1141573341	Acc Norte - Ramal Pilar km46	Femenino	cdangelo2800@gmail.com	28/09/2000			42956657
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	10:45	Si	Dopacio Marcela		1144492791	Village G&TC Manuel Alberti Pilar	Femenino	marceladopacio@gmail.com	07/01/1965			17546611
+Admiraal Lola	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	10:45	Si	García Lema Ines		1140249187	ayres de pilar	Femenino	inesgarcialema@gmail.com	09/07/2004			46024724
+Admiraal Lola	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	17/03/2026	10:45	Si	Hernandez Martina		15623299151	Barrio San Ramon	Femenino	martu.hernandez@icloud.com	03/01/1992			45608643
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	17/03/2026	10:45	Si	Mendiburu Eugenia		1130922356	Caamaño 900, Villa Rosa	Femenino	emendiburu@yahoo.com	02/02/1972			22723925
+Admiraal Lola	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Level UP	17/03/2026	10:45	Si	Romero Alejandra		1150977312	Patricias Argentinas 4597	Femenino	ale3354@hotmail.com	06/05/1965			17367865
+Admiraal Lola	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	09:45	Si	Aragón Pilar			Florida 9680	Femenino	pilararagon.sc@gmail.com	28/05/1990			35242672
+Admiraal Lola	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	09:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Admiraal Lola	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	09:45	No	Levis Bárbara		1150407541		Femenino	barbaralevis@gmail.com	12/03/1970			21483641
+Admiraal Lola	Office - Pilates - Trimestral - Pack 36 - Efectivo/Transferencia	Pilates Level UP	18/03/2026	09:45	Si	Villalba Candela Oriana		11 6036-6800	Av. Presidente Perón 1351	Femenino	candevillalba17@gmail.com	17/12/2003			45419758
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	Si	Balekjian Mariana		1157660240	Panamericana ramal pilar km 48.5 C C Pueyrredon N/A	Femenino	marianabalekjian@hotmail.com	27/12/1997			40847182
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	09/03/2026	07:45	Si	Bengoa Monica		1141624647	Andres Chazarreta 4030 . Casa 18 Zelaya Pilar	Femenino	monibengoa@gmail.com	04/08/1955			11514973
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	No	Carlini Maria de los Angeles			C C Pueyrredon	Femenino	angelescarlini@gmail.com	01/09/1960			09278810
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	09/03/2026	07:45	Si	Carranza Sol		1169494675		Femenino	solcarranza00@gmail.com	17/10/2024			42643115
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	Si	D'Angelo Chiara		1141573341	Acc Norte - Ramal Pilar km46	Femenino	cdangelo2800@gmail.com	28/09/2000			42956657
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	Si	Devoto Valentina			Presidente Perón 2375	Femenino	valentinadevoto1@gmail.com	28/01/2003			44713296
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	Si	Duval Luciana Arias		1131180425	La Lomada de Pilar, Florida 9680, Pilar, Buenos Aires	Femenino	luciana.arias.duval@gmail.com	27/10/1999			42215274
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	Si	Guzzo Cecilia		11 2264-2262	Barrio Los Pilares	Femenino	ceciguzzo@yahoo.com.ar	07/09/1977			25967120
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	07:45	Si	Julián Carolina Laura		1161153425	Barrio Los Pilares. Lote 71. Pilar	Femenino	carolinalaurajulian@gmail.com	28/05/1975			24662548
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Inicial	09/03/2026	07:45	Si	Monina Estefania		91126632051	Av Pte Arturo Illia 14636	Femenino	estefaniaest24@gmail.com	02/05/1995			38914802
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	13:00	No	Alvarez Analia Beatriz		93484668770	Barrio Altos de Campo Grande Lote 100	Femenino	hola@carpinteriagaido.com	22/04/1962			14776322
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	13:00	Si	Mourelle María Cristina		1141989033	Av. Olivos 1800. Barrio Los Abedules. Lote 17. Pablo Nogués	Femenino	cristina.mourelle@gmail.com	26/11/1976			25540453
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	09/03/2026	13:00	Si	Murga María Catalina		1137568035	barrio ayres de Pilar	Femenino	catalinamurga1@gmail.com	23/09/2002			44452091
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	13:00	Si	Murga Sofia		1157328795	Barrio Ayres de Pilar, Lote E11	Femenino	sofimurga98@gmail.com	01/10/1998			41589196
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	09/03/2026	13:00	No	Sundblad Mia		1141622676	41.5	Femenino	miasundblad@gmail.com	30/08/2002			44448731
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	13:00	Si	Devoto Valentina			Presidente Perón 2375	Femenino	valentinadevoto1@gmail.com	28/01/2003			44713296
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	13:00	Si	Godoy Cecilia		5491165296843	Basabe 4500	Femenino	cecyabadgodoy@gmail.com	02/08/1983			30378560
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	10/03/2026	13:00	Si	Reynard Liliana		1159259002		Femenino	lilianareynard@hotmail.com	18/03/1965			17068144
+Sin profesor asignado	Multisucursal - Pilates - Plan Staff - NO USAR -****	Pilates Inicial	10/03/2026	13:00	Si	Roque Agustina		1138917000	Matacos 1357 Lote 236	Femenino	agus.roque@gmail.com	07/10/1998			41459302
+Sin profesor asignado	Office - Pilates - Plan FF - NO USAR -	Pilates Inicial	10/03/2026	13:00	No	Roque Trinidad		1165420075		Femenino	roquetrini@gmail.com	20/09/2024			42433907
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	10/03/2026	13:00	Si	Sundblad Mia		1141622676	41.5	Femenino	miasundblad@gmail.com	30/08/2002			44448731
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	Si	Balekjian Mariana		1157660240	Panamericana ramal pilar km 48.5 C C Pueyrredon N/A	Femenino	marianabalekjian@hotmail.com	27/12/1997			40847182
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	Si	Carlini Maria de los Angeles			C C Pueyrredon	Femenino	angelescarlini@gmail.com	01/09/1960			09278810
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	11/03/2026	07:45	Si	Carranza Sol		1169494675		Femenino	solcarranza00@gmail.com	17/10/2024			42643115
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	No	Coronel Carla		1140459771	isla rasa s/n ( Los Potrillos , Fátima )	Femenino	carlasabrinacoronel@hotmail.com	09/05/1989			34519518
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	Si	Duval Luciana Arias		1131180425	La Lomada de Pilar, Florida 9680, Pilar, Buenos Aires	Femenino	luciana.arias.duval@gmail.com	27/10/1999			42215274
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	11/03/2026	07:45	No	Gómez Hermida Belen		1130018141	senderos 1	Femenino	belugh@gmail.com	30/10/1989			34905835
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	Si	Julián Carolina Laura		1161153425	Barrio Los Pilares. Lote 71. Pilar	Femenino	carolinalaurajulian@gmail.com	28/05/1975			24662548
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	Si	Monina Estefania		91126632051	Av Pte Arturo Illia 14636	Femenino	estefaniaest24@gmail.com	02/05/1995			38914802
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	07:45	Si	Monzo Sofia		11 2285-0170		Femenino	sofiagmonzo@gmail.com	17/10/2005			46991047
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	11/03/2026	14:00	Si	Aspromonte Zoe		11 2621-3008	panamericana km 43,5	Femenino	zoeaspro@gmail.com	30/08/2005			46876734
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	11/03/2026	14:00	Si	Carruega Vanina		11 6275-7934	colinas del norte 109	Femenino	vanicarruega@gmail.com	31/05/1990			35118512
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	11/03/2026	14:00	Si	Casano Agustina		1140439637	Golf club argentino	Femenino	agustinacasano@gmail.com	20/02/1979			21484628
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	11/03/2026	14:00	Si	Sundblad Mia		1141622676	41.5	Femenino	miasundblad@gmail.com	30/08/2002			44448731
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	Si	Arias Duval Celina María		11 6440-2727	Florida 9689	Femenino	cmariasduval@gmail.com	14/01/2004			45419677
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	Si	Bauchwitz Claramunt Fernanda			Ayres de pilar	Femenino	ferclaramunt@gmail.com	26/09/1967			18423274
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	No	García Lema Ines		1140249187	ayres de pilar	Femenino	inesgarcialema@gmail.com	09/07/2004			46024724
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	No	Gomez Cristina				Femenino	cristinaromerovagni@yahoo.com.ar	29/12/1947			05691797
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	12/03/2026	09:45	Si	Lopez Daiana		1140979513		Femenino	dalulopez3@gmail.com	19/11/1993			37929718
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	Si	Negri Delfina		11 6457-2627	avenida Patricias Argentinas 2009, Garín, Escobar	Femenino	delfinegri2@gmail.com	26/06/1985			31695320
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	Si	Pedreira Juana Suaya		1123870737	Av. Patricias Argentinas 2009 Barrio Cerrado Las Liebres	Femenino	jsuayapedreira@gmail.com	03/04/2007			47955849
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	09:45	No	Rius Moreno Mariana		11 5835-1188	Barrio Santa Maria de los Olivos	Femenino	riusmariana@gmail.com	16/10/1969			20997737
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	Si	Ruprecht Angela		1140606372		Femenino	angieruprecht@gmail.com	26/03/2007			47805603
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	09:45	Si	ZANCOLLI ADRIANA			Las liebres lote 96	Femenino	adrizancolli@gmail.com	22/02/1954			11044099
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	11:45	Si	Medico Lucía Inés		1156434979	Trinidad 581 barrio El aljibe (manzana 11 lote 8)	Femenino	lucia.ines.medico@gmail.com	27/01/1983			30037364
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	11:45	Si	Morindo Paulino Yamila		1166805704	Trinidad 581, Manzanares- Pilar (Barrio el aljibe Manzana 12 lote 24)	Femenino	yammi.1401@hotmail.com	14/01/1995			37612723
+Sin profesor asignado	Multisucursal - Pilates - Plan Staff - NO USAR -****	Pilates Inicial	12/03/2026	11:45	Si	Roque Agustina		1138917000	Matacos 1357 Lote 236	Femenino	agus.roque@gmail.com	07/10/1998			41459302
+Sin profesor asignado	Office - Pilates Trimestral - 2 veces por semana	Pilates Inicial	12/03/2026	11:45	No	SEOANE MARIA INES (Fitness - Office)		1131550778	Las Campanillas 1423 A4	Femenino	mines.seoane@gmail.com	24/09/1962			16130077
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	13:00	Si	D'Angelo Chiara		1141573341	Acc Norte - Ramal Pilar km46	Femenino	cdangelo2800@gmail.com	28/09/2000			42956657
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	13:00	Si	Devoto Valentina			Presidente Perón 2375	Femenino	valentinadevoto1@gmail.com	28/01/2003			44713296
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	13:00	No	Ferrer Amanda Vanesa		1168556957	los olmos 2365	Femenino	lic.vanesaferrer@hotmail.com	01/03/1984			30887701
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	12/03/2026	13:00	No	Panasci Mariana				Femenino	manapanasci@gmail.com	22/09/2025			29250310
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Inicial	12/03/2026	13:00	Si	Pozzo Maria Victoria		1140667032	Farm Club	Femenino	victoriapozzo1@hotmail.com	04/05/1961			14222681
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	13:00	No	Vila Rocio		1161348374		Femenino	rochivila2222@gmail.com	22/02/2006			47165630
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	14:00	Si	Alvarez María Eva		1132981724	Chillán 1088	Femenino	evaalvarez.alva@gmail.com	18/11/1978			26959408
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	14:00	Si	Aspromonte Zoe		11 2621-3008	panamericana km 43,5	Femenino	zoeaspro@gmail.com	30/08/2005			46876734
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	14:00	Si	Reinaudi Lourdes María		1159609116	barrio la masia, lote 62	Femenino	lureinaudi@gmail.com	20/10/2025			36806969
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	14:00	No	Reynard Liliana		1159259002		Femenino	lilianareynard@hotmail.com	18/03/1965			17068144
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	12/03/2026	16:00	Si	Bengoa Monica		1141624647	Andres Chazarreta 4030 . Casa 18 Zelaya Pilar	Femenino	monibengoa@gmail.com	04/08/1955			11514973
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	12/03/2026	16:00	Si	Fernandez María Candelaria		1150995960	Barrio Privado Los Pilares, La Florida s/n	Femenino	ma.candelariafernandez@gmail.com	10/12/2005			47091857
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Inicial	12/03/2026	16:00	Si	González Guereño Rocío		1160996703	Juan Ramón Jiménez 1778, Del Viso	Femenino	gonzalezguerenorocio@gmail.com	04/03/2005			46582837
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	16:00	Si	Melina Olivera		1121857662	Chillán 1088	Femenino	melinaluz2005@gmail.com	25/11/2005			47063670
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	16:00	No	Pérez Adriana Mónica		1154140326	Saravi s/n Barrio Los Fresnos UF 79	Femenino	adrimperez27@gmail.com	27/05/1964			16824085
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	12/03/2026	16:00	Si	Tallone Delfina			Ayres del Pilar v39	Femenino	delfinattallone@gmail.com	15/12/2005			46960957
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	12/03/2026	16:00	Si	Weihs Lara		11 7231-2005	Ayres de Pilar, Arreo 52	Femenino	laraaweihs@gmail.com	28/11/2005			46917443
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	18:00	No	Balekjian Mariana		1157660240	Panamericana ramal pilar km 48.5 C C Pueyrredon N/A	Femenino	marianabalekjian@hotmail.com	27/12/1997			40847182
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	12/03/2026	18:00	No	Etchemaite Ana María		91164605858	Zebruno 630	Femenino	etchemaite@hotmail.com	23/03/1964			16843273
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	18:00	Si	Rinaldi Gustavo		11 6412-1507	Guayaquil 2075, Grand Bourg	Masculino	gusrinaldi1@gmail.com	18/07/1967			18072577
+Sin profesor asignado	Office - Pilates - Plan FF - NO USAR -	Pilates Inicial	12/03/2026	18:00	No	Siemaszko Candelaria		C.C.Pueyrredon,pilar.	C.C. Pueyrredon, pilar.	Femenino	cande.siemaszko@gmail.com	10/09/1999			42149863
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	18:00	No	Siemaszko Candelaria		C.C.Pueyrredon,pilar.	C.C. Pueyrredon, pilar.	Femenino	cande.siemaszko@gmail.com	10/09/1999			42149863
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	18:00	Si	Vila Rocio		1161348374		Femenino	rochivila2222@gmail.com	22/02/2006			47165630
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	18:00	No	Vizcaíno Pablo		11 5001-0614	Guayaquil 2075, Grand Bourg	Masculino	pablo.a.vizcaino@gmail.com	23/01/1969			20316371
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Inicial	12/03/2026	20:00	No	Bernasconi Lucila			Manzoni s/n	Femenino	lucila.bernasconi@gmail.com	07/10/1974			24127821
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	12/03/2026	20:00	Si	Eslar Romina		1158155849	Rua Caamaño 3000, Haras del Pilar, La Caballeriza	Femenino	rominaeslar@gmail.com	29/05/1974			23969028
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	12/03/2026	20:00	Si	Gandola Agustina		11 2162-1203	R. Caamaño 1090	Femenino	agustinasofiagandola@outlook.com	03/03/1999			41723129
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	12/03/2026	20:00	Si	Gondell Martina Zoe		BarrioLaMasia,villarosa,pilar		Femenino	martugondell5@gmail.com	19/10/2002			44504509
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	12/03/2026	20:00	Si	Guzzo Cecilia		11 2264-2262	Barrio Los Pilares	Femenino	ceciguzzo@yahoo.com.ar	07/09/1977			25967120
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Inicial	12/03/2026	20:00	No	James Delfina		1132051348	Manzoni s/n	Femenino	delfijames@icloud.com	18/06/2009			49550900
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	12/03/2026	20:00	Si	Rocha Martina		1161687386	Rua Caamaño 3000, Haras del Pilar, La Caballeriza	Femenino	martinajrocha@gmail.com	30/04/2005			46701426
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	13/03/2026	13:00	Si	Casella Vanina		1151632616	Francisco Romero 3200 - Del Viso	Femenino	vaninacasella@gmail.com	05/06/1981			28829993
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	13/03/2026	13:00	Si	Colombi Celeste		1162901493	Bartolome Mitre 406, Barrio manzanares chico, manzanares	Femenino	celestecolombi@gmail.com	25/05/1997			40389085
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Inicial	13/03/2026	13:00	No	Pozzo Maria Victoria		1140667032	Farm Club	Femenino	victoriapozzo1@hotmail.com	04/05/1961			14222681
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	13/03/2026	14:00	No	Arriaga Favret Santiago				Masculino	arriagasan29@gmail.com	21/07/2025			47066545
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Inicial	13/03/2026	14:00	Si	Bressi Adrián			Los Pilares Villa Rosa	Masculino	adrian.bressi@gmail.com	27/05/1967			01814437
+Sin profesor asignado	Office - Pilates - Clase suelta	Pilates Inicial	13/03/2026	14:00	No	Burdman FIona burdman		1130158532	pangare 65	Femenino	fionaburdman@outlook.com	20/08/2007			48240036
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	13/03/2026	14:00	Si	Curcio Rocio	nerausquin@hotmail.com	1130349160		Femenino	curciorocio@gmail.com	08/03/1971			22080505
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	13/03/2026	14:00	Si	Moreno Abalo Maria Dolores		1125891979		Femenino	morenololi@yahoo.com.ar	08/03/1979			27217976
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	13/03/2026	14:00	No	Murga María Catalina		1137568035	barrio ayres de Pilar	Femenino	catalinamurga1@gmail.com	23/09/2002			44452091
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	13/03/2026	14:00	Si	Murga Sofia		1157328795	Barrio Ayres de Pilar, Lote E11	Femenino	sofimurga98@gmail.com	01/10/1998			41589196
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Inicial	13/03/2026	14:00	Si	Scialabba Ana		11 4069-8341	los pilares villa Rosa	Femenino	ascialabba@gmail.com	12/08/1969			02109022
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	Si	Balekjian Mariana		1157660240	Panamericana ramal pilar km 48.5 C C Pueyrredon N/A	Femenino	marianabalekjian@hotmail.com	27/12/1997			40847182
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	16/03/2026	07:45	No	Bengoa Monica		1141624647	Andres Chazarreta 4030 . Casa 18 Zelaya Pilar	Femenino	monibengoa@gmail.com	04/08/1955			11514973
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	16/03/2026	07:45	Si	Carranza Sol		1169494675		Femenino	solcarranza00@gmail.com	17/10/2024			42643115
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	Si	Guzzo Cecilia		11 2264-2262	Barrio Los Pilares	Femenino	ceciguzzo@yahoo.com.ar	07/09/1977			25967120
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	Si	Julián Carolina Laura		1161153425	Barrio Los Pilares. Lote 71. Pilar	Femenino	carolinalaurajulian@gmail.com	28/05/1975			24662548
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	Si	Monina Estefania		91126632051	Av Pte Arturo Illia 14636	Femenino	estefaniaest24@gmail.com	02/05/1995			38914802
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	Si	Mourelle María Cristina		1141989033	Av. Olivos 1800. Barrio Los Abedules. Lote 17. Pablo Nogués	Femenino	cristina.mourelle@gmail.com	26/11/1976			25540453
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	Si	Sterinzon Juan		1133238607	panamericana km 43. barrio ayres de pilar	Femenino	juansterinzon@hotmail.com	21/11/2001			43725324
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	07:45	No	Sterinzon Nicolas		1162337549	panamericana km 43. barrio ayres de pilar	Masculino	nicosterinzon1@gmail.com	10/05/2006			47339175
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	13:00	No	Alvarez Analia Beatriz		93484668770	Barrio Altos de Campo Grande Lote 100	Femenino	hola@carpinteriagaido.com	22/04/1962			14776322
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	13:00	No	Aufiero Sofia		Tortugas cc lote 49	Tortugas cc lote 49	Femenino	chofita64@hotmail.com	02/10/1985			31916537
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	13:00	Si	Murga María Catalina		1137568035	barrio ayres de Pilar	Femenino	catalinamurga1@gmail.com	23/09/2002			44452091
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	16/03/2026	13:00	Si	Murga Sofia		1157328795	Barrio Ayres de Pilar, Lote E11	Femenino	sofimurga98@gmail.com	01/10/1998			41589196
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	16/03/2026	13:00	Si	Perez Bustos Ana				Femenino	anaperezbustos@hotmail.com	06/10/2025			25994952
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	13:00	No	Arriaga Favret Santiago				Masculino	arriagasan29@gmail.com	21/07/2025			47066545
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	13:00	Si	Aspromonte Zoe		11 2621-3008	panamericana km 43,5	Femenino	zoeaspro@gmail.com	30/08/2005			46876734
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	13:00	No	Ferrer Amanda Vanesa		1168556957	los olmos 2365	Femenino	lic.vanesaferrer@hotmail.com	01/03/1984			30887701
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	17/03/2026	13:00	Si	Mozzon Nancy		1134470538	Barrio San Pablo lote 99	Femenino	mozzonnan@gmail.com	10/10/1975			24867073
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	17/03/2026	13:00	No	Reynard Liliana		1159259002		Femenino	lilianareynard@hotmail.com	18/03/1965			17068144
+Sin profesor asignado	Multisucursal - Pilates - Plan Staff - NO USAR -****	Pilates Inicial	17/03/2026	13:00	Si	Roque Agustina		1138917000	Matacos 1357 Lote 236	Femenino	agus.roque@gmail.com	07/10/1998			41459302
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	07:45	No	Coronel Carla		1140459771	isla rasa s/n ( Los Potrillos , Fátima )	Femenino	carlasabrinacoronel@hotmail.com	09/05/1989			34519518
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	07:45	Si	Duval Luciana Arias		1131180425	La Lomada de Pilar, Florida 9680, Pilar, Buenos Aires	Femenino	luciana.arias.duval@gmail.com	27/10/1999			42215274
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	18/03/2026	07:45	No	Gómez Hermida Belen		1130018141	senderos 1	Femenino	belugh@gmail.com	30/10/1989			34905835
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	18/03/2026	07:45	Si	Julián Carolina Laura		1161153425	Barrio Los Pilares. Lote 71. Pilar	Femenino	carolinalaurajulian@gmail.com	28/05/1975			24662548
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	07:45	No	Monina Estefania		91126632051	Av Pte Arturo Illia 14636	Femenino	estefaniaest24@gmail.com	02/05/1995			38914802
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	07:45	Si	Monzo Sofia		11 2285-0170		Femenino	sofiagmonzo@gmail.com	17/10/2005			46991047
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	18/03/2026	07:45	No	Sterinzon Juan		1133238607	panamericana km 43. barrio ayres de pilar	Femenino	juansterinzon@hotmail.com	21/11/2001			43725324
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	18/03/2026	14:00	Si	Curcio Rocio	nerausquin@hotmail.com	1130349160		Femenino	curciorocio@gmail.com	08/03/1971			22080505
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	Si	Bauchwitz Claramunt Fernanda			Ayres de pilar	Femenino	ferclaramunt@gmail.com	26/09/1967			18423274
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	Si	Gomez Cristina				Femenino	cristinaromerovagni@yahoo.com.ar	29/12/1947			05691797
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	Si	Morilla Rocio			Los Malvones 2914 M alberti	Femenino	rdcm72@gmail.com	09/10/2024			22745198
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	No	Negri Delfina		11 6457-2627	avenida Patricias Argentinas 2009, Garín, Escobar	Femenino	delfinegri2@gmail.com	26/06/1985			31695320
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	Si	Pedreira Juana Suaya		1123870737	Av. Patricias Argentinas 2009 Barrio Cerrado Las Liebres	Femenino	jsuayapedreira@gmail.com	03/04/2007			47955849
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	No	Pozzoli Mia		11 2373-6002	Comodoro Rivadavia 3301	Femenino	miuchipozzoli@yahoo.com.ar	23/10/2002			94596145
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	19/03/2026	09:45	No	Rius Moreno Mariana		11 5835-1188	Barrio Santa Maria de los Olivos	Femenino	riusmariana@gmail.com	16/10/1969			20997737
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	Si	Ronco Ignacio		2901611460	Barrio Santa Emilia lote 214	Masculino	roncoignacio@gmail.com	21/10/1976			25558120
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	Si	Ruprecht Angela		1140606372		Femenino	angieruprecht@gmail.com	26/03/2007			47805603
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	09:45	No	ZANCOLLI ADRIANA			Las liebres lote 96	Femenino	adrizancolli@gmail.com	22/02/1954			11044099
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	11:45	Si	Araujo María Silvina		1149947982	Caamaño 699	Femenino	maruaraujofoto@gmail.com	10/02/1978			26424920
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	11:45	No	Carra Camila			Mulen 17 - Mapuche CC- Pilar	Femenino	cami-carra@hotmail.com	06/11/1993			37988831
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Inicial	19/03/2026	11:45	No	Fregonese Emilia		1164245727	chazarreta 5100	Femenino	fregoneseemilia@gmail.com	21/11/2007			48428538
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	11:45	No	Navarra Gisela				Femenino	navarragisela@gmail.com	17/03/2026			37019643
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	11:45	Si	Pelegrina Valentina		1144149338	Saravi 400	Femenino	valentinapelegrina@gmail.com	25/09/1970			21688952
+Sin profesor asignado	Multisucursal - Pilates - Plan Staff - NO USAR -****	Pilates Inicial	19/03/2026	11:45	Si	Roque Agustina		1138917000	Matacos 1357 Lote 236	Femenino	agus.roque@gmail.com	07/10/1998			41459302
+Sin profesor asignado	Office - Pilates Trimestral - 2 veces por semana	Pilates Inicial	19/03/2026	11:45	No	SEOANE MARIA INES (Fitness - Office)		1131550778	Las Campanillas 1423 A4	Femenino	mines.seoane@gmail.com	24/09/1962			16130077
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	13:00	No	Ferrer Amanda Vanesa		1168556957	los olmos 2365	Femenino	lic.vanesaferrer@hotmail.com	01/03/1984			30887701
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	19/03/2026	13:00	No	Panasci Mariana				Femenino	manapanasci@gmail.com	22/09/2025			29250310
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	19/03/2026	14:00	Si	Fernandez María Candelaria		1150995960	Barrio Privado Los Pilares, La Florida s/n	Femenino	ma.candelariafernandez@gmail.com	10/12/2005			47091857
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	14:00	Si	Leonetti Viviana Elizabeth			Alvarez Jonte 3935 Tortuguitas	Femenino	vivianaleonetti@gmail.com	28/01/1972			22678069
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	14:00	Si	Moreno Abalo Maria Dolores		1125891979		Femenino	morenololi@yahoo.com.ar	08/03/1979			27217976
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	14:00	No	Solanas Maria Gabriela		11 3494-4522	Florida 9680	Femenino	gasolanas@gmail.com	01/09/1978			26894101
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Inicial	19/03/2026	14:00	Si	de Vera Guillermina		1168050800	Los Lagartos Country Club	Femenino	guilledeveraa@gmail.com	02/02/2002			43817661
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	14:00	No	del mauro Florencia		91130740667	altos de campo grande uf 31 villa rosa pilar	Femenino	flordelmauro@hotmail.com	03/03/2026			35649064
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	16:00	No	Alvarez María Eva		1132981724	Chillán 1088	Femenino	evaalvarez.alva@gmail.com	18/11/1978			26959408
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Inicial	19/03/2026	16:00	No	Bengoa Monica		1141624647	Andres Chazarreta 4030 . Casa 18 Zelaya Pilar	Femenino	monibengoa@gmail.com	04/08/1955			11514973
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	19/03/2026	16:00	Si	Colombi Celeste		1162901493	Bartolome Mitre 406, Barrio manzanares chico, manzanares	Femenino	celestecolombi@gmail.com	25/05/1997			40389085
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Inicial	19/03/2026	16:00	Si	Comelli Fabiana		1160996703	Juan Ramón Jiménez 1778, Del Viso	Femenino	fabicomelli@yahoo.com	18/05/1965			17607508
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Inicial	19/03/2026	16:00	Si	Gonzalez Guereño Juan Manuel				Masculino	jmggcomelli@gmail.com	04/03/2005			46582835
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	16:00	Si	Heguilen Constanze		+5491167248170	Los Lagartos CC (f7, l4)	Femenino	costy2904@gmail.com	29/04/1968			20044911
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	16:00	No	Maria Martina			Barrio Altos de Campo Grande, Pilar	Femenino	martumaria@icloud.com	10/09/2007			48214565
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	16:00	No	Markunas Catalina		1159338777	caamaño 1103	Femenino	catalinamarkunas@gmail.com	23/08/2007			48240010
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	16:00	No	Melina Olivera		1121857662	Chillán 1088	Femenino	melinaluz2005@gmail.com	25/11/2005			47063670
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	16:00	Si	Pratesi Florencia		1163053289	Los Lagartos CC (f7, l4)	Femenino	florenciapratesi@gmail.com	08/09/2001			43570346
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	18:00	Si	Closs Catalina		11 5000-2619	Florida 9680, barrio privado La Lomada	Femenino	catacloss@gmail.com	19/01/2005			46498361
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	19/03/2026	18:00	Si	Eslar Romina		1158155849	Rua Caamaño 3000, Haras del Pilar, La Caballeriza	Femenino	rominaeslar@gmail.com	29/05/1974			23969028
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	19/03/2026	18:00	No	Kairuz Milagro		1164223509	Altos de campo grande l 117	Femenino	mili_kairuz@hotmail.com	03/06/1993			37636672
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Inicial	19/03/2026	18:00	No	Montes de Oca Malena		1128465604	Dirección Roberto Koch 1600 ( Barrio villa los Horneros ), lote 8	Femenino	malemonteoca@gmail.com	19/06/1999			42025960
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	19/03/2026	18:00	Si	Rinaldi Gustavo		11 6412-1507	Guayaquil 2075, Grand Bourg	Masculino	gusrinaldi1@gmail.com	18/07/1967			18072577
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Inicial	19/03/2026	18:00	Si	Rocha Delfina		1124781182	Rua Caamaño 3000, Haras del Pilar, La Caballeriza	Femenino	delfinalrocha@gmail.com	03/12/2007			48242382
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	18:00	No	Siemaszko Candelaria		C.C.Pueyrredon,pilar.	C.C. Pueyrredon, pilar.	Femenino	cande.siemaszko@gmail.com	10/09/1999			42149863
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	19/03/2026	18:00	No	Vizcaíno Pablo		11 5001-0614	Guayaquil 2075, Grand Bourg	Masculino	pablo.a.vizcaino@gmail.com	23/01/1969			20316371
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Inicial	19/03/2026	18:00	Si	Weihs Lara		11 7231-2005	Ayres de Pilar, Arreo 52	Femenino	laraaweihs@gmail.com	28/11/2005			46917443
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Inicial	19/03/2026	20:00	No	Balekjian Mariana		1157660240	Panamericana ramal pilar km 48.5 C C Pueyrredon N/A	Femenino	marianabalekjian@hotmail.com	27/12/1997			40847182
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	19/03/2026	20:00	Si	Bedacarratz Florencia		1150637172	Barrio La Delfina, Pilar	Femenino	fbedacarratz@gmail.com	20/04/1976			25215039
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Inicial	19/03/2026	20:00	Si	Bonansea Ornella		5493535634827	bandeado 450 Highland	Femenino	ornella_bonansea@hotmail.com	24/06/1988			33592364
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	20:00	Si	Carballos Catalina		1131104331	Florida 9680	Femenino	catacarballo@icloud.com	15/03/2006			47170488
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Inicial	19/03/2026	20:00	Si	Gandola Agustina		11 2162-1203	R. Caamaño 1090	Femenino	agustinasofiagandola@outlook.com	03/03/1999			41723129
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	20:00	No	Raimundi Claudio		1169672517		Masculino	claudioraimundi@yahoo.com.ar	05/10/1971			22364816
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	20:00	Si	Veron Ambar				Femenino	notiene@513_120260318113814.com	15/10/2009			49422662
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Inicial	19/03/2026	20:00	Si	Veron Teresa Esther		1138008953	Barrio Santa Guadalupe lote 87	Femenino	tereveron@hotmail.com	02/02/1979			27088571
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	08:45	Si	Arias Duval Celina María		11 6440-2727	Florida 9689	Femenino	cmariasduval@gmail.com	14/01/2004			45419677
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	08:45	Si	Arriaga Alejandro			Barrio Bermudas lote 138	Masculino	arriagaale37@gmail.com	15/02/2025			24153237
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	08:45	No	Donati Marina		11 3010-2682	Estancias del Río. Lote 25	Femenino	marinadonati22@gmail.com	23/07/1979			27497969
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	09/03/2026	08:45	No	Duchosal Micaela		1136307272	Mayling CC	Femenino	micaduchosal@hotmail.com	14/10/1989			35076333
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	08:45	Si	Favret María Carolina		11 5462-3984	Barrio Bermudas lote 138	Femenino	carolf13@hotmail.com	15/02/2025			24478306
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	08:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	09/03/2026	08:45	No	Panasci Mariana				Femenino	manapanasci@gmail.com	22/09/2025			29250310
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	08:45	Si	Piano Agustina		1154258378	Chubut 415- Mayling CC	Femenino	agustinapiano@hotmail.com	23/02/1982			29394471
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	09/03/2026	08:45	Si	Salinas Agustina		1131147070		Femenino	agusrosalinas@gmail.com	30/09/2004			04534730
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	09/03/2026	08:45	Si	Trillos Andrea		11 6735-5449	mocoreta 2598	Femenino	andreatrillos999@hotmail.com	20/09/1983			94666633
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	09/03/2026	09:45	Si	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	09:45	No	García Lema Ines		1140249187	ayres de pilar	Femenino	inesgarcialema@gmail.com	09/07/2004			46024724
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	09:45	Si	Grazzini Lara			Panamericana ramal pilar km 43,5	Femenino	laragrazzini@gmail.com	07/06/2004			45906854
+Sin profesor asignado	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	09/03/2026	09:45	Si	Latorre Lola				Femenino	lola.latorre@hotmail.com	06/01/2001			43081897
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	09/03/2026	09:45	Si	Maxwell Sofia				Femenino	popitagut@hotmail.com	20/02/2026			42452561
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Level UP	09/03/2026	09:45	No	Pozzo Maria Victoria		1140667032	Farm Club	Femenino	victoriapozzo1@hotmail.com	04/05/1961			14222681
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	09/03/2026	09:45	Si	Viton Luisa			Tortugas Country Club (panamericana ramal pilar km 38,5)	Femenino	luisaaviton@gmail.com	14/02/2025			46558475
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Level UP	09/03/2026	15:00	Si	Closs Catalina		11 5000-2619	Florida 9680, barrio privado La Lomada	Femenino	catacloss@gmail.com	19/01/2005			46498361
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	15:00	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	09/03/2026	15:00	Si	Grossi María Victoria	1150062431		barrio los pilares Lote 190	Femenino	vickygrossi@gmail.com	01/04/1977			25647750
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	09/03/2026	15:00	No	Levis Bárbara		1150407541		Femenino	barbaralevis@gmail.com	12/03/1970			21483641
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Level UP	09/03/2026	15:00	Si	Mancuso Mariela Edtih		1156627449	Altos de Pilar lote 9	Femenino	mariela@marielamancusoarq.com	18/12/1975			25061322
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Level UP	09/03/2026	15:00	Si	Pizarro Ivana Micaela		1160320288	Saravi 2040	Femenino	micaelapizarro1991@hotmail.com.ar	12/08/1991			36426574
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Level UP	09/03/2026	15:00	No	Sanchez Capilla Clara		1127539671	Florida 9680, Del Viso	Femenino	clarasanchezcapilla@gmail.com	12/04/2005			46583946
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 36 - Efectivo/Transferencia	Pilates Level UP	09/03/2026	15:00	Si	Villalba Candela Oriana		11 6036-6800	Av. Presidente Perón 1351	Femenino	candevillalba17@gmail.com	17/12/2003			45419758
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Level UP	09/03/2026	20:00	Si	Andersen Sofía		1169720438	Caamaño 900, Harás del pilar, La Pradera	Femenino	sofiandersen9@hotmail.com	21/11/2006			47573443
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	09/03/2026	20:00	Si	Coling Camila		1138428955	Necochea Golf Club 3464	Femenino	c.coling@scms.edu.ar	12/06/2003			44851423
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	09/03/2026	20:00	Si	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Level UP	09/03/2026	20:00	Si	Gardonio Agustina		1139573105	colectora 12 de octubre km 43,5	Femenino	gardonioagus@gmail.com	26/05/1999			41917822
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Level UP	09/03/2026	20:00	Si	James Delfina		1132051348	Manzoni s/n	Femenino	delfijames@icloud.com	18/06/2009			49550900
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	09/03/2026	20:00	Si	James Josefina		1157020580	Manzoni	Femenino	joseljames@icloud.com	29/11/2005			46962483
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Level UP	11/03/2026	08:45	Si	Benitez María Fernanda		5492914183440	Av Patricias Argentinas 3593 lote 76 Pilar	Femenino	fernandabenitez159@gmail.com	14/03/1965			17280087
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	11/03/2026	08:45	Si	Casella Vanina		1151632616	Francisco Romero 3200 - Del Viso	Femenino	vaninacasella@gmail.com	05/06/1981			28829993
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	11/03/2026	08:45	No	Donati Marina		11 3010-2682	Estancias del Río. Lote 25	Femenino	marinadonati22@gmail.com	23/07/1979			27497969
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	11/03/2026	08:45	Si	Favret María Carolina		11 5462-3984	Barrio Bermudas lote 138	Femenino	carolf13@hotmail.com	15/02/2025			24478306
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	11/03/2026	08:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	11/03/2026	08:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Sin profesor asignado	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	11/03/2026	08:45	Si	Latorre Lola				Femenino	lola.latorre@hotmail.com	06/01/2001			43081897
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	11/03/2026	08:45	No	Panasci Mariana				Femenino	manapanasci@gmail.com	22/09/2025			29250310
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	11/03/2026	08:45	Si	Salinas Agustina		1131147070		Femenino	agusrosalinas@gmail.com	30/09/2004			04534730
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	11/03/2026	08:45	Si	Trillos Andrea		11 6735-5449	mocoreta 2598	Femenino	andreatrillos999@hotmail.com	20/09/1983			94666633
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	11/03/2026	20:00	No	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	11/03/2026	20:00	Si	Espasiano Emilia		+5492974224393	Mariano Acosta 2050	Femenino	emiespa030@gmail.com	30/09/2004			45380969
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	11/03/2026	20:00	Si	Nardini Melody		1165626268	Monseñor D'Andrea 1696 - Pilar	Femenino	melodynardini@gmail.com	06/04/1991			35428857
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Level UP	11/03/2026	20:00	No	Sanchez Capilla Clara		1127539671	Florida 9680, Del Viso	Femenino	clarasanchezcapilla@gmail.com	12/04/2005			46583946
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	12/03/2026	08:45	No	Bozzari Virginia			Springpark	Femenino	vlbozzari@hotmail.com	10/04/1977			26047234
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	Si	Capozzi Luciana		154885434	Juan domingo Perón 2375	Femenino	luli_capozzi@hotmail.com	01/06/1990			35265190
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	Si	Lanes Sabrina		1130092659	panamericana Ramal Pilar km 43,5 Ayres de Pilar lote D25, Manuel Alberto, Pilar, Provincia Bs. As	Femenino	sabrinalanes@hotmail.com	08/01/1967			18098536
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Level UP	12/03/2026	08:45	No	Maranesi Rey Marina		1134058617		Femenino	marinamaranesi@hotmail.com	27/09/2024			22697563
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	Si	Pedreira Azul		1136248469		Femenino	azulpedreira@gmail.com	02/10/2024			34390798
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	Si	Pezzia Cecilia		1156950941	Zaino 785	Femenino	mcpezzia@gmail.com	29/08/1987			33220540
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	No	Piano Agustina		1154258378	Chubut 415- Mayling CC	Femenino	agustinapiano@hotmail.com	23/02/1982			29394471
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	Si	Pisancin Maria Laura		1145363457		Femenino	mlpisancin@gmail.com	06/01/1976			25096476
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	Si	VARELA MARIANA		115962-8741		Femenino	marianavarela6@hotmail.com	06/08/1977			26039355
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	08:45	No	Verdaguer Lucila		1161136786	Albino 805, Highland Park CC	Femenino	lucilaverdaguer@gmail.com	06/03/1984			30819012
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	10:45	No	Aragón Pilar			Florida 9680	Femenino	pilararagon.sc@gmail.com	28/05/1990			35242672
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Level UP	12/03/2026	10:45	Si	Cianni Federico				Masculino	federico.cianni@gmail.com	05/02/2026			32575406
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	10:45	Si	Dopacio Marcela		1144492791	Village G&TC Manuel Alberti Pilar	Femenino	marceladopacio@gmail.com	07/01/1965			17546611
+Sin profesor asignado	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	12/03/2026	10:45	No	Latorre Lola				Femenino	lola.latorre@hotmail.com	06/01/2001			43081897
+Sin profesor asignado	Office - Pilates - Plan FF - NO USAR -	Pilates Level UP	12/03/2026	10:45	Si	Petrocco Yanina		1154879693		Femenino	yaninapetrocco@hotmail.com	02/10/2024			37863783
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	10:45	Si	Rivero Sofía		1136008737	Tortugas CC	Femenino	sof.rivero@scms.edu.ar	06/07/2004			95356916
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	12/03/2026	10:45	Si	Salinas Agustina		1131147070		Femenino	agusrosalinas@gmail.com	30/09/2004			04534730
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	15:00	No	García Lema Delfina		11 3663-9863	Ayres de pilar, km 43,5.	Femenino	delgarcialemaa@gmail.com	30/09/2005			46962037
+Sin profesor asignado	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	12/03/2026	15:00	Si	Hernandez Martina		15623299151	Barrio San Ramon	Femenino	martu.hernandez@icloud.com	03/01/1992			45608643
+Sin profesor asignado	Office - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	15:00	Si	Videla Catalina		11 3193-8675	Colectora Norte KM 46 - Barrio Farm Club	Femenino	catalinavidela00@gmail.com	29/04/2000			42587354
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	17:00	No	Cazon Gómez María de las victorias		11 3099-5999		Femenino	cazonvicky@gmail.com	10/02/1976			25115190
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	12/03/2026	17:00	No	Saavedra Martín		1156643319	chile 849	Masculino	martin.js@outlook.com	26/02/1993			36825710
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Level UP	12/03/2026	17:00	No	Sanchez Capilla Clara		1127539671	Florida 9680, Del Viso	Femenino	clarasanchezcapilla@gmail.com	12/04/2005			46583946
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	12/03/2026	19:00	Si	Coling Camila		1138428955	Necochea Golf Club 3464	Femenino	c.coling@scms.edu.ar	12/06/2003			44851423
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	12/03/2026	19:00	No	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	12/03/2026	19:00	Si	Espasiano Emilia		+5492974224393	Mariano Acosta 2050	Femenino	emiespa030@gmail.com	30/09/2004			45380969
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	12/03/2026	19:00	Si	Fernandez Guadalupe		1122504858	Dr manuel jose de labarden 5436	Femenino	luupefernandez@gmail.com	03/09/1996			39775291
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	19:00	Si	Guada Ana		1157562531	Guayaquil 2075	Femenino	anaguada30@gmail.com	30/09/1999			42200516
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	19:00	No	Libardi Belén		11 4980-1768	Mar del plata golf club 3351, Manuel Alberti, Pilar	Femenino	belenucha_03@hotmail.com	19/07/1989			34602428
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	12/03/2026	19:00	Si	Massarotto Martina		1136366543		Femenino	taatumassarotto@gmail.com	27/09/2024			41875852
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	12/03/2026	19:00	No	Nardini Melody		1165626268	Monseñor D'Andrea 1696 - Pilar	Femenino	melodynardini@gmail.com	06/04/1991			35428857
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	12/03/2026	19:00	Si	Vadillo Cecilia		1156617382	Club de campo Pueyrredon. Panamericana km 49. Pilar	Femenino	cecivadillo@gmail.com	03/10/2024			18318088
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	12/03/2026	19:00	Si	Villasuso Maria Lujan		1135724523	Hipolito Yrigoyen 1754	Femenino	lrodriguezvillasuso@gmail.com	20/12/1999			42252261
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	Si	Arriaga Alejandro			Barrio Bermudas lote 138	Masculino	arriagaale37@gmail.com	15/02/2025			24153237
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	13/03/2026	08:45	No	Bozzari Virginia			Springpark	Femenino	vlbozzari@hotmail.com	10/04/1977			26047234
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	No	Donati Marina		11 3010-2682	Estancias del Río. Lote 25	Femenino	marinadonati22@gmail.com	23/07/1979			27497969
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	Si	Favret María Carolina		11 5462-3984	Barrio Bermudas lote 138	Femenino	carolf13@hotmail.com	15/02/2025			24478306
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	Si	Raymonda Andrea		1151204018	la lomada de pilar(Florida 9680, del viso,pilar)	Femenino	andrea.raymonda@gmail.com	25/11/1961			14951070
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	Si	Sanguinetti María Cecilia		1137788228	Guayaquil 2075 218	Femenino	cecilia_sanguinetti@hotmail.com	19/12/1983			30639720
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	13/03/2026	08:45	No	Trillos Andrea		11 6735-5449	mocoreta 2598	Femenino	andreatrillos999@hotmail.com	20/09/1983			94666633
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	08:45	Si	Verdaguer Lucila		1161136786	Albino 805, Highland Park CC	Femenino	lucilaverdaguer@gmail.com	06/03/1984			30819012
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	Si	Bridge Milagros		1180601234		Femenino	mi.bridge@scms.edu.ar	27/09/2002			44456300
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	Si	Di Paola Clementina		1151060135	Tortugas Country Club km 38.5 manuel alberti	Femenino	clemendp@gmail.com	06/03/2005			46582636
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	Si	Grazzini Lara			Panamericana ramal pilar km 43,5	Femenino	laragrazzini@gmail.com	07/06/2004			45906854
+Sin profesor asignado	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	13/03/2026	09:45	Si	Latorre Lola				Femenino	lola.latorre@hotmail.com	06/01/2001			43081897
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	No	Levis Bárbara		1150407541		Femenino	barbaralevis@gmail.com	12/03/1970			21483641
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	Si	Mendiburu Eugenia		1130922356	Caamaño 900, Villa Rosa	Femenino	emendiburu@yahoo.com	02/02/1972			22723925
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 36 - Efectivo/Transferencia	Pilates Level UP	13/03/2026	09:45	Si	Villalba Candela Oriana		11 6036-6800	Av. Presidente Perón 1351	Femenino	candevillalba17@gmail.com	17/12/2003			45419758
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	13/03/2026	20:00	Si	Carranza Sol		1169494675		Femenino	solcarranza00@gmail.com	17/10/2024			42643115
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	13/03/2026	20:00	Si	Riera Juan Cruz		1123661750	Manuel Luis de Oliden 7600	Masculino	juancriera94@gmail.com	30/04/1994			38324213
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	14/03/2026	11:00	Si	Cazon Gómez María de las victorias		11 3099-5999		Femenino	cazonvicky@gmail.com	10/02/1976			25115190
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	14/03/2026	11:00	No	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	14/03/2026	11:00	Si	Grazzini Lara			Panamericana ramal pilar km 43,5	Femenino	laragrazzini@gmail.com	07/06/2004			45906854
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	14/03/2026	11:00	Si	Guada Ana		1157562531	Guayaquil 2075	Femenino	anaguada30@gmail.com	30/09/1999			42200516
+Sin profesor asignado	Office - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates Level UP	14/03/2026	11:00	Si	Pérez Cárrega Lucila		1138498298	Caamaño 500	Femenino	lucilaperezcarrega@gmail.com	26/01/1993			37375555
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	08:45	Si	Arias Duval Celina María		11 6440-2727	Florida 9689	Femenino	cmariasduval@gmail.com	14/01/2004			45419677
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	08:45	No	Arriaga Alejandro			Barrio Bermudas lote 138	Masculino	arriagaale37@gmail.com	15/02/2025			24153237
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	08:45	No	Donati Marina		11 3010-2682	Estancias del Río. Lote 25	Femenino	marinadonati22@gmail.com	23/07/1979			27497969
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	16/03/2026	08:45	No	Duchosal Micaela		1136307272	Mayling CC	Femenino	micaduchosal@hotmail.com	14/10/1989			35076333
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	16/03/2026	08:45	No	Panasci Mariana				Femenino	manapanasci@gmail.com	22/09/2025			29250310
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	08:45	Si	Piano Agustina		1154258378	Chubut 415- Mayling CC	Femenino	agustinapiano@hotmail.com	23/02/1982			29394471
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	16/03/2026	08:45	No	Trillos Andrea		11 6735-5449	mocoreta 2598	Femenino	andreatrillos999@hotmail.com	20/09/1983			94666633
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	08:45	Si	Verdaguer Lucila		1161136786	Albino 805, Highland Park CC	Femenino	lucilaverdaguer@gmail.com	06/03/1984			30819012
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	16/03/2026	09:45	Si	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	16/03/2026	09:45	Si	D'Angelo Chiara		1141573341	Acc Norte - Ramal Pilar km46	Femenino	cdangelo2800@gmail.com	28/09/2000			42956657
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	09:45	Si	Favret María Carolina		11 5462-3984	Barrio Bermudas lote 138	Femenino	carolf13@hotmail.com	15/02/2025			24478306
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	09:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	09:45	Si	Grazzini Lara			Panamericana ramal pilar km 43,5	Femenino	laragrazzini@gmail.com	07/06/2004			45906854
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	09:45	Si	Rivero Sofía		1136008737	Tortugas CC	Femenino	sof.rivero@scms.edu.ar	06/07/2004			95356916
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	16/03/2026	09:45	Si	Viton Luisa			Tortugas Country Club (panamericana ramal pilar km 38,5)	Femenino	luisaaviton@gmail.com	14/02/2025			46558475
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	16/03/2026	15:00	Si	Grossi María Victoria	1150062431		barrio los pilares Lote 190	Femenino	vickygrossi@gmail.com	01/04/1977			25647750
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	15:00	Si	Levis Bárbara		1150407541		Femenino	barbaralevis@gmail.com	12/03/1970			21483641
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Level UP	16/03/2026	15:00	No	Mancuso Mariela Edtih		1156627449	Altos de Pilar lote 9	Femenino	mariela@marielamancusoarq.com	18/12/1975			25061322
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 36 - Efectivo/Transferencia	Pilates Level UP	16/03/2026	15:00	Si	Villalba Candela Oriana		11 6036-6800	Av. Presidente Perón 1351	Femenino	candevillalba17@gmail.com	17/12/2003			45419758
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Level UP	16/03/2026	20:00	Si	Andersen Sofía		1169720438	Caamaño 900, Harás del pilar, La Pradera	Femenino	sofiandersen9@hotmail.com	21/11/2006			47573443
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	16/03/2026	20:00	Si	Coling Camila		1138428955	Necochea Golf Club 3464	Femenino	c.coling@scms.edu.ar	12/06/2003			44851423
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Level UP	16/03/2026	20:00	Si	Gardonio Agustina		1139573105	colectora 12 de octubre km 43,5	Femenino	gardonioagus@gmail.com	26/05/1999			41917822
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	16/03/2026	20:00	Si	Guada Ana		1157562531	Guayaquil 2075	Femenino	anaguada30@gmail.com	30/09/1999			42200516
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Level UP	16/03/2026	20:00	Si	James Delfina		1132051348	Manzoni s/n	Femenino	delfijames@icloud.com	18/06/2009			49550900
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	08:45	Si	Arriaga Alejandro			Barrio Bermudas lote 138	Masculino	arriagaale37@gmail.com	15/02/2025			24153237
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	08:45	No	Donati Marina		11 3010-2682	Estancias del Río. Lote 25	Femenino	marinadonati22@gmail.com	23/07/1979			27497969
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	08:45	Si	Favret María Carolina		11 5462-3984	Barrio Bermudas lote 138	Femenino	carolf13@hotmail.com	15/02/2025			24478306
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	08:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	18/03/2026	08:45	No	Panasci Mariana				Femenino	manapanasci@gmail.com	22/09/2025			29250310
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	18/03/2026	08:45	Si	Salinas Agustina		1131147070		Femenino	agusrosalinas@gmail.com	30/09/2004			04534730
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	18/03/2026	08:45	Si	Trillos Andrea		11 6735-5449	mocoreta 2598	Femenino	andreatrillos999@hotmail.com	20/09/1983			94666633
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	18/03/2026	20:00	Si	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automático - 4P	Pilates Level UP	18/03/2026	20:00	Si	James Delfina		1132051348	Manzoni s/n	Femenino	delfijames@icloud.com	18/06/2009			49550900
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	18/03/2026	20:00	Si	Nardini Melody		1165626268	Monseñor D'Andrea 1696 - Pilar	Femenino	melodynardini@gmail.com	06/04/1991			35428857
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Level UP	18/03/2026	20:00	No	Sanchez Capilla Clara		1127539671	Florida 9680, Del Viso	Femenino	clarasanchezcapilla@gmail.com	12/04/2005			46583946
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	Si	Arias Duval Celina María		11 6440-2727	Florida 9689	Femenino	cmariasduval@gmail.com	14/01/2004			45419677
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	19/03/2026	08:45	Si	Bozzari Virginia			Springpark	Femenino	vlbozzari@hotmail.com	10/04/1977			26047234
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	No	Lanes Sabrina		1130092659	panamericana Ramal Pilar km 43,5 Ayres de Pilar lote D25, Manuel Alberto, Pilar, Provincia Bs. As	Femenino	sabrinalanes@hotmail.com	08/01/1967			18098536
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automatico 4P	Pilates Level UP	19/03/2026	08:45	No	Maranesi Rey Marina		1134058617		Femenino	marinamaranesi@hotmail.com	27/09/2024			22697563
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	Si	Pedreira Azul		1136248469		Femenino	azulpedreira@gmail.com	02/10/2024			34390798
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	Si	Pezzia Cecilia		1156950941	Zaino 785	Femenino	mcpezzia@gmail.com	29/08/1987			33220540
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	No	Piano Agustina		1154258378	Chubut 415- Mayling CC	Femenino	agustinapiano@hotmail.com	23/02/1982			29394471
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	Si	Pisancin Maria Laura		1145363457		Femenino	mlpisancin@gmail.com	06/01/1976			25096476
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	Si	ROSSI DELFINA		113282-6284		Femenino	interiores.dr@gmail.com	23/09/1985			31925929
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	08:45	Si	VARELA MARIANA		115962-8741		Femenino	marianavarela6@hotmail.com	06/08/1977			26039355
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	19/03/2026	10:45	Si	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	Aragón Pilar			Florida 9680	Femenino	pilararagon.sc@gmail.com	28/05/1990			35242672
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	Aspromonte Zoe		11 2621-3008	panamericana km 43,5	Femenino	zoeaspro@gmail.com	30/08/2005			46876734
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	Cianni Federico				Masculino	federico.cianni@gmail.com	05/02/2026			32575406
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	Dopacio Marcela		1144492791	Village G&TC Manuel Alberti Pilar	Femenino	marceladopacio@gmail.com	07/01/1965			17546611
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	10:45	Si	Mendiburu Eugenia		1130922356	Caamaño 900, Villa Rosa	Femenino	emendiburu@yahoo.com	02/02/1972			22723925
+Sin profesor asignado	Office - Pilates - Plan FF - NO USAR -	Pilates Level UP	19/03/2026	10:45	Si	Petrocco Yanina		1154879693		Femenino	yaninapetrocco@hotmail.com	02/10/2024			37863783
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates Level UP	19/03/2026	15:00	Si	Baza Agus			centenario 1100 Aránzazu club	Femenino	agus.baza@live.com.ar	19/09/2025			38153388
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	15:00	Si	García Lema Delfina		11 3663-9863	Ayres de pilar, km 43,5.	Femenino	delgarcialemaa@gmail.com	30/09/2005			46962037
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	19/03/2026	15:00	Si	Puyol Micaela		1157511161	Los paraisos 2097	Femenino	micaelapuyol@outlook.com.ar	01/01/1996			39350047
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	19/03/2026	15:00	Si	Pérez Adriana Mónica		1154140326	Saravi s/n Barrio Los Fresnos UF 79	Femenino	adrimperez27@gmail.com	27/05/1964			16824085
+Sin profesor asignado	Office - Pilates - Mensual - Pack 12 - Debito Automático	Pilates Level UP	19/03/2026	15:00	No	Sanchez Capilla Clara		1127539671	Florida 9680, Del Viso	Femenino	clarasanchezcapilla@gmail.com	12/04/2005			46583946
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	19/03/2026	17:00	No	Saavedra Martín		1156643319	chile 849	Masculino	martin.js@outlook.com	26/02/1993			36825710
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	19/03/2026	17:00	Si	Vadillo Cecilia		1156617382	Club de campo Pueyrredon. Panamericana km 49. Pilar	Femenino	cecivadillo@gmail.com	03/10/2024			18318088
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	17:00	Si	dos Reis Sancho Delfina		1160190733	hipólito yrigoyen 2800, el estribo	Femenino	delfinasancho2006@gmail.com	13/11/2006			47575854
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	19:00	No	Cazon Gómez María de las victorias		11 3099-5999		Femenino	cazonvicky@gmail.com	10/02/1976			25115190
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Efectivo/Transferencia	Pilates Level UP	19/03/2026	19:00	Si	Chavit Emerson Denise		1127337218		Femenino	denisechavit@gmail.com	23/09/1999			42201334
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	19:00	Si	Cicognani Silvana		1154813817	Haras del pilar - Pradera - UF 2126	Femenino	scicognani@gmail.com	18/06/1996			01743438
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	19/03/2026	19:00	Si	Coling Camila		1138428955	Necochea Golf Club 3464	Femenino	c.coling@scms.edu.ar	12/06/2003			44851423
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	19/03/2026	19:00	No	Espasiano Emilia		+5492974224393	Mariano Acosta 2050	Femenino	emiespa030@gmail.com	30/09/2004			45380969
+Sin profesor asignado	Office - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	19:00	Si	Fernández Campón Guadalupe			Caamaño 699	Femenino	guada.campon@gmail.com	01/04/2025			45238273
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	19:00	Si	Guada Ana		1157562531	Guayaquil 2075	Femenino	anaguada30@gmail.com	30/09/1999			42200516
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	19/03/2026	19:00	Si	Libardi Belén		11 4980-1768	Mar del plata golf club 3351, Manuel Alberti, Pilar	Femenino	belenucha_03@hotmail.com	19/07/1989			34602428
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	19/03/2026	19:00	No	Massarotto Martina		1136366543		Femenino	taatumassarotto@gmail.com	27/09/2024			41875852
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	19/03/2026	19:00	Si	Villasuso Maria Lujan		1135724523	Hipolito Yrigoyen 1754	Femenino	lrodriguezvillasuso@gmail.com	20/12/1999			42252261
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	20/03/2026	08:45	Si	Bozzari Virginia			Springpark	Femenino	vlbozzari@hotmail.com	10/04/1977			26047234
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	08:45	No	Donati Marina		11 3010-2682	Estancias del Río. Lote 25	Femenino	marinadonati22@gmail.com	23/07/1979			27497969
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	08:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	08:45	Si	Raymonda Andrea		1151204018	la lomada de pilar(Florida 9680, del viso,pilar)	Femenino	andrea.raymonda@gmail.com	25/11/1961			14951070
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	08:45	Si	Sanguinetti María Cecilia		1137788228	Guayaquil 2075 218	Femenino	cecilia_sanguinetti@hotmail.com	19/12/1983			30639720
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	20/03/2026	08:45	Si	Trillos Andrea		11 6735-5449	mocoreta 2598	Femenino	andreatrillos999@hotmail.com	20/09/1983			94666633
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 36 - Efectivo/Transferencia	Pilates Level UP	20/03/2026	08:45	Si	Villalba Candela Oriana		11 6036-6800	Av. Presidente Perón 1351	Femenino	candevillalba17@gmail.com	17/12/2003			45419758
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	20/03/2026	09:45	Si	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	09:45	Si	Di Paola Clementina		1151060135	Tortugas Country Club km 38.5 manuel alberti	Femenino	clemendp@gmail.com	06/03/2005			46582636
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	09:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	09:45	Si	Grazzini Lara			Panamericana ramal pilar km 43,5	Femenino	laragrazzini@gmail.com	07/06/2004			45906854
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	20/03/2026	09:45	Si	Grossi María Victoria	1150062431		barrio los pilares Lote 190	Femenino	vickygrossi@gmail.com	01/04/1977			25647750
+Sin profesor asignado	Multisucursal - Pilates - Plan Influencer	Pilates Level UP	20/03/2026	09:45	No	Hernandez Martina		15623299151	Barrio San Ramon	Femenino	martu.hernandez@icloud.com	03/01/1992			45608643
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	09:45	Si	Rivero Sofía		1136008737	Tortugas CC	Femenino	sof.rivero@scms.edu.ar	06/07/2004			95356916
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	20/03/2026	09:45	Si	Viton Luisa			Tortugas Country Club (panamericana ramal pilar km 38,5)	Femenino	luisaaviton@gmail.com	14/02/2025			46558475
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	20/03/2026	20:00	No	Carranza Sol		1169494675		Femenino	solcarranza00@gmail.com	17/10/2024			42643115
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	20/03/2026	20:00	Si	Casano Agustina		1140439637	Golf club argentino	Femenino	agustinacasano@gmail.com	20/02/1979			21484628
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	20/03/2026	20:00	Si	James Josefina		1157020580	Manzoni	Femenino	joseljames@icloud.com	29/11/2005			46962483
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	20/03/2026	20:00	No	Nardini Melody		1165626268	Monseñor D'Andrea 1696 - Pilar	Femenino	melodynardini@gmail.com	06/04/1991			35428857
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Debito Automático	Pilates Level UP	20/03/2026	20:00	No	Riera Juan Cruz		1123661750	Manuel Luis de Oliden 7600	Masculino	juancriera94@gmail.com	30/04/1994			38324213
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Level UP	20/03/2026	20:00	Si	Sabate Josefina		1121681607	Caamaño 3000	Femenino	josefinasabate1@gmail.com	27/01/2000			42340510
+Sin profesor asignado	Office - Pilates - Mensual - 2 vxs - Debito Automático	Pilates Level UP	21/03/2026	11:00	Si	Bedacarratz Florencia		1150637172	Barrio La Delfina, Pilar	Femenino	fbedacarratz@gmail.com	20/04/1976			25215039
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Level UP	21/03/2026	11:00	No	Britez Lucia		1121880594	Dolores 1490- altos de la cañada	Femenino	alulibritez@gmail.com	12/10/1997			04754170
+Sin profesor asignado	Office - Pilates - Pack Ilimitado - Efectivo/Transferencia	Pilates Level UP	21/03/2026	11:00	Si	De Carlo Cristina		1162670274	Manuel Oliden 1600	Femenino	crisbdecarlo@gmail.com	22/08/1977			26186298
+Sin profesor asignado	Office - Pilates - Mensual - Pack 04 - Efectivo/Transferencia	Pilates Level UP	21/03/2026	11:00	No	Egitto Serena		11 2700-7801	Chile 349	Femenino	serenaaegittoo@gmail.com	11/09/2007			48233098
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	21/03/2026	11:00	Si	Errecondo Juana		1133633494	Las Amapolas 455	Femenino	juanaerrecondo99@gmail.com	07/08/1999			42101667
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	21/03/2026	11:00	No	Espasiano Emilia		+5492974224393	Mariano Acosta 2050	Femenino	emiespa030@gmail.com	30/09/2004			45380969
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	21/03/2026	11:00	No	Guada Ana		1157562531	Guayaquil 2075	Femenino	anaguada30@gmail.com	30/09/1999			42200516
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	21/03/2026	11:00	No	Ocampos Agustina		11 6309-8387	Los jazmines 3910	Femenino	agustinaocampos@gmail.com	01/08/1996			39769472
+Sin profesor asignado	Office - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates Level UP	21/03/2026	11:00	Si	Pérez Cárrega Lucila		1138498298	Caamaño 500	Femenino	lucilaperezcarrega@gmail.com	26/01/1993			37375555
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	21/03/2026	11:00	No	Salinas Agustina		1131147070		Femenino	agusrosalinas@gmail.com	30/09/2004			04534730
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	08:45	Si	Arias Duval Celina María		11 6440-2727	Florida 9689	Femenino	cmariasduval@gmail.com	14/01/2004			45419677
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	23/03/2026	08:45	Si	D'Angelo Chiara		1141573341	Acc Norte - Ramal Pilar km46	Femenino	cdangelo2800@gmail.com	28/09/2000			42956657
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	23/03/2026	08:45	Si	Espasiano Emilia		+5492974224393	Mariano Acosta 2050	Femenino	emiespa030@gmail.com	30/09/2004			45380969
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	08:45	Si	Garcia Nelly		1155861098		Femenino	calidaddealimentos@gmail.com	19/09/2024			02223456
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	08:45	Si	Grazzini Lara			Panamericana ramal pilar km 43,5	Femenino	laragrazzini@gmail.com	07/06/2004			45906854
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	08:45	Si	Luqui Maria laura			Alem 3366, pte derqui, pilar	Femenino	lalaluqui@hotmail.com	29/09/1971			22255492
+Sin profesor asignado	Office - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	08:45	Si	Mourelle María Cristina		1141989033	Av. Olivos 1800. Barrio Los Abedules. Lote 17. Pablo Nogués	Femenino	cristina.mourelle@gmail.com	26/11/1976			25540453
+Sin profesor asignado	Office - Pilates - Mensual - 3 vxs - Debito Automático	Pilates Level UP	23/03/2026	09:45	No	Anavi Ana Lucía		1132070309	olivos golf club	Femenino	anita.anavi@gmail.com	03/04/1982			29480658
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	09:45	No	Arriaga Alejandro			Barrio Bermudas lote 138	Masculino	arriagaale37@gmail.com	15/02/2025			24153237
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Level UP	23/03/2026	09:45	No	Basombrio Emilia		91167849659	Chile 2050 pilar	Femenino	emiliabasombrio@gmail.com	16/10/2002			44482336
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	09:45	Si	Cicognani Silvana		1154813817	Haras del pilar - Pradera - UF 2126	Femenino	scicognani@gmail.com	18/06/1996			01743438
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	09:45	Si	Gracia Mariana Paula		1169737640	Matacos 3197 - lote 226	Femenino	mpagracia82@gmail.com	22/01/1982			29316720
+Sin profesor asignado	Office - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates Level UP	23/03/2026	09:45	Si	Libardi Belén		11 4980-1768	Mar del plata golf club 3351, Manuel Alberti, Pilar	Femenino	belenucha_03@hotmail.com	19/07/1989			34602428
+Sin profesor asignado	Office - Pilates - Clase de prueba	Pilates Level UP	23/03/2026	09:45	No	Navia Guillermina		541131807203	Chile 2050 pilar	Femenino	mguillenavia@gmail.com	21/02/1967			17949618
+Sin profesor asignado	Office - Pilates - Mensual - 1 vxs - Debito Automático	Pilates Level UP	23/03/2026	09:45	Si	Pierazzoli Francesca		11 6805-7961		Femenino	franypierazzoli@hotmail.com	22/01/2025			43083759
+Sin profesor asignado	Office - Pilates - Mensual - Pack 08 - Debito Automatico	Pilates Level UP	23/03/2026	09:45	Si	Ubierna Lara		1164284503	Av. Patricias Argentinas 1855	Femenino	laraaubierna@gmail.com	22/01/2003			44670160
+Sin profesor asignado	Office - Pilates - Trimestral - Pack 24 - Efectivo/Transferencia	Pilates Level UP	23/03/2026	09:45	Si	Vazquez Ailen				Femenino	ailenmv17@gmail.com	24/09/2025			39917156
+
+stats: sumadosEnMatriz=540 skippedParse=0 skippedFueraPlantilla=0 filasIteradas=540 modo=dom_filas trDom=540
+diagnostico={"modoLectura":"dom_filas","filasTrEnDom":540,"cdkVirtualViewport":false,"filasIteradas":540,"skippedShortCells":0,"skippedNoPatron":0,"skippedFechaHoraVacias":0,"skippedParse":0,"skippedFueraPlantilla":0,"sumadosEnMatriz":540,"muestraHorasFueraPlantilla":[],"muestraPrimerasFilas":"[45 items]","muestraUltimasFilas":"[8 items]","lineasVolcadasEnArchivo":540,"esperadoDeportNet495Referencia":"Si DeportNet muestra ~495 filas y filasIteradas es mucho menor, suele ser virtual scroll (ahora se intenta recorrer).","archivoDebug":"C:\\Users\\lucas\\deportnet-dashboard\\backend\\debug\\ocupacion_2026-03-25T13-23-30-794Z","maxLineasArchivoConfig":2500}

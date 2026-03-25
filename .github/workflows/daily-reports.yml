@@ -1,0 +1,64 @@
+# Reportes automáticos (esqueleto): cron diario + disparo manual.
+# Próximo paso: agregar `npm run report:daily` en backend/package.json que
+# ejecute tu lógica (Playwright + envío de mail) y reemplazar el echo final.
+#
+# Secretos en GitHub → Settings → Secrets and variables → Actions:
+#   DEPORNET_USER, DEPORNET_PASS  (como en deportnetActions.js)
+#   + los que uses para SMTP cuando implementes el mail.
+#
+# Nota: los workflows con `schedule` en repos privados pueden pausarse si el
+# repo no tuvo actividad reciente (política de GitHub).
+
+name: Reportes diarios
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # UTC: 10:00 ≈ 07:00 Argentina (sin horario de verano). Ajustá a gusto.
+    - cron: '0 10 * * *'
+
+jobs:
+  run-reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Instalar dependencias (backend)
+        working-directory: backend
+        run: npm ci
+
+      - name: Playwright (Chromium + deps del sistema)
+        working-directory: backend
+        run: npx playwright install chromium --with-deps
+
+      - name: Variables DeportNet
+        env:
+          DEPORNET_USER: ${{ secrets.DEPORNET_USER }}
+          DEPORNET_PASS: ${{ secrets.DEPORNET_PASS }}
+        working-directory: backend
+        run: |
+          if [ -z "$DEPORNET_USER" ] || [ -z "$DEPORNET_PASS" ]; then
+            echo "::error::Configurá los secretos DEPORNET_USER y DEPORNET_PASS en el repositorio."
+            exit 1
+          fi
+          echo "Credenciales DeportNet presentes (no se imprimen)."
+
+      - name: Ejecutar reporte diario
+        env:
+          DEPORNET_USER: ${{ secrets.DEPORNET_USER }}
+          DEPORNET_PASS: ${{ secrets.DEPORNET_PASS }}
+        working-directory: backend
+        run: |
+          echo "Reemplazá este paso por: npm run report:daily"
+          echo "Ejemplo: node scripts/daily-reports.js"
+          # npm run report:daily

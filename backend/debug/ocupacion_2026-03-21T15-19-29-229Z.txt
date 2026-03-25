@@ -1,0 +1,687 @@
+{
+  "reporte": "branchMembersClassesReport",
+  "navLog": [
+    "goto: https://deportnet.com/branchMembersClassesReport",
+    "url_final: https://deportnet.com/branchMembersClassesReport",
+    "ok: página del reporte reconocida"
+  ],
+  "sede": "CLIC Pilates - Palermo Hollywood",
+  "url_final": "https://deportnet.com/branchMembersClassesReport",
+  "headerTexts": [
+    "Profesor",
+    "Servicio/Membresía",
+    "Actividad",
+    "Fecha",
+    "Hora",
+    "Utilizado",
+    "Socio",
+    "Teléfono",
+    "Celular",
+    "Domicilio",
+    "Sexo",
+    "Email",
+    "Fecha nacimiento",
+    "Obra social",
+    "Observaciones",
+    "Nro. Tarjeta"
+  ],
+  "hdrLen": 16,
+  "tdShift": 0,
+  "colSource": "inferido_datos",
+  "cols": {
+    "fechaIdx": 3,
+    "horaIdx": 4,
+    "utilizadoIdx": 5
+  },
+  "rowCountDom": 495,
+  "tieneViewportVirtual": false,
+  "filasRecolectadasVirtual": null,
+  "cellSel": "td, mat-cell, td.mat-mdc-cell, td.mat-cell",
+  "sampleRows": [
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "07:45",
+      "Si",
+      "Fernandez Federico",
+      "11 6491 7633",
+      "1164917633",
+      "Concepción Arenal 3560",
+      "Masculino",
+      "fede.pedace@hotmail.com",
+      "24/04/1990",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "07:45",
+      "Si",
+      "Fraile Claudia",
+      "11 5602-0999",
+      "1156020999",
+      "Santos Dumont 3209",
+      "Femenino",
+      "claudia_fraile@hotmail.com",
+      "26/01/1981",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "07:45",
+      "Si",
+      "Jahn Nadia",
+      "11 6101 8248",
+      "1161018248",
+      "Concepción Arenal 3560",
+      "Femenino",
+      "nadia.jahn@gmail.com",
+      "24/10/1992",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "07:45",
+      "Si",
+      "Kademian Alejandra",
+      "+54 9 11 4191-0210",
+      "+5491141910210",
+      "Dorrego 1835",
+      "Femenino",
+      "alejandrakademian@gmail.com",
+      "17/01/1973",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "08:45",
+      "Si",
+      "Daboin Maria Belen",
+      "1137929006",
+      "1137929006",
+      "Niceto Vega 5955",
+      "Femenino",
+      "mbbackupdaboin@gmail.com",
+      "07/11/1995",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "08:45",
+      "Si",
+      "Farías Anneris",
+      "",
+      "1137786610",
+      "",
+      "Femenino",
+      "annerrisfarias@gmail.com",
+      "12/03/1979",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "08:45",
+      "No",
+      "Ghiorzi Agustina",
+      "",
+      "1137921153",
+      "holmberg y manuela pedraza",
+      "Femenino",
+      "agustinaghior@gmail.com",
+      "01/04/1997",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sin profesor asignado",
+      "Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia",
+      "Pilates - Inicial",
+      "02/03/2026",
+      "08:45",
+      "Si",
+      "Gravina Luciana",
+      "11-6845-4502",
+      "1168454502",
+      "Olleros 3546 6C",
+      "Femenino",
+      "lucianagravina72@gmail.com",
+      "04/10/1993",
+      "",
+      "",
+      ""
+    ]
+  ]
+}
+=== FILAS LEÍDAS DEL REPORTE (una por línea, celdas separadas por TAB) ===
+filasProcesadas=495 lineasVolcadasAqui=495 maxConfig=2500 (subí con OCUPACION_DEBUG_MAX_FILAS=5000)
+
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	02/03/2026	07:45	Si	Fernandez Federico	11 6491 7633	1164917633	Concepción Arenal 3560	Masculino	fede.pedace@hotmail.com	24/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	07:45	Si	Fraile Claudia	11 5602-0999	1156020999	Santos Dumont 3209	Femenino	claudia_fraile@hotmail.com	26/01/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	02/03/2026	07:45	Si	Jahn Nadia	11 6101 8248	1161018248	Concepción Arenal 3560	Femenino	nadia.jahn@gmail.com	24/10/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	07:45	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	02/03/2026	08:45	Si	Daboin Maria Belen	1137929006	1137929006	Niceto Vega 5955	Femenino	mbbackupdaboin@gmail.com	07/11/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	02/03/2026	08:45	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	08:45	No	Ghiorzi Agustina		1137921153	holmberg y manuela pedraza	Femenino	agustinaghior@gmail.com	01/04/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	08:45	Si	Gravina Luciana	11-6845-4502	1168454502	Olleros 3546 6C	Femenino	lucianagravina72@gmail.com	04/10/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	08:45	Si	Juarez Victoria		1135753245	Av Forest 549	Femenino	victoriajuarez999@gmail.com	09/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	08:45	Si	Tevelez Natalia	+5493455401078	+5493455401078	Dorrego 1781 depto 701	Femenino	natiteveles@gmail.com	10/05/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	09:45	Si	Balaben Angela		1150578322	José Antonio Cabrera 6065	Femenino	angelabalaben@hotmail.com	16/02/1957			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Debito Automatico	Pilates - Inicial	02/03/2026	10:45	No	Reyes Michelle	1136650543	1136650543	Arévalo 1375	Femenino	michellereyeswork@gmail.com	17/12/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	10:45	No	turcat Ellie		+33782337456	Concepcion arenal 2496	Femenino	ellie.turcat@gmail.com	20/05/2006			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	14:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	14:00	Si	Mac Kay María Luisa		1154180044	Castillo 1553	Femenino	mlmackay@fibertel.com.ar	24/03/1963			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	14:00	No	Mazzinghi Lucia	1163573643	1163573643	3 de Febrero 2509	Femenino	luciamazzinghi@hotmail.com	03/10/1975			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	02/03/2026	16:00	Si	Fasio Carola	1149894382	1149894382	Maure 2502	Femenino	caro_fasio97@hotmail.com	18/03/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	16:00	Si	Vaccarone Juan Francisco		1144149445		Masculino	juanush10@gmail.com	28/11/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	02/03/2026	16:00	No	Yapur Valentina	2226 490798	2226490798		Femenino	valentinayapur@icloud.com	10/02/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	16:00	Si	Zimmerman Victoria		1162727001	El Salvador 6075	Femenino	victoriazim1412@gmail.com	14/12/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	17:00	No	Figus Lucía		1122605606	Tres arroyos 2299, CABA	Femenino	luli_figus@hotmail.com	11/08/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	17:00	No	Gabriela Silva Maria	1169916361	1169916361	Direccion Honduras 5597	Femenino	mariagabrielasilva284@gmail.com	01/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	17:00	Si	López Fernández Emilia				Femenino	mfaugugliaro@yahoo.com	30/05/2009			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	17:00	No	Roncoroni Santoro Simona		1140926255	Guatemala 4845	Femenino	simonaroncoroni.s@gmail.com	27/12/2007			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	02/03/2026	19:00	Si	Gomez María Macarena		1133472909	Guevara 226	Femenino	gomezmamacarena@gmail.com	09/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	19:00	No	Krieger Debora	1123172962	1123172962	Santos Dumont 3405 502	Femenino	deboraxkrieger@outlook.com	01/08/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	19:00	No	Paredes Romina		1144702408	Amenabar 691, 4A	Femenino	mrominaparedes@gmail.com	10/07/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	19:00	Si	Rodríguez Cora		1164401015	Palpa 3270	Femenino	cora_gr17@yahoo.com.ar	17/05/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	19:00	Si	Soto Morena		112995736394	Paraguay 5635	Femenino	morenasoto020204@gmail.com	02/02/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	19:00	Si	Strajch Gisela	1148891283	1148891283	Convención 1994	Femenino	gisela.strajch@gmail.com	21/05/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	02/03/2026	19:00	No	Tempesta Renata		1151741034	Nicaragua 5679	Femenino	xaretino@gmail.com	05/12/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	02/03/2026	19:00	Si	arraez Sofía		1124933186	Honduras 6038 4b torre 4	Femenino	sofiarraez@gmail.com	20/01/2001			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Debito Automatico	Pilates - Inicial	02/03/2026	20:00	Si	Bastidas Yorka	351 353-7325	3513537325	Lemos 340	Femenino	yorkabas@gmail.com	03/12/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	20:00	No	Dabul Ruben		1156996139	Corrientes 6365	Masculino	rdabul56@gmail.com	24/12/1956			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	02/03/2026	20:00	Si	Magri Nicolas		3764985540	Charlone 176	Masculino	nicolas.magri123@gmail.com	08/08/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	20:00	Si	Pinedo Mercedes	+54 9 2392 493374	+5492392493374	Ravignani 1392 2A	Femenino	mechipinedo@hotmail.com	15/05/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	02/03/2026	20:00	No	Vergara Silvina		1124952574	Corrientes 6365	Femenino	silvibh87.sv@gmail.com	23/04/1987			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	08:45	Si	Agazzani Maria Agustina	3515155792	3515155792	Dirección Charlone 875	Femenino	agustina.agazzani@gmail.com	13/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Debito Automatico	Pilates - Inicial	03/03/2026	08:45	Si	Cañiza Guadalupe	1150246180	1150246180	Bonpland 1441	Femenino	canizagustavo10@gmail.com	09/07/2004		La suscripción está a nombre de su papá quien le paga las clases	
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	03/03/2026	08:45	Si	Daboin Maria Belen	1137929006	1137929006	Niceto Vega 5955	Femenino	mbbackupdaboin@gmail.com	07/11/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	08:45	No	Dousset Lucia	3875793134	3875793134	Bonpland 1441	Femenino	luciadousset@gmail.com	22/10/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	03/03/2026	08:45	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	08:45	Si	Gastaldi Maria Victoria	1165948428	1165948428	Zapata 31	Femenino	vicu.gastaldi@gmail.com	19/03/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	08:45	Si	Kunz Alejandra			112318-6590	Femenino	alejandra.kunz@gmail.com	11/04/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	03/03/2026	08:45	No	Melgarejo Sofia Lorena	3764337714	3764337714	Alvarez Thomas 46	Femenino	sofimelgarejomed@gmail.com	23/01/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	08:45	Si	Pérez Rivera Franco		1154200787	honduras 6038	Masculino	fraperez@itba.edu.ar	26/06/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	03/03/2026	10:45	Si	Corti Julieta		1140474440	Av Dorrego 1131 3B	Femenino	cortijulieta@hotmail.com	28/10/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	03/03/2026	10:45	Si	Godoy María Eugenia		+5491140260649	Roseti 119 piso 8	Femenino	hola@jung.la	22/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	10:45	Si	Mazon Lorena		1132771111		Femenino	loremazon@gmail.com	21/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	10:45	Si	Morales Daniela		1127789401	Padilla 715	Femenino	danielajmoralesd@gmail.com	04/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	10:45	Si	Petrovskaia Daria	+54 9 11 6211 0344	+5491162110344	Dorrego 1781	Femenino	dasha_anistratov@mail.ru	03/09/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	10:45	Si	cambiasso Carlos		1160952477		Masculino	carloscambiasso2016@gmail.com	21/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	18:00	Si	Aused Delfina	+5493413033271	+5493413033271	Fraga 16	Femenino	delfinaaused@gmail.com	17/10/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Debito Automatico	Pilates - Inicial	03/03/2026	18:00	Si	Bastidas Yorka	351 353-7325	3513537325	Lemos 340	Femenino	yorkabas@gmail.com	03/12/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	18:00	No	Diaz Giuliana	1149155514	1149155514	Jose Hernández, flores	Femenino	giulianazeballos7@gmail.com	17/08/2003			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	18:00	Si	Gravina Luciana	11-6845-4502	1168454502	Olleros 3546 6C	Femenino	lucianagravina72@gmail.com	04/10/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	18:00	No	Kartun Victoria		1163097454	Concepcion Arenal 3754	Femenino	kartunvictoria@gmail.com	06/06/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	03/03/2026	18:00	Si	LUPIANEZ VICTORIA	1122699153	1122699153	ERCILLA 7636	Femenino	lupianezvictoria@gmail.com	13/01/2001			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	03/03/2026	18:00	Si	Melgarejo Sofia Lorena	3764337714	3764337714	Alvarez Thomas 46	Femenino	sofimelgarejomed@gmail.com	23/01/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Debito Automatico	Pilates - Inicial	03/03/2026	18:00	Si	Novoa María Paz	1164575381	1164575381	Concepcion arenal 3425	Femenino	pachunovoa@live.com.ar	10/10/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	03/03/2026	18:00	No	Perazzo Miranda		1133469052	Arcos 2011 5 A	Femenino	mirandasperazzo@icloud.com	15/04/1999			41836105
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	07:45	Si	Busto Victoria		1156602432	Santos Dumont 3215	Femenino	bustovictoria@gmail.com	31/08/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	07:45	Si	Canevaro Gustavo		1154013553		Masculino	info@albatros.com.ar	13/02/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	07:45	No	Duffau Macarena		1165917993	Ravignani 2015	Femenino	macarena.duffau@gmail.com	07/09/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	04/03/2026	07:45	No	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	07:45	Si	Machta Eric		1165159133	Dr Emilio Ravignani 2015	Masculino	emachta@gmail.com	09/07/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	07:45	Si	busto Maria Paula		1156602432	Santos Dumont 3215	Femenino	busto.mpaula@gmail.com	11/09/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	04/03/2026	08:45	Si	Ghiorzi Agustina		1137921153	holmberg y manuela pedraza	Femenino	agustinaghior@gmail.com	01/04/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	08:45	Si	Manolakis Laura	1159767100	1159767100	Holmberg 1670 3 C Belgrano	Femenino	lauramanolakis@gmail.com	03/06/1969			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	08:45	Si	Rabinovich Daniela	1136770837	1136770837	av. dorrego 1815	Femenino	rabinovichdani@gmail.com	11/08/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	09:45	Si	Corti Julieta		1140474440	Av Dorrego 1131 3B	Femenino	cortijulieta@hotmail.com	28/10/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	09:45	Si	Juarez Victoria		1135753245	Av Forest 549	Femenino	victoriajuarez999@gmail.com	09/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	09:45	Si	Laugle María Florencia	1141496770	1141496770	Nicaragua 6045 Depto V402	Femenino	florlaugle@hotmail.com	27/05/1984			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	09:45	Si	Marcos Mercante María		1151774906	Santos Dumont 3454	Femenino	mariammercante@gmail.com	07/10/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	09:45	Si	Mercante Sol		1153141811	Carranza 1347 6	Femenino	algodonera@hotmail.com	26/02/1963			16226308
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	09:45	No	Minetto Delfina		+5491150090064	Av Alvarez Thomas 1812	Femenino	delfiminetto@gmail.com	23/06/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	09:45	No	Serrano Mora	1168871102	1168871102	Roseti 88	Femenino	moraserrano13@gmail.com	19/03/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	09:45	Si	Tevelez Natalia	+5493455401078	+5493455401078	Dorrego 1781 depto 701	Femenino	natiteveles@gmail.com	10/05/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	10:45	Si	Glatsman Marina		1136090501	Concepcion arenal 2709	Femenino	glatsmanmarina@gmail.com	28/12/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	10:45	Si	Gutiérrez Florencia	1136687094	1136687094	Concepción arenal 3425	Femenino	florenciagutt@gmail.com	20/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	10:45	Si	Malvino Sol		1167926051	Pringles 1346	Femenino	melina.malvino1@gmail.com	16/09/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Debito Automatico	Pilates - Inicial	04/03/2026	10:45	Si	Reyes Michelle	1136650543	1136650543	Arévalo 1375	Femenino	michellereyeswork@gmail.com	17/12/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	10:45	Si	Villalobos Daniella		1157676931	nicaragua 6030	Femenino	daniellavr272@gmail.com	21/10/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	14:00	Si	Labate Cecilia Anahi	1150941474	1150941474	Dr. Emilio Ravignani 1465	Femenino	cecilialabate@hotmail.com	08/11/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	14:00	Si	Mac Kay María Luisa		1154180044	Castillo 1553	Femenino	mlmackay@fibertel.com.ar	24/03/1963			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	14:00	Si	Mayorquin Dalma			Medrano 1128	Femenino	dalmamayorquin@hotmail.com	30/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	16:00	Si	Kachurina Alexandra	1137622951	1137622951		Femenino	alexandra.kachurina@gmail.com	27/11/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	04/03/2026	16:00	Si	Solange Gimenez		1161833825	Enrique martinez 205	Femenino	solange.n.gimenez@gmail.com	18/08/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	17:00	Si	Lanail Aldana	91131052700	91131052700	Niceto vega 6070	Femenino	valendams@gmail.com	03/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	04/03/2026	17:00	Si	Pace Chiara				Femenino	ch.pace08@gmail.com	30/12/2008			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	17:00	Si	Scheinkerman Guillermo		1160526209	gral Enrique Martínez 205	Masculino	yeinker.g@gmail.com	03/10/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	17:00	Si	Tempesta Renata		1151741034	Nicaragua 5679	Femenino	xaretino@gmail.com	05/12/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	04/03/2026	17:00	Si	Vaccarone Juan Francisco		1144149445		Masculino	juanush10@gmail.com	28/11/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	19:00	Si	Barbozq Laura		1131319950	Nicaragua 5765	Femenino	laurabar.network@gmail.com	14/05/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	19:00	Si	Gomez María Macarena		1133472909	Guevara 226	Femenino	gomezmamacarena@gmail.com	09/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	04/03/2026	19:00	Si	Guido Thiago		1137630294	Charlone 155	Masculino	thiguido1@gmail.com	06/01/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	19:00	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	04/03/2026	19:00	Si	Mayara Ingrid		1137630294	Charlone 155	Femenino	ingridmayara98@hotmail.com	19/11/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	04/03/2026	19:00	Si	Pinedo Mercedes	+54 9 2392 493374	+5492392493374	Ravignani 1392 2A	Femenino	mechipinedo@hotmail.com	15/05/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	04/03/2026	19:00	Si	Soto Morena		112995736394	Paraguay 5635	Femenino	morenasoto020204@gmail.com	02/02/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	19:00	Si	Strajch Gisela	1148891283	1148891283	Convención 1994	Femenino	gisela.strajch@gmail.com	21/05/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	19:00	Si	Tautra Astrid Stavik		+541123857676	Nicaragua 5765	Femenino	astrid.stavik.tautra@gmail.com	13/03/2001			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	04/03/2026	19:00	Si	acar Lorena		1158292146	Concepción Arenal 3425	Femenino	lorena.acar@stgeorges.edu.ar	27/10/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Debito Automatico	Pilates - Inicial	04/03/2026	20:00	No	Bastidas Yorka	351 353-7325	3513537325	Lemos 340	Femenino	yorkabas@gmail.com	03/12/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	04/03/2026	20:00	Si	Presman Camila		1158320837	Campana 2650	Femenino	camipresman@gmail.com	18/12/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	04/03/2026	20:00	No	Vergara Silvina		1124952574	Corrientes 6365	Femenino	silvibh87.sv@gmail.com	23/04/1987			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	05/03/2026	08:45	Si	Belgrano Manuel	11-39244229	1139244229	Zapiola 328	Masculino	memobelgrano@gmail.com	08/06/1984			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	05/03/2026	08:45	Si	Godoy María Eugenia		+5491140260649	Roseti 119 piso 8	Femenino	hola@jung.la	22/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	08:45	Si	Kunz Alejandra			112318-6590	Femenino	alejandra.kunz@gmail.com	11/04/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	05/03/2026	08:45	Si	vasquez María José		1165913011	Fitz roy 1489	Femenino	mjvh0722@hotmail.com	07/06/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	10:45	No	Agazzani Maria Agustina	3515155792	3515155792	Dirección Charlone 875	Femenino	agustina.agazzani@gmail.com	13/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	10:45	Si	Balaben Angela		1150578322	José Antonio Cabrera 6065	Femenino	angelabalaben@hotmail.com	16/02/1957			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Debito Automatico	Pilates - Inicial	05/03/2026	10:45	Si	Cañiza Guadalupe	1150246180	1150246180	Bonpland 1441	Femenino	canizagustavo10@gmail.com	09/07/2004		La suscripción está a nombre de su papá quien le paga las clases	
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	05/03/2026	10:45	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	10:45	Si	Gastaldi Maria Victoria	1165948428	1165948428	Zapata 31	Femenino	vicu.gastaldi@gmail.com	19/03/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	10:45	Si	Petrovskaia Daria	+54 9 11 6211 0344	+5491162110344	Dorrego 1781	Femenino	dasha_anistratov@mail.ru	03/09/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	05/03/2026	10:45	Si	Reca Delfina	1165622450	1165622450	av Cerviño 3900	Femenino	nuda.intimates@gmail.com	09/10/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	05/03/2026	16:00	Si	Fasio Carola	1149894382	1149894382	Maure 2502	Femenino	caro_fasio97@hotmail.com	18/03/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	18:00	No	Alvarez Maria del Pilar	1161372827	1161372827	Zabala 1584	Femenino	pilualva@gmail.com	09/04/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	05/03/2026	18:00	No	Charlin Martina		1548889150	Guatemala 6045	Femenino	martinacharlin@gmail.com	20/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	05/03/2026	18:00	Si	Melgarejo Sofia Lorena	3764337714	3764337714	Alvarez Thomas 46	Femenino	sofimelgarejomed@gmail.com	23/01/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	05/03/2026	18:00	No	Obregón Belén	1150551637	1150551637	Honduras 6080	Femenino	belu_obre@hotmail.com	22/10/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	18:00	Si	Vainstein Lucia	11 4470-9971	1144709971		Femenino	lucia.vainstein@gmail.com	31/03/1972			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	05/03/2026	18:00	Si	villa abril	1167924629	1167924629	guatemala 5621	Femenino	abrilgvilla1@gmail.com	29/01/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	07:45	Si	Busto Victoria		1156602432	Santos Dumont 3215	Femenino	bustovictoria@gmail.com	31/08/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	07:45	Si	Ferrari Martina Giuliani	11 3605 1106	1136051106	Carranza 1347	Femenino	martugiuliani.mg@gmail.com	18/08/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	07:45	No	Fraile Claudia	11 5602-0999	1156020999	Santos Dumont 3209	Femenino	claudia_fraile@hotmail.com	26/01/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	07:45	Si	Luchetti Josefina		1170593472	Convencion 1994	Femenino	josefinaluchetti6@gmail.com	27/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	07:45	No	Romero Beltrán	1160027865	1160027865	Angel Justiniano Carranza 1347	Masculino	beltranromero@hotmail.com	13/01/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	07:45	Si	busto Maria Paula		1156602432	Santos Dumont 3215	Femenino	busto.mpaula@gmail.com	11/09/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	06/03/2026	08:45	No	Corti Julieta		1140474440	Av Dorrego 1131 3B	Femenino	cortijulieta@hotmail.com	28/10/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	06/03/2026	08:45	No	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	08:45	Si	Manolakis Laura	1159767100	1159767100	Holmberg 1670 3 C Belgrano	Femenino	lauramanolakis@gmail.com	03/06/1969			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	08:45	Si	Rabinovich Daniela	1136770837	1136770837	av. dorrego 1815	Femenino	rabinovichdani@gmail.com	11/08/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Debito Automatico	Pilates - Inicial	06/03/2026	08:45	No	Reyes Michelle	1136650543	1136650543	Arévalo 1375	Femenino	michellereyeswork@gmail.com	17/12/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	06/03/2026	08:45	Si	vasquez María José		1165913011	Fitz roy 1489	Femenino	mjvh0722@hotmail.com	07/06/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	09:45	No	Aberg Cobo Sofía	1133378385	1133378385		Femenino	sabergcobo@gmail.com	26/08/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	06/03/2026	09:45	Si	Laugle María Florencia	1141496770	1141496770	Nicaragua 6045 Depto V402	Femenino	florlaugle@hotmail.com	27/05/1984			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	09:45	Si	Marcos Mercante María		1151774906	Santos Dumont 3454	Femenino	mariammercante@gmail.com	07/10/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	09:45	Si	Mercante Sol		1153141811	Carranza 1347 6	Femenino	algodonera@hotmail.com	26/02/1963			16226308
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	09:45	Si	Tevelez Natalia	+5493455401078	+5493455401078	Dorrego 1781 depto 701	Femenino	natiteveles@gmail.com	10/05/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	14:00	Si	Mac Kay María Luisa		1154180044	Castillo 1553	Femenino	mlmackay@fibertel.com.ar	24/03/1963			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	06/03/2026	16:00	No	Charlin Martina		1548889150	Guatemala 6045	Femenino	martinacharlin@gmail.com	20/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	06/03/2026	16:00	Si	Fasio Carola	1149894382	1149894382	Maure 2502	Femenino	caro_fasio97@hotmail.com	18/03/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	06/03/2026	16:00	Si	Figus Lucía		1122605606	Tres arroyos 2299, CABA	Femenino	luli_figus@hotmail.com	11/08/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	16:00	Si	goya vila Mercedes		112944641990		Femenino	carrouselbariloche@gmail.com	08/11/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	16:00	Si	villa abril	1167924629	1167924629	guatemala 5621	Femenino	abrilgvilla1@gmail.com	29/01/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	06/03/2026	17:00	Si	Blattmann Josefina	1139252078	1139252078	Av Jorge Newbery 3876	Femenino	joseblattmann@gmail.com	14/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	17:00	Si	de la Cruz Rementería María	11 59937125	1159937125	Gorriti 6051	Femenino	crunchif@hotmail.com	14/09/1983			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	19:00	No	Alvarez Maria del Pilar	1161372827	1161372827	Zabala 1584	Femenino	pilualva@gmail.com	09/04/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	06/03/2026	19:00	Si	Magri Nicolas		3764985540	Charlone 176	Masculino	nicolas.magri123@gmail.com	08/08/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	06/03/2026	19:00	Si	Martínez Costa María Jimena		1154226907	Av Dorrego 2450	Femenino	jimenapace@gmail.com	29/10/1977			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	19:00	Si	Morales Daniela		1127789401	Padilla 715	Femenino	danielajmoralesd@gmail.com	04/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	19:00	Si	Pase a Soho Ayelen Catalan				Femenino	5@live.com	04/12/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	19:00	Si	Pérez Rivera Franco		1154200787	honduras 6038	Masculino	fraperez@itba.edu.ar	26/06/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	06/03/2026	19:00	Si	Sanchez Victoria		113516226116	Guatemala 6061	Femenino	victoriasanchezcaino@gmail.com	20/11/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	06/03/2026	19:00	Si	acar Lorena		1158292146	Concepción Arenal 3425	Femenino	lorena.acar@stgeorges.edu.ar	27/10/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	07/03/2026	09:00	Si	Canevaro Gustavo		1154013553		Masculino	info@albatros.com.ar	13/02/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	07/03/2026	09:00	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	07/03/2026	09:00	Si	García Analía Belén	1134233338	1134233338	Manuela Pedraza 3437, Lanús oeste	Femenino	belugarcia_12@hotmail.com	09/05/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	07/03/2026	09:00	No	Gomez María Macarena		1133472909	Guevara 226	Femenino	gomezmamacarena@gmail.com	09/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	07/03/2026	09:00	Si	Gurbach Sarah		+13108929163		Femenino	sagurbach@gmail.com	24/08/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	07/03/2026	09:00	Si	Kunz Alejandra			112318-6590	Femenino	alejandra.kunz@gmail.com	11/04/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	07/03/2026	09:00	Si	Rivera Paula		1124031000		Femenino	paularivpa2@gmail.com	10/07/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	07/03/2026	09:00	Si	carrillo geraldine		1124078381		Femenino	geraldinecarrillo177@gmail.com	01/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	07/03/2026	11:00	Si	Calviño Adriela		1131710616	Bonpland 1433	Femenino	aadriela.c@gmail.com	11/04/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Inicial	07/03/2026	11:00	Si	Galvan Inglese Ayelen	3447410721	3447410721	Conesa 45	Femenino	ayeinglese@gmail.com	12/11/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	07/03/2026	11:00	Si	Godoy María Eugenia		+5491140260649	Roseti 119 piso 8	Femenino	hola@jung.la	22/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	07/03/2026	11:00	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Debito Automatico	Pilates - Inicial	07/03/2026	11:00	No	Reyes Michelle	1136650543	1136650543	Arévalo 1375	Femenino	michellereyeswork@gmail.com	17/12/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	07/03/2026	11:00	No	Vainstein Lucia	11 4470-9971	1144709971		Femenino	lucia.vainstein@gmail.com	31/03/1972			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	09/03/2026	07:45	Si	Fernandez Federico	11 6491 7633	1164917633	Concepción Arenal 3560	Masculino	fede.pedace@hotmail.com	24/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	07:45	Si	Fraile Claudia	11 5602-0999	1156020999	Santos Dumont 3209	Femenino	claudia_fraile@hotmail.com	26/01/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	09/03/2026	07:45	Si	Jahn Nadia	11 6101 8248	1161018248	Concepción Arenal 3560	Femenino	nadia.jahn@gmail.com	24/10/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	07:45	Si	Marenco Yesica		1158226849	Dorrego 1771	Femenino	yesicamarenco@hotmail.com	20/10/1983			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	07:45	No	pietrucci alexandra		1123870090	av jorge newbery 2678	Femenino	alexandrapietrucci@gmail.com	28/03/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	08:45	Si	Daboin Maria Belen	1137929006	1137929006	Niceto Vega 5955	Femenino	mbbackupdaboin@gmail.com	07/11/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	08:45	No	Godoy María Eugenia		+5491140260649	Roseti 119 piso 8	Femenino	hola@jung.la	22/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	08:45	No	Juarez Victoria		1135753245	Av Forest 549	Femenino	victoriajuarez999@gmail.com	09/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	08:45	Si	Momo Florencia		1144103954	Carlos Melo 2460	Femenino	florenciamomo@gmail.com	10/09/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	08:45	No	Tevelez Natalia	+5493455401078	+5493455401078	Dorrego 1781 depto 701	Femenino	natiteveles@gmail.com	10/05/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	09:45	Si	Agazzani Maria Agustina	3515155792	3515155792	Dirección Charlone 875	Femenino	agustina.agazzani@gmail.com	13/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	09:45	Si	Balaben Angela		1150578322	José Antonio Cabrera 6065	Femenino	angelabalaben@hotmail.com	16/02/1957			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	10:45	Si	Celesia Ema		1123546475	Charlone 970	Femenino	celesiaema3@gmail.com	19/05/2007			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	10:45	Si	Laugle María Florencia	1141496770	1141496770	Nicaragua 6045 Depto V402	Femenino	florlaugle@hotmail.com	27/05/1984			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Debito Automatico	Pilates - Inicial	09/03/2026	10:45	Si	Reyes Michelle	1136650543	1136650543	Arévalo 1375	Femenino	michellereyeswork@gmail.com	17/12/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	10:45	Si	Sánchez Troncoso Emilia		1164473188	Serrano 1074	Femenino	emiliasancht@gmail.com	17/05/2007			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	14:00	Si	Ali Kamila	2996095941	2996095941	coronel niceto vega 5955	Femenino	alikamilanqn1@gmail.com	14/06/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	14:00	Si	Mac Kay María Luisa		1154180044	Castillo 1553	Femenino	mlmackay@fibertel.com.ar	24/03/1963			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	14:00	Si	Mazzinghi Lucia	1163573643	1163573643	3 de Febrero 2509	Femenino	luciamazzinghi@hotmail.com	03/10/1975			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	14:00	Si	Wexler wicki Maia				Femenino	maiaww@gmail.com	09/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	16:00	Si	Kachurina Alexandra	1137622951	1137622951		Femenino	alexandra.kachurina@gmail.com	27/11/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	16:00	Si	Martinez Vivot María Eugenia		1144930540	Malabia 2330	Femenino	mariumvivot@hotmail.com	08/05/1974			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	16:00	Si	Zimmerman Victoria		1162727001	El Salvador 6075	Femenino	victoriazim1412@gmail.com	14/12/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	16:00	Si	español Natalia		1134008637	Ancon 5388 5C	Femenino	nataliaespaniol@gmail.com	16/10/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	17:00	Si	Figus Lucía		1122605606	Tres arroyos 2299, CABA	Femenino	luli_figus@hotmail.com	11/08/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	17:00	No	Gabriela Silva Maria	1169916361	1169916361	Direccion Honduras 5597	Femenino	mariagabrielasilva284@gmail.com	01/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	17:00	Si	López Fernández Emilia				Femenino	mfaugugliaro@yahoo.com	30/05/2009			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	09/03/2026	17:00	Si	Pace Chiara				Femenino	ch.pace08@gmail.com	30/12/2008			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	17:00	Si	Reca Delfina	1165622450	1165622450	av Cerviño 3900	Femenino	nuda.intimates@gmail.com	09/10/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	17:00	Si	Tempesta Renata		1151741034	Nicaragua 5679	Femenino	xaretino@gmail.com	05/12/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	19:00	Si	Matthews Alyiah		1171251937	1286 Ravignani	Femenino	alyiahmatthews@gmail.com	15/12/2003			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	09/03/2026	19:00	Si	Obregón Belén	1150551637	1150551637	Honduras 6080	Femenino	belu_obre@hotmail.com	22/10/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	19:00	Si	Soto Morena		112995736394	Paraguay 5635	Femenino	morenasoto020204@gmail.com	02/02/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	19:00	Si	Strajch Gisela	1148891283	1148891283	Convención 1994	Femenino	gisela.strajch@gmail.com	21/05/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	19:00	Si	acar Lorena		1158292146	Concepción Arenal 3425	Femenino	lorena.acar@stgeorges.edu.ar	27/10/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	09/03/2026	19:00	Si	arraez Sofía		1124933186	Honduras 6038 4b torre 4	Femenino	sofiarraez@gmail.com	20/01/2001			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	19:00	Si	goya vila Mercedes		112944641990		Femenino	carrouselbariloche@gmail.com	08/11/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	20:00	No	Charlin Martina		1548889150	Guatemala 6045	Femenino	martinacharlin@gmail.com	20/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	20:00	No	Dabul Ruben		1156996139	Corrientes 6365	Masculino	rdabul56@gmail.com	24/12/1956			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	20:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	09/03/2026	20:00	No	Istueta Landajo Paz	1151394729	1151394729	pazistueta@hotmail.com	Femenino	pazistueta@hotmail.com	01/10/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	20:00	Si	Magri Nicolas		3764985540	Charlone 176	Masculino	nicolas.magri123@gmail.com	08/08/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	09/03/2026	20:00	No	Vergara Silvina		1124952574	Corrientes 6365	Femenino	silvibh87.sv@gmail.com	23/04/1987			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	09/03/2026	20:00	Si	Villalobos faviana	1137716254	1137716254	concepcion arenal 3505	Femenino	fahvillalobos@gmail.com	23/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	08:45	No	Agazzani Maria Agustina	3515155792	3515155792	Dirección Charlone 875	Femenino	agustina.agazzani@gmail.com	13/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	10/03/2026	08:45	Si	Daboin Maria Belen	1137929006	1137929006	Niceto Vega 5955	Femenino	mbbackupdaboin@gmail.com	07/11/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	08:45	No	Dousset Lucia	3875793134	3875793134	Bonpland 1441	Femenino	luciadousset@gmail.com	22/10/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	08:45	Si	Gastaldi Maria Victoria	1165948428	1165948428	Zapata 31	Femenino	vicu.gastaldi@gmail.com	19/03/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	08:45	Si	Kunz Alejandra			112318-6590	Femenino	alejandra.kunz@gmail.com	11/04/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	08:45	Si	Oreiro Adriana		1144171091	Cramer 1380	Femenino	adriana@lasoreiro.com	15/06/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	08:45	Si	Tevez Evelyn	138023078	138023078	General Rivas 2430 - 6to A	Femenino	evelyntevez@yahoo.com.ar	22/09/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	10/03/2026	08:45	Si	vasquez María José		1165913011	Fitz roy 1489	Femenino	mjvh0722@hotmail.com	07/06/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	10/03/2026	10:45	No	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	10:45	Si	Gutiérrez Florencia	1136687094	1136687094	Concepción arenal 3425	Femenino	florenciagutt@gmail.com	20/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	10/03/2026	10:45	No	Malvino Sol		1167926051	Pringles 1346	Femenino	melina.malvino1@gmail.com	16/09/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	10:45	Si	Petrovskaia Daria	+54 9 11 6211 0344	+5491162110344	Dorrego 1781	Femenino	dasha_anistratov@mail.ru	03/09/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	10:45	Si	Pizarro Emilse			Asunción 2923	Femenino	emilsepizarro1@gmail.com	10/01/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	10:45	No	Robledo Pamela		+59891050848	Dorrego 1613	Femenino	pamela.lrc@gmail.com	15/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	10:45	Si	de la Cruz Rementería María	11 59937125	1159937125	Gorriti 6051	Femenino	crunchif@hotmail.com	14/09/1983			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Debito Automatico	Pilates - Inicial	10/03/2026	18:00	Si	Cañiza Guadalupe	1150246180	1150246180	Bonpland 1441	Femenino	canizagustavo10@gmail.com	09/07/2004		La suscripción está a nombre de su papá quien le paga las clases	
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	18:00	No	Diaz Giuliana	1149155514	1149155514	Jose Hernández, flores	Femenino	giulianazeballos7@gmail.com	17/08/2003			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	10/03/2026	18:00	Si	Gomez María Macarena		1133472909	Guevara 226	Femenino	gomezmamacarena@gmail.com	09/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	10/03/2026	18:00	Si	LUPIANEZ VICTORIA	1122699153	1122699153	ERCILLA 7636	Femenino	lupianezvictoria@gmail.com	13/01/2001			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	18:00	Si	Labate Cecilia Anahi	1150941474	1150941474	Dr. Emilio Ravignani 1465	Femenino	cecilialabate@hotmail.com	08/11/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	10/03/2026	18:00	Si	Melgarejo Sofia Lorena	3764337714	3764337714	Alvarez Thomas 46	Femenino	sofimelgarejomed@gmail.com	23/01/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Debito Automatico	Pilates - Inicial	10/03/2026	18:00	Si	Novoa María Paz	1164575381	1164575381	Concepcion arenal 3425	Femenino	pachunovoa@live.com.ar	10/10/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	10/03/2026	18:00	No	Obregón Belén	1150551637	1150551637	Honduras 6080	Femenino	belu_obre@hotmail.com	22/10/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	10/03/2026	18:00	Si	Ramirez Camila	1130073381	1130073381	Teodoro García 2466	Femenino	camiramirez_96@hotmail.com	06/03/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	10/03/2026	18:00	Si	Vainstein Lucia	11 4470-9971	1144709971		Femenino	lucia.vainstein@gmail.com	31/03/1972			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	07:45	Si	Busto Victoria		1156602432	Santos Dumont 3215	Femenino	bustovictoria@gmail.com	31/08/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	07:45	Si	Canevaro Gustavo		1154013553		Masculino	info@albatros.com.ar	13/02/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	07:45	No	Charlin Martina		1548889150	Guatemala 6045	Femenino	martinacharlin@gmail.com	20/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	11/03/2026	07:45	No	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	07:45	Si	Fraile Claudia	11 5602-0999	1156020999	Santos Dumont 3209	Femenino	claudia_fraile@hotmail.com	26/01/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	07:45	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	07:45	Si	Marenco Yesica		1158226849	Dorrego 1771	Femenino	yesicamarenco@hotmail.com	20/10/1983			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	07:45	Si	busto Maria Paula		1156602432	Santos Dumont 3215	Femenino	busto.mpaula@gmail.com	11/09/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	07:45	No	novillo marcos		1123870090	av jorge newbery 2678	Masculino	notiene@594_120260302142442.com	23/10/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	07:45	No	pietrucci alexandra		1123870090	av jorge newbery 2678	Femenino	alexandrapietrucci@gmail.com	28/03/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	08:45	Si	Belgrano Manuel	11-39244229	1139244229	Zapiola 328	Masculino	memobelgrano@gmail.com	08/06/1984			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	08:45	No	Manolakis Laura	1159767100	1159767100	Holmberg 1670 3 C Belgrano	Femenino	lauramanolakis@gmail.com	03/06/1969			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	08:45	Si	Rabinovich Daniela	1136770837	1136770837	av. dorrego 1815	Femenino	rabinovichdani@gmail.com	11/08/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	No	Aberg Cobo Sofía	1133378385	1133378385		Femenino	sabergcobo@gmail.com	26/08/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	Bykovskaia Margarita		91171061028		Femenino	margarita.bykovskaya17@gmail.com	27/09/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	Juarez Victoria		1135753245	Av Forest 549	Femenino	victoriajuarez999@gmail.com	09/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	Marcos Mercante María		1151774906	Santos Dumont 3454	Femenino	mariammercante@gmail.com	07/10/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	Medeiros de Lima Amanda				Femenino	medeirosdelimamanda@gmail.com	19/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	Mercante Sol		1153141811	Carranza 1347 6	Femenino	algodonera@hotmail.com	26/02/1963			16226308
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	No	Minetto Delfina		+5491150090064	Av Alvarez Thomas 1812	Femenino	delfiminetto@gmail.com	23/06/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	No	Morales Daniela		1127789401	Padilla 715	Femenino	danielajmoralesd@gmail.com	04/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	Serrano Mora	1168871102	1168871102	Roseti 88	Femenino	moraserrano13@gmail.com	19/03/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	09:45	Si	español Natalia		1134008637	Ancon 5388 5C	Femenino	nataliaespaniol@gmail.com	16/10/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	10:45	Si	Lanail Aldana	91131052700	91131052700	Niceto vega 6070	Femenino	valendams@gmail.com	03/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	10:45	No	Malvino Sol		1167926051	Pringles 1346	Femenino	melina.malvino1@gmail.com	16/09/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Debito Automatico	Pilates - Inicial	11/03/2026	10:45	Si	Reyes Michelle	1136650543	1136650543	Arévalo 1375	Femenino	michellereyeswork@gmail.com	17/12/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	14:00	Si	Llanos Carolina	1167205300	1167205300	Santos Dumont 3454	Femenino	carolina_llanos@hotmail.com	05/09/1978			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	14:00	Si	Mac Kay María Luisa		1154180044	Castillo 1553	Femenino	mlmackay@fibertel.com.ar	24/03/1963			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	14:00	No	Martins Lucrecia		2284635545	Castillo 1665	Femenino	lucrecia.martins@hotmail.com.ar	29/08/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	14:00	Si	Mayorquin Dalma			Medrano 1128	Femenino	dalmamayorquin@hotmail.com	30/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	14:00	Si	Tevelez Natalia	+5493455401078	+5493455401078	Dorrego 1781 depto 701	Femenino	natiteveles@gmail.com	10/05/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	16:00	Si	Aused Delfina	+5493413033271	+5493413033271	Fraga 16	Femenino	delfinaaused@gmail.com	17/10/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	16:00	Si	Vaccarone Juan Francisco		1144149445		Masculino	juanush10@gmail.com	28/11/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	16:00	Si	Villalobos Daniella		1157676931	nicaragua 6030	Femenino	daniellavr272@gmail.com	21/10/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	17:00	Si	Fischer Camila				Femenino	cammfischer@gmail.com	09/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	17:00	Si	Labate Cecilia Anahi	1150941474	1150941474	Dr. Emilio Ravignani 1465	Femenino	cecilialabate@hotmail.com	08/11/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	17:00	Si	Morales Daniela		1127789401	Padilla 715	Femenino	danielajmoralesd@gmail.com	04/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	11/03/2026	17:00	Si	Scheinkerman Guillermo		1160526209	gral Enrique Martínez 205	Masculino	yeinker.g@gmail.com	03/10/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	17:00	Si	Tempesta Renata		1151741034	Nicaragua 5679	Femenino	xaretino@gmail.com	05/12/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	19:00	Si	Ali Kamila	2996095941	2996095941	coronel niceto vega 5955	Femenino	alikamilanqn1@gmail.com	14/06/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	19:00	Si	Godoy María Eugenia		+5491140260649	Roseti 119 piso 8	Femenino	hola@jung.la	22/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	19:00	Si	Pinedo Mercedes	+54 9 2392 493374	+5492392493374	Ravignani 1392 2A	Femenino	mechipinedo@hotmail.com	15/05/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	19:00	Si	Pérez Rivera Franco		1154200787	honduras 6038	Masculino	fraperez@itba.edu.ar	26/06/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	19:00	Si	Santa María Micaela	1123005959	1123005959	Segui 4635	Femenino	micaelasantamaria1511@gmail.com	15/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	19:00	Si	Soto Morena		112995736394	Paraguay 5635	Femenino	morenasoto020204@gmail.com	02/02/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	19:00	Si	Strajch Gisela	1148891283	1148891283	Convención 1994	Femenino	gisela.strajch@gmail.com	21/05/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	19:00	Si	Tittarelli Candela	1159818574	1159818574	Laprida 1898	Femenino	candetittarelli@yahoo.com.ar	26/04/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	11/03/2026	19:00	Si	Wexler wicki Maia				Femenino	maiaww@gmail.com	09/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	19:00	Si	goya vila Mercedes		112944641990		Femenino	carrouselbariloche@gmail.com	08/11/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	20:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	11/03/2026	20:00	Si	Magri Nicolas		3764985540	Charlone 176	Masculino	nicolas.magri123@gmail.com	08/08/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	20:00	Si	Presman Camila		1158320837	Campana 2650	Femenino	camipresman@gmail.com	18/12/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	20:00	No	Vergara Silvina		1124952574	Corrientes 6365	Femenino	silvibh87.sv@gmail.com	23/04/1987			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	11/03/2026	20:00	Si	acar Lorena		1158292146	Concepción Arenal 3425	Femenino	lorena.acar@stgeorges.edu.ar	27/10/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	08:45	Si	Aused Delfina	+5493413033271	+5493413033271	Fraga 16	Femenino	delfinaaused@gmail.com	17/10/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Debito Automatico	Pilates - Inicial	12/03/2026	08:45	Si	Cañiza Guadalupe	1150246180	1150246180	Bonpland 1441	Femenino	canizagustavo10@gmail.com	09/07/2004		La suscripción está a nombre de su papá quien le paga las clases	
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	08:45	Si	Daboin Maria Belen	1137929006	1137929006	Niceto Vega 5955	Femenino	mbbackupdaboin@gmail.com	07/11/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	08:45	Si	Kunz Alejandra			112318-6590	Femenino	alejandra.kunz@gmail.com	11/04/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	08:45	Si	Morales Daniela		1127789401	Padilla 715	Femenino	danielajmoralesd@gmail.com	04/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	10:45	No	Agazzani Maria Agustina	3515155792	3515155792	Dirección Charlone 875	Femenino	agustina.agazzani@gmail.com	13/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	12/03/2026	10:45	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	10:45	Si	Gastaldi Maria Victoria	1165948428	1165948428	Zapata 31	Femenino	vicu.gastaldi@gmail.com	19/03/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	10:45	Si	Gutiérrez Florencia	1136687094	1136687094	Concepción arenal 3425	Femenino	florenciagutt@gmail.com	20/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	10:45	Si	Petrovskaia Daria	+54 9 11 6211 0344	+5491162110344	Dorrego 1781	Femenino	dasha_anistratov@mail.ru	03/09/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	10:45	Si	Reca Delfina	1165622450	1165622450	av Cerviño 3900	Femenino	nuda.intimates@gmail.com	09/10/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	10:45	Si	Tevez Evelyn	138023078	138023078	General Rivas 2430 - 6to A	Femenino	evelyntevez@yahoo.com.ar	22/09/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	10:45	Si	Villalobos faviana	1137716254	1137716254	concepcion arenal 3505	Femenino	fahvillalobos@gmail.com	23/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	10:45	Si	de la Cruz Rementería María	11 59937125	1159937125	Gorriti 6051	Femenino	crunchif@hotmail.com	14/09/1983			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	18:00	No	Ali Kamila	2996095941	2996095941	coronel niceto vega 5955	Femenino	alikamilanqn1@gmail.com	14/06/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	18:00	Si	Bastidas Yorka	351 353-7325	3513537325	Lemos 340	Femenino	yorkabas@gmail.com	03/12/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	12/03/2026	18:00	No	Charlin Martina		1548889150	Guatemala 6045	Femenino	martinacharlin@gmail.com	20/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	18:00	No	Daboin Maria Belen	1137929006	1137929006	Niceto Vega 5955	Femenino	mbbackupdaboin@gmail.com	07/11/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	12/03/2026	18:00	No	Fasio Carola	1149894382	1149894382	Maure 2502	Femenino	caro_fasio97@hotmail.com	18/03/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	18:00	Si	Hernandez Dayanna				Femenino	dayanna.h0701@gmail.com	09/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	12/03/2026	18:00	Si	Melgarejo Sofia Lorena	3764337714	3764337714	Alvarez Thomas 46	Femenino	sofimelgarejomed@gmail.com	23/01/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	12/03/2026	18:00	No	villa abril	1167924629	1167924629	guatemala 5621	Femenino	abrilgvilla1@gmail.com	29/01/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	07:45	No	Bastos Lia		+5511916098912		Femenino	liagbastos@gmail.com	08/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	07:45	Si	Busto Victoria		1156602432	Santos Dumont 3215	Femenino	bustovictoria@gmail.com	31/08/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	07:45	Si	Fraile Claudia	11 5602-0999	1156020999	Santos Dumont 3209	Femenino	claudia_fraile@hotmail.com	26/01/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	07:45	No	Ghiorzi Agustina		1137921153	holmberg y manuela pedraza	Femenino	agustinaghior@gmail.com	01/04/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	07:45	Si	busto Maria Paula		1156602432	Santos Dumont 3215	Femenino	busto.mpaula@gmail.com	11/09/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	07:45	No	pietrucci alexandra		1123870090	av jorge newbery 2678	Femenino	alexandrapietrucci@gmail.com	28/03/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	08:45	Si	Belgrano Manuel	11-39244229	1139244229	Zapiola 328	Masculino	memobelgrano@gmail.com	08/06/1984			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	13/03/2026	08:45	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	08:45	Si	Manolakis Laura	1159767100	1159767100	Holmberg 1670 3 C Belgrano	Femenino	lauramanolakis@gmail.com	03/06/1969			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	08:45	Si	Modenesi Florencia		1132109339	Dorrego 1829	Femenino	flormodenesi@gmail.com	30/04/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	08:45	Si	Momo Florencia		1144103954	Carlos Melo 2460	Femenino	florenciamomo@gmail.com	10/09/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	08:45	Si	Rabinovich Daniela	1136770837	1136770837	av. dorrego 1815	Femenino	rabinovichdani@gmail.com	11/08/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	08:45	Si	Tevez Evelyn	138023078	138023078	General Rivas 2430 - 6to A	Femenino	evelyntevez@yahoo.com.ar	22/09/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	08:45	Si	vasquez María José		1165913011	Fitz roy 1489	Femenino	mjvh0722@hotmail.com	07/06/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	09:45	Si	Balaben Angela		1150578322	José Antonio Cabrera 6065	Femenino	angelabalaben@hotmail.com	16/02/1957			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	09:45	Si	Celesia Ema		1123546475	Charlone 970	Femenino	celesiaema3@gmail.com	19/05/2007			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	09:45	Si	Corti Julieta		1140474440	Av Dorrego 1131 3B	Femenino	cortijulieta@hotmail.com	28/10/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	09:45	Si	Malvino Sol		1167926051	Pringles 1346	Femenino	melina.malvino1@gmail.com	16/09/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	09:45	Si	Marcos Mercante María		1151774906	Santos Dumont 3454	Femenino	mariammercante@gmail.com	07/10/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	09:45	Si	Mercante Sol		1153141811	Carranza 1347 6	Femenino	algodonera@hotmail.com	26/02/1963			16226308
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	09:45	Si	Tevelez Natalia	+5493455401078	+5493455401078	Dorrego 1781 depto 701	Femenino	natiteveles@gmail.com	10/05/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	14:00	Si	Glatsman Marina		1136090501	Concepcion arenal 2709	Femenino	glatsmanmarina@gmail.com	28/12/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	14:00	Si	Gutiérrez Florencia	1136687094	1136687094	Concepción arenal 3425	Femenino	florenciagutt@gmail.com	20/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	14:00	Si	Mac Kay María Luisa		1154180044	Castillo 1553	Femenino	mlmackay@fibertel.com.ar	24/03/1963			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	14:00	Si	Mazzinghi Lucia	1163573643	1163573643	3 de Febrero 2509	Femenino	luciamazzinghi@hotmail.com	03/10/1975			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	14:00	Si	Vainstein Lucia	11 4470-9971	1144709971		Femenino	lucia.vainstein@gmail.com	31/03/1972			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	14:00	Si	Wexler wicki Maia				Femenino	maiaww@gmail.com	09/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	13/03/2026	16:00	No	Blattmann Josefina	1139252078	1139252078	Av Jorge Newbery 3876	Femenino	joseblattmann@gmail.com	14/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	16:00	No	Charlin Martina		1548889150	Guatemala 6045	Femenino	martinacharlin@gmail.com	20/01/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	16:00	Si	Collomb Chiara		+33783956847	Emilio Ravignani 2109	Femenino	chiara.collomb7@gmail.com	23/12/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	16:00	Si	Correge Clémence		+33768342020	emilio ravignani 2109	Femenino	corregeclemence@gmail.com	07/03/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	16:00	Si	Garcia Estefania	1171680649	1171680649	Amenabar 80/ Palermo hollywood	Femenino	stefaneboutique@gmail.com	28/10/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	16:00	Si	Girma Elise		+33621863566	Dr Emilio ravignani 2109	Femenino	elise.girma@outlook.fr	31/08/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	16:00	Si	Vaccarone Juan Francisco		1144149445		Masculino	juanush10@gmail.com	28/11/2025			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	16:00	Si	goya vila Mercedes		112944641990		Femenino	carrouselbariloche@gmail.com	08/11/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	16:00	Si	villa abril	1167924629	1167924629	guatemala 5621	Femenino	abrilgvilla1@gmail.com	29/01/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	17:00	Si	Bauve Caroline		+33781505104	Bonpland, 1016	Femenino	carobauve@gmail.com	11/08/2003			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	17:00	No	Figus Lucía		1122605606	Tres arroyos 2299, CABA	Femenino	luli_figus@hotmail.com	11/08/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	17:00	Si	Fischer Camila				Femenino	cammfischer@gmail.com	09/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	17:00	Si	zelener Romina		1155763111		Femenino	romizelener@gmail.com	28/05/1978			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	19:00	Si	Bastidas Yorka	351 353-7325	3513537325	Lemos 340	Femenino	yorkabas@gmail.com	03/12/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	19:00	Si	Fernandez Morena		1144089737		Femenino	morenafernandezquinteros@gmail.com	15/01/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Inicial	13/03/2026	19:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	19:00	Si	Godoy María Eugenia		+5491140260649	Roseti 119 piso 8	Femenino	hola@jung.la	22/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	19:00	Si	Gomez María Macarena		1133472909	Guevara 226	Femenino	gomezmamacarena@gmail.com	09/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	19:00	Si	Greca Sofía	02944 337441	02944337441	Arévalo 1375	Femenino	sofiigreca@gmail.com	06/02/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	13/03/2026	19:00	Si	Magri Nicolas		3764985540	Charlone 176	Masculino	nicolas.magri123@gmail.com	08/08/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	19:00	Si	Strajch Gisela	1148891283	1148891283	Convención 1994	Femenino	gisela.strajch@gmail.com	21/05/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	13/03/2026	19:00	Si	Vitolo Patricia	1169360536	1169360536	Dorrego 1940 PB B	Femenino	pvitolo01@gmail.com	29/12/1959			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	14/03/2026	09:00	Si	Canevaro Gustavo		1154013553		Masculino	info@albatros.com.ar	13/02/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	14/03/2026	09:00	No	Corti Julieta		1140474440	Av Dorrego 1131 3B	Femenino	cortijulieta@hotmail.com	28/10/1982			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Inicial	14/03/2026	09:00	Si	Farías Anneris		1137786610		Femenino	annerrisfarias@gmail.com	12/03/1979			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	09:00	Si	Ferrari Martina Giuliani	11 3605 1106	1136051106	Carranza 1347	Femenino	martugiuliani.mg@gmail.com	18/08/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Inicial	14/03/2026	09:00	Si	García Analía Belén	1134233338	1134233338	Manuela Pedraza 3437, Lanús oeste	Femenino	belugarcia_12@hotmail.com	09/05/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	09:00	Si	Kunz Alejandra			112318-6590	Femenino	alejandra.kunz@gmail.com	11/04/1976			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	09:00	Si	Romero Beltrán	1160027865	1160027865	Angel Justiniano Carranza 1347	Masculino	beltranromero@hotmail.com	13/01/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	09:00	Si	Tevez Evelyn	138023078	138023078	General Rivas 2430 - 6to A	Femenino	evelyntevez@yahoo.com.ar	22/09/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Inicial	14/03/2026	11:00	Si	Calviño Adriela		1131710616	Bonpland 1433	Femenino	aadriela.c@gmail.com	11/04/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Inicial	14/03/2026	11:00	No	Gomez María Macarena		1133472909	Guevara 226	Femenino	gomezmamacarena@gmail.com	09/09/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	14/03/2026	11:00	Si	Lanail Aldana	91131052700	91131052700	Niceto vega 6070	Femenino	valendams@gmail.com	03/03/2026			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	11:00	Si	Llanos Carolina	1167205300	1167205300	Santos Dumont 3454	Femenino	carolina_llanos@hotmail.com	05/09/1978			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4- 15 Debito Automatico	Pilates - Inicial	14/03/2026	11:00	Si	Martínez Costa María Jimena		1154226907	Av Dorrego 2450	Femenino	jimenapace@gmail.com	29/10/1977			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Inicial	14/03/2026	11:00	No	Reca Delfina	1165622450	1165622450	av Cerviño 3900	Femenino	nuda.intimates@gmail.com	09/10/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	11:00	Si	Rivera Paula		1124031000		Femenino	paularivpa2@gmail.com	10/07/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	11:00	Si	Robledo Pamela		+59891050848	Dorrego 1613	Femenino	pamela.lrc@gmail.com	15/04/1980			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	11:00	No	Szister Lucila		1144908536	Gregoria Pérez 3250	Femenino	lucila.szister16@gmail.com	16/06/2005			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Inicial	14/03/2026	11:00	Si	carrillo geraldine		1124078381		Femenino	geraldinecarrillo177@gmail.com	01/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	02/03/2026	15:00	Si	Crespo Renata	11-6265-1306	1162651306	Bonpland 1456 Pb 3	Femenino	crespof.ren@gmail.com	13/06/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates - Level Up	02/03/2026	18:00	Si	Labate Cecilia Anahi	1150941474	1150941474	Dr. Emilio Ravignani 1465	Femenino	cecilialabate@hotmail.com	08/11/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	02/03/2026	18:00	Si	Ramirez Camila	1130073381	1130073381	Teodoro García 2466	Femenino	camiramirez_96@hotmail.com	06/03/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	02/03/2026	18:00	Si	tarenenko katerina		+79818191233		Femenino	notiene@594_120260302163932.com	16/08/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	07:45	Si	Busto Victoria		1156602432	Santos Dumont 3215	Femenino	bustovictoria@gmail.com	31/08/1986			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	07:45	Si	Ferrari Martina Giuliani	11 3605 1106	1136051106	Carranza 1347	Femenino	martugiuliani.mg@gmail.com	18/08/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	07:45	Si	Fraile Claudia	11 5602-0999	1156020999	Santos Dumont 3209	Femenino	claudia_fraile@hotmail.com	26/01/1981			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	03/03/2026	07:45	Si	Mocciola Tatiana	1166610899	1166610899	Maure 3338	Femenino	tatianamocciola@hotmail.com	24/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	09:45	Si	D’Ercole Silvana	11 30446354	1130446354	Holmberg 2308	Femenino	silvana_lentini@hotmail.com	13/11/1966			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	09:45	Si	Saavedra Alejandro	1169448598	1169448598	Bonpland 979	Masculino	alesaavedra1@hotmail.com	21/08/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	03/03/2026	19:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	03/03/2026	19:00	Si	Fogel Julieta	2233038703	2233038703	Santos dumont 3513	Femenino	julietafogel@gmail.com	04/12/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	19:00	Si	Güiraldes Lago		1159151874	Santa Fe 3246	Femenino	guiraldeslago@gmail.com	30/10/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	19:00	Si	Liuzzi Florencia	1541458614	1541458614	Fitz roy 1450	Femenino	florliuzzi9@gmail.com	09/12/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	03/03/2026	19:00	Si	Obregón Belén	1150551637	1150551637	Honduras 6080	Femenino	belu_obre@hotmail.com	22/10/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 1 vxs - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	19:00	Si	Santa María Eva	1140497007	1140497007	CARRANZA 1347	Femenino	nyrbstore@gmail.com	15/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	03/03/2026	19:00	Si	Sayago Evelyn	2325656283	2325656283	Avenida Dorrego 1633	Femenino	esayago21@gmail.com	14/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	19:00	Si	lopez calvo Lara		1137560749	Tucumán 3808	Femenino	laralopezcalvo13@gmail.com	13/09/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	19:00	Si	Álvarez Eda Lorena	15 5847 5231	1558475231	Dorrego 1865 8 A	Femenino	eda_alvarez@yahoo.com.ar	14/01/1977			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	03/03/2026	20:00	Si	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	03/03/2026	20:00	Si	Galvan Inglese Ayelen	3447410721	3447410721	Conesa 45	Femenino	ayeinglese@gmail.com	12/11/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	03/03/2026	20:00	Si	Mayorquin Dalma			Medrano 1128	Femenino	dalmamayorquin@hotmail.com	30/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Debito Automatico	Pilates - Level Up	03/03/2026	20:00	Si	Villanueva Baltazar	3435008704	3435008704	Conesa 45 2 L	Masculino	baltazar.villanueva21@gmail.com	08/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	04/03/2026	18:00	Si	LUPIANEZ VICTORIA	1122699153	1122699153	ERCILLA 7636	Femenino	lupianezvictoria@gmail.com	13/01/2001			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	04/03/2026	18:00	Si	Liuzzi Florencia	1541458614	1541458614	Fitz roy 1450	Femenino	florliuzzi9@gmail.com	09/12/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	04/03/2026	18:00	Si	Ramirez Camila	1130073381	1130073381	Teodoro García 2466	Femenino	camiramirez_96@hotmail.com	06/03/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	04/03/2026	18:00	Si	Zarabozo Macarena	1169791905	1169791905	Zapiola 367	Femenino	macarena.zarabozo@gmail.com	19/05/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	04/03/2026	18:00	Si	eppens josefina		1164249029	castiglioni 1580	Femenino	joseeppens@gmail.com	14/06/2004			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	04/03/2026	18:00	Si	tarenenko katerina		+79818191233		Femenino	notiene@594_120260302163932.com	16/08/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	05/03/2026	07:45	Si	Mocciola Tatiana	1166610899	1166610899	Maure 3338	Femenino	tatianamocciola@hotmail.com	24/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Level Up	05/03/2026	09:45	Si	Mayotti Luciana	1138687115	1138687115	Dr. Pedro Ignacio Rivera 4565	Femenino	luciana.mayotti@gmail.com	29/08/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	05/03/2026	09:45	Si	Saavedra Alejandro	1169448598	1169448598	Bonpland 979	Masculino	alesaavedra1@hotmail.com	21/08/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	05/03/2026	19:00	Si	Sayago Evelyn	2325656283	2325656283	Avenida Dorrego 1633	Femenino	esayago21@gmail.com	14/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	05/03/2026	19:00	Si	Álvarez Eda Lorena	15 5847 5231	1558475231	Dorrego 1865 8 A	Femenino	eda_alvarez@yahoo.com.ar	14/01/1977			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	05/03/2026	20:00	Si	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	05/03/2026	20:00	Si	Fernandez Julieta Paula	113263-8282	1132638282	Jose A Cabrera 5938	Femenino	julieta.f24@gmail.com	24/03/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	05/03/2026	20:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	05/03/2026	20:00	Si	Fogel Julieta	2233038703	2233038703	Santos dumont 3513	Femenino	julietafogel@gmail.com	04/12/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	05/03/2026	20:00	Si	Galvan Inglese Ayelen	3447410721	3447410721	Conesa 45	Femenino	ayeinglese@gmail.com	12/11/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates - Level Up	05/03/2026	20:00	Si	Labate Cecilia Anahi	1150941474	1150941474	Dr. Emilio Ravignani 1465	Femenino	cecilialabate@hotmail.com	08/11/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	06/03/2026	10:45	Si	Duffau Macarena		1165917993	Ravignani 2015	Femenino	macarena.duffau@gmail.com	07/09/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	10:45	Si	D’Ercole Silvana	11 30446354	1130446354	Holmberg 2308	Femenino	silvana_lentini@hotmail.com	13/11/1966			
+Sin profesor asignado	Palermo Hollywood - Pilates - Semestral - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	10:45	No	Gutiérrez Florencia	1136687094	1136687094	Concepción arenal 3425	Femenino	florenciagutt@gmail.com	20/11/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	06/03/2026	10:45	Si	Malvino Sol		1167926051	Pringles 1346	Femenino	melina.malvino1@gmail.com	16/09/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	10:45	Si	Villalobos Daniella		1157676931	nicaragua 6030	Femenino	daniellavr272@gmail.com	21/10/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Level Up	06/03/2026	15:00	Si	Crespo Renata	11-6265-1306	1162651306	Bonpland 1456 Pb 3	Femenino	crespof.ren@gmail.com	13/06/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	15:00	Si	tarenenko katerina		+79818191233		Femenino	notiene@594_120260302163932.com	16/08/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	06/03/2026	18:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	18:00	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	18:00	No	Liuzzi Florencia	1541458614	1541458614	Fitz roy 1450	Femenino	florliuzzi9@gmail.com	09/12/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	18:00	No	Zarabozo Macarena	1169791905	1169791905	Zapiola 367	Femenino	macarena.zarabozo@gmail.com	19/05/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	06/03/2026	20:00	No	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	06/03/2026	20:00	Si	Gonella Luciana	+5491165867645	+5491165867645	Dorrego 2459	Femenino	lucianagonellaromero@gmail.com	12/02/1998			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	06/03/2026	20:00	No	Vergara Silvina		1124952574	Corrientes 6365	Femenino	silvibh87.sv@gmail.com	23/04/1987			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	07/03/2026	10:00	No	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	07/03/2026	10:00	Si	Fridman Valentina		+34656361742	Conesa 336	Femenino	valefridman@gmail.com	30/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Level Up	07/03/2026	10:00	Si	Parodi Agustina	+5491140741243	+5491140741243	Soler 5983	Femenino	magustinaparodi@gmail.com	18/07/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	07/03/2026	10:00	Si	reznik michelle		1168903120		Femenino	michureznik@hotmail.com	01/05/2002			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	07/03/2026	10:00	Si	tarenenko katerina		+79818191233		Femenino	notiene@594_120260302163932.com	16/08/1989			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	09/03/2026	15:00	No	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	09/03/2026	18:00	Si	Gonzalez Venzano Lucía	1157185596	1157185596	Dorrego 1711	Femenino	luciagvenzano@gmail.com	05/03/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	09/03/2026	18:00	No	Zarabozo Macarena	1169791905	1169791905	Zapiola 367	Femenino	macarena.zarabozo@gmail.com	19/05/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	10/03/2026	07:45	Si	Ghiorzi Agustina		1137921153	holmberg y manuela pedraza	Femenino	agustinaghior@gmail.com	01/04/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	07:45	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	07:45	No	López Macarena		3624251739	Guatemala 5648	Femenino	psi.macarenalopez@gmail.com	26/01/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	07:45	Si	Marenco Yesica		1158226849	Dorrego 1771	Femenino	yesicamarenco@hotmail.com	20/10/1983			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	10/03/2026	07:45	Si	Mocciola Tatiana	1166610899	1166610899	Maure 3338	Femenino	tatianamocciola@hotmail.com	24/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	07:45	Si	Saavedra Alejandro	1169448598	1169448598	Bonpland 979	Masculino	alesaavedra1@hotmail.com	21/08/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	07:45	No	Zarabozo Macarena	1169791905	1169791905	Zapiola 367	Femenino	macarena.zarabozo@gmail.com	19/05/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	09:45	Si	D’Ercole Silvana	11 30446354	1130446354	Holmberg 2308	Femenino	silvana_lentini@hotmail.com	13/11/1966			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	09:45	Si	Fridman Valentina		+34656361742	Conesa 336	Femenino	valefridman@gmail.com	30/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 4 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	09:45	Si	Kartun Victoria		1163097454	Concepcion Arenal 3754	Femenino	kartunvictoria@gmail.com	06/06/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	10/03/2026	09:45	Si	Perez Mirabella Lucía	1144947487	1144947487	Charlone 224 - 13	Femenino	lucia.pmirabella@gmail.com	17/07/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	19:00	Si	Fernandez Morena		1144089737		Femenino	morenafernandezquinteros@gmail.com	15/01/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - 15 Debito Automatico	Pilates - Level Up	10/03/2026	19:00	Si	Santa María Eva	1140497007	1140497007	CARRANZA 1347	Femenino	nyrbstore@gmail.com	15/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Level Up	10/03/2026	19:00	Si	santa maria Jose		+5491150477400	Arevalo 1550	Masculino	josefranciscosantamaria96@gmail.com	15/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	10/03/2026	19:00	Si	Álvarez Eda Lorena	15 5847 5231	1558475231	Dorrego 1865 8 A	Femenino	eda_alvarez@yahoo.com.ar	14/01/1977			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	10/03/2026	20:00	Si	Fogel Julieta	2233038703	2233038703	Santos dumont 3513	Femenino	julietafogel@gmail.com	04/12/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	10/03/2026	20:00	Si	Galvan Inglese Ayelen	3447410721	3447410721	Conesa 45	Femenino	ayeinglese@gmail.com	12/11/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Debito Automatico	Pilates - Level Up	10/03/2026	20:00	Si	Villanueva Baltazar	3435008704	3435008704	Conesa 45 2 L	Masculino	baltazar.villanueva21@gmail.com	08/03/1991			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	11/03/2026	15:00	No	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Level Up	11/03/2026	15:00	Si	Crespo Renata	11-6265-1306	1162651306	Bonpland 1456 Pb 3	Femenino	crespof.ren@gmail.com	13/06/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	11/03/2026	18:00	Si	Fernandez Julieta Paula	113263-8282	1132638282	Jose A Cabrera 5938	Femenino	julieta.f24@gmail.com	24/03/1994			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	11/03/2026	18:00	No	Zarabozo Macarena	1169791905	1169791905	Zapiola 367	Femenino	macarena.zarabozo@gmail.com	19/05/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	12/03/2026	07:45	Si	Brito Macarena		+56981417564	Av dorrego 1865	Femenino	macabrito.coach@gmail.com	09/09/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	12/03/2026	07:45	Si	Saavedra Alejandro	1169448598	1169448598	Bonpland 979	Masculino	alesaavedra1@hotmail.com	21/08/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 1 vxs - Efectivo/Transferencia	Pilates - Level Up	12/03/2026	09:45	Si	Mayotti Luciana	1138687115	1138687115	Dr. Pedro Ignacio Rivera 4565	Femenino	luciana.mayotti@gmail.com	29/08/2000			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	12/03/2026	19:00	No	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	12/03/2026	19:00	Si	Duffau Macarena		1165917993	Ravignani 2015	Femenino	macarena.duffau@gmail.com	07/09/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	12/03/2026	19:00	Si	Perez Mirabella Lucía	1144947487	1144947487	Charlone 224 - 13	Femenino	lucia.pmirabella@gmail.com	17/07/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase suelta - Efectivo/Transferencia	Pilates - Level Up	12/03/2026	19:00	Si	Santa María Eva	1140497007	1140497007	CARRANZA 1347	Femenino	nyrbstore@gmail.com	15/11/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - Debito Automatico	Pilates - Level Up	12/03/2026	19:00	No	Sayago Evelyn	2325656283	2325656283	Avenida Dorrego 1633	Femenino	esayago21@gmail.com	14/02/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	12/03/2026	20:00	Si	Fernández Lucía Belen	1169975145	1169975145	Av corrientes 6365	Femenino	fernandezluciabe@gmail.com	21/05/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	12/03/2026	20:00	Si	Fogel Julieta	2233038703	2233038703	Santos dumont 3513	Femenino	julietafogel@gmail.com	04/12/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	12/03/2026	20:00	Si	Galvan Inglese Ayelen	3447410721	3447410721	Conesa 45	Femenino	ayeinglese@gmail.com	12/11/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 3 vxs - Efectivo/Transferencia	Pilates - Level Up	12/03/2026	20:00	Si	Labate Cecilia Anahi	1150941474	1150941474	Dr. Emilio Ravignani 1465	Femenino	cecilialabate@hotmail.com	08/11/1985			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	12/03/2026	20:00	Si	Presa Florencia	1133373083	1133373083	Av Lacroze 3060 3 D	Femenino	presaflorencia.m@gmail.com	16/08/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - 2 vxs - Efectivo/Transferencia	Pilates - Level Up	13/03/2026	10:45	Si	D’Ercole Silvana	11 30446354	1130446354	Holmberg 2308	Femenino	silvana_lentini@hotmail.com	13/11/1966			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	13/03/2026	10:45	Si	Fridman Valentina		+34656361742	Conesa 336	Femenino	valefridman@gmail.com	30/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - Efectivo/Transferencia	Pilates - Level Up	13/03/2026	10:45	Si	Serrano Mora	1168871102	1168871102	Roseti 88	Femenino	moraserrano13@gmail.com	19/03/1999			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 2 vxs - 15 Debito Automatico	Pilates - Level Up	13/03/2026	15:00	Si	Crespo Renata	11-6265-1306	1162651306	Bonpland 1456 Pb 3	Femenino	crespof.ren@gmail.com	13/06/1995			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - 15 Debito Automatico	Pilates - Level Up	13/03/2026	18:00	Si	Perez Mirabella Lucía	1144947487	1144947487	Charlone 224 - 13	Femenino	lucia.pmirabella@gmail.com	17/07/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack Ilimitado - Debito Automático	Pilates - Level Up	13/03/2026	20:00	Si	Cabral Alma		1533578389		Femenino	cabral.alma@hotmail.com	11/06/1988			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	13/03/2026	20:00	Si	Kademian Alejandra	+54 9 11 4191-0210	+5491141910210	Dorrego 1835	Femenino	alejandrakademian@gmail.com	17/01/1973			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	13/03/2026	20:00	No	Vergara Silvina		1124952574	Corrientes 6365	Femenino	silvibh87.sv@gmail.com	23/04/1987			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - Pack 12 - 15 Debito Automatico	Pilates - Level Up	13/03/2026	20:00	Si	Villalobos faviana	1137716254	1137716254	concepcion arenal 3505	Femenino	fahvillalobos@gmail.com	23/04/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Pack 8 - Debito Automatico 4P	Pilates - Level Up	14/03/2026	10:00	Si	Galvan Inglese Ayelen	3447410721	3447410721	Conesa 45	Femenino	ayeinglese@gmail.com	12/11/1993			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 3 vxs - 15 Debito Automatico	Pilates - Level Up	14/03/2026	10:00	No	Ghiorzi Agustina		1137921153	holmberg y manuela pedraza	Femenino	agustinaghior@gmail.com	01/04/1997			
+Sin profesor asignado	Palermo Hollywood - Pilates - Mensual - 1 vxs - Efectivo/Transferencia	Pilates - Level Up	14/03/2026	10:00	Si	Parodi Agustina	+5491140741243	+5491140741243	Soler 5983	Femenino	magustinaparodi@gmail.com	18/07/1990			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 12 - Efectivo/Transferencia	Pilates - Level Up	14/03/2026	10:00	Si	Presa Florencia	1133373083	1133373083	Av Lacroze 3060 3 D	Femenino	presaflorencia.m@gmail.com	16/08/1992			
+Sin profesor asignado	Palermo Hollywood - Pilates - Clase de prueba - Efectivo/Transferencia	Pilates - Level Up	14/03/2026	10:00	Si	Quintana Ana	+15168596287	+15168596287		Femenino	analisss@icloud.com	09/03/1996			
+Sin profesor asignado	Palermo Hollywood - Pilates - Trimestral - Pack 8 - Efectivo/Transferencia	Pilates - Level Up	14/03/2026	10:00	Si	Álvarez Eda Lorena	15 5847 5231	1558475231	Dorrego 1865 8 A	Femenino	eda_alvarez@yahoo.com.ar	14/01/1977			
+
+stats: sumadosEnMatriz=495 skippedParse=0 skippedFueraPlantilla=0 filasIteradas=495 modo=dom_filas trDom=495
+diagnostico={"modoLectura":"dom_filas","filasTrEnDom":495,"cdkVirtualViewport":false,"filasIteradas":495,"skippedShortCells":0,"skippedNoPatron":0,"skippedFechaHoraVacias":0,"skippedParse":0,"skippedFueraPlantilla":0,"sumadosEnMatriz":495,"muestraHorasFueraPlantilla":[],"muestraPrimerasFilas":"[45 items]","muestraUltimasFilas":"[8 items]","lineasVolcadasEnArchivo":495,"esperadoDeportNet495Referencia":"Si DeportNet muestra ~495 filas y filasIteradas es mucho menor, suele ser virtual scroll (ahora se intenta recorrer).","archivoDebug":"C:\\Users\\lucas\\deportnet-dashboard\\backend\\debug\\ocupacion_2026-03-21T15-19-29-229Z","maxLineasArchivoConfig":2500}
