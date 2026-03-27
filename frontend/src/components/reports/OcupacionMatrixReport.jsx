@@ -1,4 +1,5 @@
 import {
+  Box,
   Grid,
   Paper,
   Stack,
@@ -38,6 +39,25 @@ function formatPct(pct) {
   return `${Math.round(pct)}%`;
 }
 
+/** Celda contada en totales / cupo: definida en plantilla y activa en JSON. */
+function celdaCuentaCapacidad(slotValid, slotActivo, i, j) {
+  if (slotValid && slotValid[i]?.[j] === false) return false;
+  if (slotActivo != null && slotActivo[i]?.[j] === false) return false;
+  return true;
+}
+
+/** Badge sutil: I = Inicial, L = Level up (acepta "Level Up", etc.). */
+function badgeNivelClase(nivel) {
+  const s = String(nivel || '').trim().toLowerCase();
+  if (/^inicial\b/.test(s) || s === 'i') {
+    return { letter: 'I', title: 'Inicial', bg: 'grey.400', color: 'grey.900' };
+  }
+  if (/\blevel\b/.test(s)) {
+    return { letter: 'L', title: 'Level up', bg: '#fff9c4', color: '#6d4c41' };
+  }
+  return null;
+}
+
 export default function OcupacionMatrixReport({ data, streaming = false }) {
   if (!data || !Array.isArray(data.horas)) return null;
 
@@ -63,6 +83,8 @@ export default function OcupacionMatrixReport({ data, streaming = false }) {
     sesionesPorCelda,
     capacidadPorTurno = 10,
     slotValid,
+    slotActivo,
+    nivelClase,
     totalOcurrencias,
     plantillaArchivo,
   } = data;
@@ -82,7 +104,7 @@ export default function OcupacionMatrixReport({ data, streaming = false }) {
   let capacidadTotal = 0;
   for (let i = 0; i < horas.length; i += 1) {
     for (let j = 0; j < 7; j += 1) {
-      if (slotValid && slotValid[i]?.[j] === false) continue;
+      if (!celdaCuentaCapacidad(slotValid, slotActivo, i, j)) continue;
       const socios = matrixSafe[i]?.[j] ?? 0;
       const ses = sesionesEfectivas(socios, sesionesSafe[i][j]);
       capacidadTotal += ses * cap;
@@ -100,7 +122,7 @@ export default function OcupacionMatrixReport({ data, streaming = false }) {
     let socios = 0;
     let capSum = 0;
     for (let j = 0; j < 7; j += 1) {
-      if (slotValid && slotValid[i]?.[j] === false) continue;
+      if (!celdaCuentaCapacidad(slotValid, slotActivo, i, j)) continue;
       const c = matrixSafe[i]?.[j] ?? 0;
       socios += c;
       capSum += sesionesEfectivas(c, sesionesSafe[i][j]) * cap;
@@ -113,7 +135,7 @@ export default function OcupacionMatrixReport({ data, streaming = false }) {
     let socios = 0;
     let capSum = 0;
     for (let i = 0; i < horas.length; i += 1) {
-      if (slotValid && slotValid[i]?.[j] === false) continue;
+      if (!celdaCuentaCapacidad(slotValid, slotActivo, i, j)) continue;
       const c = matrixSafe[i]?.[j] ?? 0;
       socios += c;
       capSum += sesionesEfectivas(c, sesionesSafe[i][j]) * cap;
@@ -136,7 +158,8 @@ export default function OcupacionMatrixReport({ data, streaming = false }) {
             <strong>{sede}</strong> · {desde} → {hasta}. Cada celda muestra el porcentaje de cupos ocupados respecto de
             las clases dictadas en ese día y horario en el período: se consideran hasta <strong>{cap} socios</strong>{' '}
             por clase. La grilla sigue <strong>{plantillaArchivo || 'shared/horarios-sedes.json'}</strong>; las celdas
-            grises son horarios que no ofrecés ese día. Fuente:{' '}
+            grises con guión son días sin ese horario; las celdas grises vacías son turnos marcados como inactivos en el
+            JSON. La letra <strong>I</strong> o <strong>L</strong> indica nivel (Inicial / Level up). Fuente:{' '}
             <a href="https://deportnet.com/branchMembersClassesReport" target="_blank" rel="noreferrer">
               branchMembersClassesReport
             </a>
@@ -186,27 +209,74 @@ export default function OcupacionMatrixReport({ data, streaming = false }) {
                       {hora}
                     </TableCell>
                     {(matrixSafe[i] || []).map((socios, j) => {
-                      const enabled = !slotValid || slotValid[i]?.[j] !== false;
+                      const offered = !slotValid || slotValid[i]?.[j] !== false;
+                      const active =
+                        offered &&
+                        (slotActivo == null || slotActivo[i]?.[j] !== false);
                       const sesiones = sesionesSafe[i][j] ?? 0;
-                      const pct = enabled ? pctOcupacion(socios, sesiones, cap) : null;
+                      const pct = active ? pctOcupacion(socios, sesiones, cap) : null;
                       const sesTitulo = sesionesEfectivas(socios, sesiones);
-                      const title = enabled
+                      const title = active
                         ? socios > 0
                           ? `${socios} socios · ${sesTitulo} ${sesTitulo === 1 ? 'clase' : 'clases'} · cap. ${sesTitulo * cap}`
                           : 'Sin socios en este día/hora'
-                        : undefined;
+                        : offered && !active
+                          ? 'Turno inactivo en la plantilla'
+                          : undefined;
+                      const inactive = offered && !active;
+                      const badge =
+                        active && nivelClase?.[i]?.[j]
+                          ? badgeNivelClase(nivelClase[i][j])
+                          : null;
                       return (
                         <TableCell
                           key={`${hora}-${j}`}
                           align="center"
                           title={title}
                           sx={{
-                            bgcolor: cellBgPct(pct, !enabled),
+                            bgcolor: cellBgPct(pct, !offered || inactive),
                             fontWeight: pct && pct > 0 ? 600 : 400,
-                            color: !enabled ? 'text.disabled' : 'inherit',
+                            color: !offered || inactive ? 'text.disabled' : 'inherit',
+                            verticalAlign: 'middle',
                           }}
                         >
-                          {!enabled ? '—' : formatPct(pct)}
+                          {!offered ? (
+                            '—'
+                          ) : inactive ? (
+                            ''
+                          ) : (
+                            <Stack
+                              direction="row"
+                              alignItems="center"
+                              justifyContent="center"
+                              spacing={0.5}
+                              sx={{ minHeight: 22 }}
+                            >
+                              {badge ? (
+                                <Box
+                                  component="span"
+                                  title={badge.title}
+                                  sx={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    width: 16,
+                                    height: 16,
+                                    flexShrink: 0,
+                                    borderRadius: 0.5,
+                                    fontSize: '0.65rem',
+                                    fontWeight: 800,
+                                    lineHeight: 1,
+                                    bgcolor: badge.bg,
+                                    color: badge.color,
+                                  }}
+                                >
+                                  {badge.letter}
+                                </Box>
+                              ) : null}
+                              <span>{formatPct(pct)}</span>
+                            </Stack>
+                          )}
                         </TableCell>
                       );
                     })}

@@ -1,0 +1,28 @@
+{
+  "sedeLocale": "CLIC Pilates - Palermo Hollywood",
+  "sedeShort": "Palermo Hollywood",
+  "headerTexts": [
+    "Nombre",
+    "Estado",
+    "Precio 1",
+    "Precio 2",
+    "Precio 3"
+  ],
+  "headerLen": 5,
+  "sampleTdCount": 5,
+  "tdShift": 0,
+  "cols": {
+    "nombreIdx": 0,
+    "estadoIdx": 1,
+    "precio1Idx": 2,
+    "precio2Idx": 3,
+    "precio3Idx": 4
+  },
+  "sampleFirstCells": [
+    "Multisucursal - Pilates - Plan Staff - NO USAR -****",
+    "Activo",
+    "0",
+    "0",
+    "0"
+  ]
+}

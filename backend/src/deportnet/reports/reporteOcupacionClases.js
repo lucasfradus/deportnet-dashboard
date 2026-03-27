@@ -20,73 +20,17 @@ const DIA_LABELS = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
 const CAPACIDAD_MAX_POR_TURNO =
   Number.parseInt(String(process.env.OCUPACION_CAPACIDAD_TURNO || '10'), 10) || 10;
 
-/** Claves en horarios-sedes.json (lunes=0 … domingo=6, alineado con lunesIndexFromDate). */
-const DIA_KEYS = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
-
-function pathHorariosSedes() {
-  return path.join(__dirname, '../../../../shared/horarios-sedes.json');
-}
-
-/**
- * Acepta:
- * - { sedes: { "Nombre": { horarios: { lunes: [...], ... } } } }
- * - { sede: "Nombre", horarios: { ... } } (una sola sede)
- */
-function cargarMapaHorariosPorSede() {
-  const p = pathHorariosSedes();
-  if (!fs.existsSync(p)) {
-    throw new Error(`No existe ${p}. Creá shared/horarios-sedes.json con la plantilla por sede.`);
-  }
-  const raw = JSON.parse(fs.readFileSync(p, 'utf8'));
-  if (raw.sedes && typeof raw.sedes === 'object' && !Array.isArray(raw.sedes)) {
-    return raw.sedes;
-  }
-  if (raw.sede && raw.horarios && typeof raw.horarios === 'object') {
-    return { [String(raw.sede).trim()]: { horarios: raw.horarios } };
-  }
-  throw new Error(
-    'horarios-sedes.json: formato inválido. Usá { "sedes": { "Nombre sucursal": { "horarios": { "lunes": [...], ... } } } } o { "sede", "horarios" }.'
-  );
-}
-
-function plantillaParaSede(sedeNombre) {
-  const mapa = cargarMapaHorariosPorSede();
-  const entry = mapa[sedeNombre];
-  if (!entry || !entry.horarios || typeof entry.horarios !== 'object') {
-    throw new Error(
-      `No hay plantilla en horarios-sedes.json para la sucursal "${sedeNombre}". Agregala bajo "sedes".`
-    );
-  }
-  return entry.horarios;
-}
-
-/**
- * Filas = unión de todos los horarios de la plantilla (HH:MM normalizado), ordenadas.
- * slotValid[i][j] = true si ese horario está definido para ese día en el JSON.
- */
-function construirPlantillaTabla(horariosPorDia) {
-  const set = new Set();
-  for (const dk of DIA_KEYS) {
-    const arr = horariosPorDia[dk];
-    if (!Array.isArray(arr)) continue;
-    for (const t of arr) {
-      const n = normalizeHora(t);
-      if (n) set.add(n);
-    }
-  }
-  const horas = Array.from(set).sort((a, b) => horaSortKey(a) - horaSortKey(b));
-
-  const slotValid = horas.map((h) =>
-    DIA_KEYS.map((dk) => {
-      const arr = horariosPorDia[dk];
-      if (!Array.isArray(arr)) return false;
-      return arr.some((t) => normalizeHora(t) === h);
-    })
-  );
-
-  const matrix = horas.map(() => [0, 0, 0, 0, 0, 0, 0]);
-  return { horas, slotValid, matrix };
-}
+/** Plantilla: shared/ocupacionPlantilla.cjs (formato lista o mapa por hora). */
+const REPORTS_DIR = __dirname;
+const {
+  DIA_KEYS,
+  normalizeHora,
+  plantillaParaSede,
+  construirPlantillaTabla,
+  slotsDelDia,
+  resolveHorariosSedesPath,
+  resumenDiaParaError,
+} = require(path.join(__dirname, '../../../../shared/ocupacionPlantilla.cjs'));
 
 function lunesIndexFromDate(dt) {
   return (dt.getDay() + 6) % 7;
@@ -103,20 +47,6 @@ function parseFechaDMY(s) {
   const dt = new Date(y, mo - 1, d);
   if (dt.getFullYear() !== y || dt.getMonth() !== mo - 1 || dt.getDate() !== d) return null;
   return dt;
-}
-
-function normalizeHora(s) {
-  const t = String(s || '').trim();
-  const m = t.match(/^(\d{1,2}):(\d{2})/);
-  if (!m) return t || null;
-  const h = String(parseInt(m[1], 10)).padStart(2, '0');
-  return `${h}:${m[2]}`;
-}
-
-function horaSortKey(horaNorm) {
-  const m = String(horaNorm).match(/^(\d{2}):(\d{2})$/);
-  if (!m) return 9999;
-  return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
 }
 
 /**
@@ -453,11 +383,15 @@ function procesarCeldasOcupacion(cells, cols, horariosPlantilla, horaToRow) {
   }
   const dow = lunesIndexFromDate(dt);
   const diaKey = DIA_KEYS[dow];
-  const slotsDia = Array.isArray(horariosPlantilla[diaKey])
-    ? horariosPlantilla[diaKey].map((t) => normalizeHora(t)).filter(Boolean)
-    : [];
-  if (!slotsDia.includes(horaNorm)) {
+  const found = slotsDelDia(horariosPlantilla[diaKey]).find((s) => s.horaNorm === horaNorm);
+  if (!found) {
     out.reason = 'fuera_plantilla';
+    out.dow = dow;
+    out.horaNorm = horaNorm;
+    return out;
+  }
+  if (!found.activo) {
+    out.reason = 'slot_inactivo';
     out.dow = dow;
     out.horaNorm = horaNorm;
     return out;
@@ -679,11 +613,16 @@ async function obtenerReporteOcupacionClases({ desde, hasta, sede, isCancelled, 
     );
     await page.screenshot({ path: `${debugBase}.png`, fullPage: true }).catch(() => {});
 
-    const horariosPlantilla = plantillaParaSede(sede);
-    const { horas, slotValid, matrix } = construirPlantillaTabla(horariosPlantilla);
+    const horariosPlantilla = plantillaParaSede(sede, REPORTS_DIR);
+    const { horas, slotValid, slotActivo, nivelClase, matrix } = construirPlantillaTabla(horariosPlantilla);
     if (!horas.length) {
+      const jsonPath = resolveHorariosSedesPath(REPORTS_DIR);
+      const muestra = DIA_KEYS.map((k) => `${k}=${resumenDiaParaError(horariosPlantilla[k])}`).join(', ');
       throw new Error(
-        `Plantilla vacía en horarios-sedes.json para "${sede}": agregá al menos un horario en algún día.`
+        `Plantilla vacía en horarios-sedes.json para "${sede}": no se detectó ningún horario HH:MM. ` +
+          `Archivo resuelto: ${jsonPath}. Resumen por día: ${muestra}. ` +
+          `Cada día debe ser una lista de horas o un objeto { "07:45": ["Inicial", true], … }. ` +
+          `Reiniciá el backend tras actualizar código o JSON; opcional: variable OCUPACION_HORARIOS_JSON con ruta absoluta al JSON.`
       );
     }
     const horaToRow = new Map(horas.map((h, i) => [h, i]));
@@ -711,6 +650,7 @@ async function obtenerReporteOcupacionClases({ desde, hasta, sede, isCancelled, 
       skippedFechaHoraVacias: 0,
       skippedParse: 0,
       skippedFueraPlantilla: 0,
+      skippedSlotInactivo: 0,
       sumadosEnMatriz: 0,
       muestraHorasFueraPlantilla: [],
       /** Primeras filas leídas (texto TAB); el .txt puede traer más líneas */
@@ -731,6 +671,7 @@ async function obtenerReporteOcupacionClases({ desde, hasta, sede, isCancelled, 
     let totalOcurrencias = 0;
     let skippedParse = 0;
     let skippedFueraPlantilla = 0;
+    let skippedSlotInactivo = 0;
 
     const totalesPorDia = [0, 0, 0, 0, 0, 0, 0];
     const totalesPorHora = horas.map(() => 0);
@@ -790,6 +731,11 @@ async function obtenerReporteOcupacionClases({ desde, hasta, sede, isCancelled, 
         skippedFueraPlantilla += 1;
         diagnostico.skippedFueraPlantilla += 1;
         pushMuestraFuera(pr.horaNorm);
+        return;
+      }
+      if (pr.reason === 'slot_inactivo') {
+        skippedSlotInactivo += 1;
+        diagnostico.skippedSlotInactivo += 1;
         return;
       }
       if (pr.ok && pr.rowIdx != null && pr.dow != null) {
@@ -883,6 +829,7 @@ async function obtenerReporteOcupacionClases({ desde, hasta, sede, isCancelled, 
     let sesionesPorCelda = fechasUnicasPorCelda.map((row) => row.map((s) => s.size));
     for (let ri = 0; ri < horas.length; ri += 1) {
       for (let dj = 0; dj < 7; dj += 1) {
+        if (!slotActivo[ri][dj]) continue;
         const m = matrix[ri][dj] || 0;
         if (m > 0 && sesionesPorCelda[ri][dj] === 0) {
           sesionesPorCelda[ri][dj] = 1;
@@ -901,6 +848,8 @@ async function obtenerReporteOcupacionClases({ desde, hasta, sede, isCancelled, 
       sesionesPorCelda,
       capacidadPorTurno: CAPACIDAD_MAX_POR_TURNO,
       slotValid,
+      slotActivo,
+      nivelClase,
       totalesPorHora,
       totalesPorDia,
       totalOcurrencias,

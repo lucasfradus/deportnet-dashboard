@@ -1,0 +1,28 @@
+{
+  "sedeLocale": "CLIC Pilates - Belgrano C",
+  "sedeShort": "Belgrano C",
+  "headerTexts": [
+    "Nombre",
+    "Estado",
+    "Precio 1",
+    "Precio 2",
+    "Precio 3"
+  ],
+  "headerLen": 5,
+  "sampleTdCount": 5,
+  "tdShift": 0,
+  "cols": {
+    "nombreIdx": 0,
+    "estadoIdx": 1,
+    "precio1Idx": 2,
+    "precio2Idx": 3,
+    "precio3Idx": 4
+  },
+  "sampleFirstCells": [
+    "Belgrano C  - Pilates - Mensual - 1 vxs - Debito Automatico",
+    "Activo",
+    "69200",
+    "69200",
+    "69200"
+  ]
+}

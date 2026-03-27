@@ -88,6 +88,14 @@ function canonicalPlanKey(key) {
   return k;
 }
 
+/** Compara planes con o sin prefijo "Pilates - " (mismo catálogo en JSON y cola del reporte). */
+function unifiedPlanComparable(normCanon) {
+  return String(normCanon || '')
+    .replace(/^pilates\s*-\s*/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 /**
  * @returns {{ plane: string, score: number } | null} score 3 = match exacto, 2 = match canonical (variantes)
  */
@@ -95,17 +103,24 @@ function findMatchingPlaneScored(text) {
   if (!text) return null;
   const tailExact = planeMatchKey(text);
   const tailCanon = canonicalPlanKey(tailExact);
-  if (!tailCanon) return null;
+  const tailUnified = unifiedPlanComparable(tailCanon);
+  if (!tailCanon && !tailUnified) return null;
 
   let bestPlane = null;
   let bestScore = 0;
 
+  /** Sedes como Escobar: servicio "… Pilates - Clase de prueba" sin medio de pago; mismo producto que CDP + Efectivo en catálogo. */
+  const CDP_UNIFIED_EFECTIVO = 'clase de prueba - efectivo/transferencia';
+
   for (const plane of preciosSedesPlanesActivos) {
     const pExact = planeMatchKey(plane);
     const pCanon = canonicalPlanKey(pExact);
+    const pUnified = unifiedPlanComparable(pCanon);
     let score = 0;
     if (tailExact && pExact && tailExact === pExact) score = 3;
     else if (tailCanon && pCanon && tailCanon === pCanon) score = 2;
+    else if (tailUnified && pUnified && tailUnified === pUnified) score = 2;
+    else if (tailUnified === 'clase de prueba' && pUnified === CDP_UNIFIED_EFECTIVO) score = 2;
     if (score > bestScore) {
       bestScore = score;
       bestPlane = plane;
@@ -497,4 +512,4 @@ async function obtenerPreciosSedes({ sedes, onRow, onProgress, isCancelled }) {
   }
 }
 
-module.exports = { obtenerPreciosSedes };
+module.exports = { obtenerPreciosSedes, findMatchingPlaneScored };

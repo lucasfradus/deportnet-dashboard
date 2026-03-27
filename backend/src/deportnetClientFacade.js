@@ -3,6 +3,7 @@ const { obtenerReporteCobrosComparativoSede } = require('./deportnet/reports/rep
 const { obtenerPreciosSedes } = require('./deportnet/reports/reportePreciosSedes');
 const { obtenerReporteConversionClasesPrueba } = require('./deportnet/reports/reporteConversionClasesPrueba');
 const { obtenerReporteOcupacionClases } = require('./deportnet/reports/reporteOcupacionClases');
+const { obtenerReporteSociosActivos } = require('./deportnet/reports/reporteSociosActivos');
 
 module.exports = {
   obtenerReporteQuincenal,
@@ -10,5 +11,6 @@ module.exports = {
   obtenerPreciosSedes,
   obtenerReporteConversionClasesPrueba,
   obtenerReporteOcupacionClases,
+  obtenerReporteSociosActivos,
 };
 

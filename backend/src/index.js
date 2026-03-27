@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
+const fs = require('fs');
 require('dotenv').config();
 
 const {
@@ -8,13 +10,64 @@ const {
   obtenerReporteCobrosComparativoSede,
   obtenerReporteConversionClasesPrueba,
   obtenerReporteOcupacionClases,
+  obtenerReporteSociosActivos,
 } = require('./deportnetClientFacade');
 const { validateSearchDateRange } = require('./validateSearchDates');
 const { validateOcupacionDateRange } = require('./validateOcupacionDates');
 
 const app = express();
 app.use(cors());
-app.use(express.json());
+
+// ── SSE helpers ───────────────────────────────────────────────────────────────
+
+/**
+ * Parsea ?sedes=a,b,c de la query.
+ * - Sin parámetro → undefined (el reporte usa todas las sedes por defecto)
+ * - Parámetro vacío → [] (sin sedes)
+ * - Con valor → array de strings
+ */
+function parseSedesParam(query) {
+  if (!Object.prototype.hasOwnProperty.call(query || {}, 'sedes')) return undefined;
+  const s = query.sedes;
+  return typeof s === 'string' && s.trim() ? s.split(',').map((x) => x.trim()).filter(Boolean) : [];
+}
+
+/**
+ * Inicializa una respuesta SSE: cabeceras, flag cancelled, evento connected.
+ * Retorna `send` (escribe un evento) e `isCancelled` (consulta el flag).
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ * @param {{ extraHeaders?: Record<string, string> }} [opts]
+ */
+function initSse(req, res, { extraHeaders = {} } = {}) {
+  let cancelled = false;
+  req.on('close', () => { cancelled = true; });
+
+  res.status(200);
+  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
+  res.setHeader('Cache-Control', 'no-cache, no-transform');
+  res.setHeader('Connection', 'keep-alive');
+  for (const [k, v] of Object.entries(extraHeaders)) res.setHeader(k, v);
+  if (typeof res.flushHeaders === 'function') res.flushHeaders();
+
+  const send = (payload) => res.write(`data: ${JSON.stringify(payload)}\n\n`);
+  send({ type: 'connected', from: 'server' });
+
+  return { send, isCancelled: () => cancelled };
+}
+
+/**
+ * Heartbeat SSE cada 20 s para evitar timeouts de proxy/navegador en scraping largo.
+ * @param {(payload: object) => void} send
+ * @returns {ReturnType<typeof setInterval>}
+ */
+function startHeartbeat(send) {
+  return setInterval(() => {
+    try { send({ type: 'heartbeat' }); } catch { /* ignore */ }
+  }, 20000);
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 const healthPayload = () => ({
   ok: true,
@@ -38,35 +91,6 @@ app.get('/api/ping', (_req, res) => {
   res.json({ ...healthPayload(), path: '/api/ping' });
 });
 
-app.post('/api/report/quincenal', async (req, res) => {
-  try {
-    const { desde, hasta, sedes } = req.body || {};
-
-    if (!desde || !hasta) {
-      return res.status(400).json({ error: 'Faltan fechas: desde y/o hasta' });
-    }
-
-    const fechas = validateSearchDateRange(desde, hasta);
-    if (!fechas.ok) {
-      return res.status(400).json({ error: fechas.error });
-    }
-
-    const data = await obtenerReporteQuincenal({
-      desde,
-      hasta,
-      sedes,
-    });
-
-    return res.json(data);
-  } catch (err) {
-    console.error(err);
-    return res.status(500).json({
-      error: 'Error generando reporte',
-      detalle: err && err.message ? err.message : String(err),
-    });
-  }
-});
-
 // Streaming con SSE (Server-Sent Events).
 // IMPORTANTE: EventSource solo soporta GET, por eso el stream es GET.
 // Query:
@@ -74,67 +98,35 @@ app.post('/api/report/quincenal', async (req, res) => {
 // - hasta=YYYY-MM-DD
 // - sedes=sedes1,sedes2,... (opcional)
 app.get('/api/report/quincenal/stream', async (req, res) => {
-  const { desde, hasta, sedes } = req.query || {};
+  const { desde, hasta } = req.query || {};
 
   if (!desde || !hasta) {
     return res.status(400).json({ error: 'Faltan fechas: desde y/o hasta' });
   }
-
   const fechasQuincenal = validateSearchDateRange(desde, hasta);
   if (!fechasQuincenal.ok) {
     return res.status(400).json({ error: fechasQuincenal.error });
   }
 
-  const hasSedesParam = Object.prototype.hasOwnProperty.call(req.query || {}, 'sedes');
-  let sedesArray = undefined;
-  if (hasSedesParam) {
-    if (typeof sedes === 'string' && sedes.trim().length) {
-      sedesArray = sedes.split(',').map((s) => s.trim()).filter(Boolean);
-    } else {
-      // Si el parámetro existe pero viene vacío, respetamos "sin sedes".
-      sedesArray = [];
-    }
-  }
-
-  let cancelled = false;
-  req.on('close', () => {
-    cancelled = true;
-  });
-
-  res.status(200);
-  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
-  res.setHeader('Connection', 'keep-alive');
-  if (typeof res.flushHeaders === 'function') res.flushHeaders();
-
-  const send = (payload) => {
-    res.write(`data: ${JSON.stringify(payload)}\n\n`);
-  };
-
-  send({ type: 'connected', from: 'server' });
+  const sedesArray = parseSedesParam(req.query);
+  const { send, isCancelled } = initSse(req, res);
+  const heartbeat = startHeartbeat(send);
 
   try {
     const results = await obtenerReporteQuincenal({
       desde,
       hasta,
       sedes: sedesArray,
-      isCancelled: () => cancelled,
+      isCancelled,
       onProgress: ({ processed, total, sede }) => {
         send({ type: 'progress', processed, total, sede });
       },
       onSede: ({ sede, montoFacturado, cantidadClasePrueba, processed, total }) => {
-        send({
-          type: 'result',
-          sede,
-          montoFacturado,
-          cantidadClasePrueba,
-          processed,
-          total,
-        });
+        send({ type: 'result', sede, montoFacturado, cantidadClasePrueba, processed, total });
       },
     });
 
-    if (cancelled) {
+    if (isCancelled()) {
       send({ type: 'cancelled' });
       return res.end();
     }
@@ -143,67 +135,33 @@ app.get('/api/report/quincenal/stream', async (req, res) => {
     res.end();
   } catch (err) {
     console.error(err);
-    if (!res.headersSent) {
-      res.status(500);
-    }
-    send({
-      type: 'error',
-      error: err && err.message ? err.message : String(err),
-      detalle: err && err.message ? err.message : String(err),
-    });
+    if (!res.headersSent) res.status(500);
+    send({ type: 'error', error: err?.message ?? String(err) });
     res.end();
+  } finally {
+    clearInterval(heartbeat);
   }
 });
 
 // Precios Sedes (reporte de conceptos)
 app.get('/api/report/precios-sedes/stream', async (req, res) => {
-  const { sedes } = req.query || {};
-
-  const hasSedesParam = Object.prototype.hasOwnProperty.call(req.query || {}, 'sedes');
-  let sedesArray = undefined;
-  if (hasSedesParam) {
-    if (typeof sedes === 'string' && sedes.trim().length) {
-      sedesArray = sedes.split(',').map((s) => s.trim()).filter(Boolean);
-    } else {
-      sedesArray = [];
-    }
-  }
-
-  let cancelled = false;
-  req.on('close', () => {
-    cancelled = true;
-  });
-
-  res.status(200);
-  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
-  res.setHeader('Connection', 'keep-alive');
-  if (typeof res.flushHeaders === 'function') res.flushHeaders();
-
-  const send = (payload) => {
-    res.write(`data: ${JSON.stringify(payload)}\n\n`);
-  };
-
-  send({ type: 'connected', from: 'server' });
+  const sedesArray = parseSedesParam(req.query);
+  const { send, isCancelled } = initSse(req, res);
+  const heartbeat = startHeartbeat(send);
 
   try {
     await obtenerPreciosSedes({
       sedes: sedesArray,
-      isCancelled: () => cancelled,
+      isCancelled,
       onProgress: ({ processed, total, sede }) => {
         send({ type: 'progress', processed, total, sede: sede || '' });
       },
       onRow: ({ sede, plan, precio1 }) => {
-        send({
-          type: 'result',
-          sede,
-          plan,
-          precio1,
-        });
+        send({ type: 'result', sede, plan, precio1 });
       },
     });
 
-    if (cancelled) {
+    if (isCancelled()) {
       send({ type: 'cancelled' });
       return res.end();
     }
@@ -213,54 +171,83 @@ app.get('/api/report/precios-sedes/stream', async (req, res) => {
   } catch (err) {
     console.error(err);
     if (!res.headersSent) res.status(500);
-    send({
-      type: 'error',
-      error: err && err.message ? err.message : String(err),
-      detalle: err && err.message ? err.message : String(err),
-    });
+    send({ type: 'error', error: err?.message ?? String(err) });
     res.end();
+  } finally {
+    clearInterval(heartbeat);
+  }
+});
+
+// Socios activos (reportMembersWithValidActivities): sin rango de fechas, una lectura por sucursal
+// Query: sedes=sede1,sede2,... (opcional; vacío = todas las de locales.json)
+app.get('/api/report/socios-activos/stream', async (req, res) => {
+  const sedesArray = parseSedesParam(req.query);
+  const { send, isCancelled } = initSse(req, res);
+  const heartbeat = startHeartbeat(send);
+
+  try {
+    await obtenerReporteSociosActivos({
+      sedes: sedesArray,
+      isCancelled,
+      onProgress: ({ processed, total, sede, message, phase }) => {
+        send({
+          type: 'progress',
+          processed,
+          total,
+          sede: sede || '',
+          message: message || '',
+          phase: phase || '',
+        });
+      },
+      onSede: (payload) => {
+        send({
+          type: 'result',
+          sociosActivosSede: {
+            sede: payload.sede,
+            filasTotales: payload.filasTotales ?? 0,
+            filasRawDom: payload.filasRawDom ?? null,
+            sociosUnicosPorNombre: payload.sociosUnicosPorNombre ?? null,
+            sociosUnicosSoloCdpEfectivo: payload.sociosUnicosSoloCdpEfectivo ?? null,
+            conteosPorPlan: payload.conteosPorPlan ?? {},
+            anomalias: payload.anomalias || [],
+            error: payload.error || null,
+          },
+        });
+      },
+    });
+
+    if (isCancelled()) {
+      send({ type: 'cancelled' });
+      return res.end();
+    }
+
+    send({ type: 'done' });
+    res.end();
+  } catch (err) {
+    console.error(err);
+    if (!res.headersSent) res.status(500);
+    send({ type: 'error', error: err?.message ?? String(err) });
+    res.end();
+  } finally {
+    clearInterval(heartbeat);
   }
 });
 
 // Comparativo de cobros por sede: mismo rango de días por mes
 app.get('/api/report/cobros-sede-comparativo/stream', async (req, res) => {
-  const { desde, hasta, sedes, monthsBack } = req.query || {};
+  const { desde, hasta, monthsBack } = req.query || {};
 
   if (!desde || !hasta) {
     return res.status(400).json({ error: 'Faltan fechas: desde y/o hasta' });
   }
-
   const fechasComparativo = validateSearchDateRange(desde, hasta);
   if (!fechasComparativo.ok) {
     return res.status(400).json({ error: fechasComparativo.error });
   }
 
-  const hasSedesParam = Object.prototype.hasOwnProperty.call(req.query || {}, 'sedes');
-  let sedesArray = undefined;
-  if (hasSedesParam) {
-    if (typeof sedes === 'string' && sedes.trim().length) {
-      sedesArray = sedes.split(',').map((s) => s.trim()).filter(Boolean);
-    } else {
-      sedesArray = [];
-    }
-  }
-
-  let cancelled = false;
-  req.on('close', () => {
-    cancelled = true;
-  });
-
-  res.status(200);
-  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
-  res.setHeader('Connection', 'keep-alive');
-  if (typeof res.flushHeaders === 'function') res.flushHeaders();
-
-  const send = (payload) => {
-    res.write(`data: ${JSON.stringify(payload)}\n\n`);
-  };
-
-  send({ type: 'connected', from: 'server' });
+  const sedesArray = parseSedesParam(req.query);
+  const { send, isCancelled } = initSse(req, res);
+  const heartbeat = startHeartbeat(send);
 
   try {
     await obtenerReporteCobrosComparativoSede({
@@ -268,27 +255,16 @@ app.get('/api/report/cobros-sede-comparativo/stream', async (req, res) => {
       hasta,
       sedes: sedesArray,
       monthsBack: monthsBack ? Number(monthsBack) : 1,
-      isCancelled: () => cancelled,
+      isCancelled,
       onProgress: ({ processed, total, sede }) => {
         send({ type: 'progress', processed, total, sede: sede || '' });
       },
-      onSede: ({
-        sede,
-        periodos,
-        processed,
-        total,
-      }) => {
-        send({
-          type: 'result',
-          sede,
-          periodos,
-          processed,
-          total,
-        });
+      onSede: ({ sede, periodos, processed, total }) => {
+        send({ type: 'result', sede, periodos, processed, total });
       },
     });
 
-    if (cancelled) {
+    if (isCancelled()) {
       send({ type: 'cancelled' });
       return res.end();
     }
@@ -298,99 +274,45 @@ app.get('/api/report/cobros-sede-comparativo/stream', async (req, res) => {
   } catch (err) {
     console.error(err);
     if (!res.headersSent) res.status(500);
-    send({
-      type: 'error',
-      error: err && err.message ? err.message : String(err),
-      detalle: err && err.message ? err.message : String(err),
-    });
+    send({ type: 'error', error: err?.message ?? String(err) });
     res.end();
+  } finally {
+    clearInterval(heartbeat);
   }
 });
 
 // Conversión de Clase de prueba por sede
-// Query:
-// - desde=YYYY-MM-DD
-// - hasta=YYYY-MM-DD
-// - sedes=sedes1,sedes2,... (opcional)
+// Query: desde, hasta, sedes (opcional)
 app.get('/api/report/conversion-clase-prueba/stream', async (req, res) => {
-  const { desde, hasta, sedes } = req.query || {};
+  const { desde, hasta } = req.query || {};
 
   if (!desde || !hasta) {
     return res.status(400).json({ error: 'Faltan fechas: desde y/o hasta' });
   }
-
   const fechasConversion = validateSearchDateRange(desde, hasta);
   if (!fechasConversion.ok) {
     return res.status(400).json({ error: fechasConversion.error });
   }
 
-  const hasSedesParam = Object.prototype.hasOwnProperty.call(req.query || {}, 'sedes');
-  let sedesArray = undefined;
-  if (hasSedesParam) {
-    if (typeof sedes === 'string' && sedes.trim().length) {
-      sedesArray = sedes.split(',').map((s) => s.trim()).filter(Boolean);
-    } else {
-      sedesArray = [];
-    }
-  }
-
-  let cancelled = false;
-  req.on('close', () => {
-    cancelled = true;
-  });
-
-  res.status(200);
-  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
-  res.setHeader('Connection', 'keep-alive');
-  if (typeof res.flushHeaders === 'function') res.flushHeaders();
-
-  const send = (payload) => {
-    res.write(`data: ${JSON.stringify(payload)}\n\n`);
-  };
-
-  send({ type: 'connected', from: 'server' });
-
-  // Heartbeat real (con data:) para evitar que navegadores/proxies disparen
-  // `EventSource.onerror` por "inactividad" durante scraping largo.
-  const heartbeat = setInterval(() => {
-    try {
-      send({ type: 'heartbeat' });
-    } catch (e) {
-      // ignore
-    }
-  }, 20000);
+  const sedesArray = parseSedesParam(req.query);
+  const { send, isCancelled } = initSse(req, res);
+  const heartbeat = startHeartbeat(send);
 
   try {
     await obtenerReporteConversionClasesPrueba({
       desde,
       hasta,
       sedes: sedesArray,
-      isCancelled: () => cancelled,
+      isCancelled,
       onProgress: ({ processed, total, sede }) => {
         send({ type: 'progress', processed, total, sede: sede || '' });
       },
-      onSede: ({
-        sede,
-        denominador,
-        numerador,
-        conversionPct,
-        processed,
-        total,
-      }) => {
-        send({
-          type: 'result',
-          sede,
-          denominador,
-          numerador,
-          conversionPct,
-          processed,
-          total,
-        });
+      onSede: ({ sede, denominador, numerador, conversionPct, processed, total }) => {
+        send({ type: 'result', sede, denominador, numerador, conversionPct, processed, total });
       },
     });
 
-    if (cancelled) {
+    if (isCancelled()) {
       send({ type: 'cancelled' });
       return res.end();
     }
@@ -400,11 +322,7 @@ app.get('/api/report/conversion-clase-prueba/stream', async (req, res) => {
   } catch (err) {
     console.error(err);
     if (!res.headersSent) res.status(500);
-    send({
-      type: 'error',
-      error: err && err.message ? err.message : String(err),
-      detalle: err && err.message ? err.message : String(err),
-    });
+    send({ type: 'error', error: err?.message ?? String(err) });
     res.end();
   } finally {
     clearInterval(heartbeat);
@@ -422,48 +340,17 @@ app.get('/api/report/ocupacion/stream', async (req, res) => {
   if (!sede || !String(sede).trim()) {
     return res.status(400).json({ error: 'Indicá una sucursal (parámetro sede)' });
   }
-
   const fechasOcup = validateOcupacionDateRange(desde, hasta);
   if (!fechasOcup.ok) {
     return res.status(400).json({ error: fechasOcup.error });
   }
 
-  let cancelled = false;
-  req.on('close', () => {
-    cancelled = true;
-  });
-
-  res.status(200);
-  res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
-  res.setHeader('Connection', 'keep-alive');
-  res.setHeader('X-Accel-Buffering', 'no');
-  if (typeof res.flushHeaders === 'function') res.flushHeaders();
-
-  const send = (payload) => {
-    res.write(`data: ${JSON.stringify(payload)}\n\n`);
-  };
-
-  send({ type: 'connected', from: 'server' });
-
-  const heartbeat = setInterval(() => {
-    try {
-      send({ type: 'heartbeat' });
-    } catch (e) {
-      void e;
-    }
-  }, 20000);
+  const { send, isCancelled } = initSse(req, res, { extraHeaders: { 'X-Accel-Buffering': 'no' } });
+  const heartbeat = startHeartbeat(send);
 
   try {
     const sedeStr = String(sede).trim();
-    send({
-      type: 'progress',
-      phase: 'start',
-      message: 'Iniciando…',
-      processed: 0,
-      total: 1,
-      sede: sedeStr,
-    });
+    send({ type: 'progress', phase: 'start', message: 'Iniciando…', processed: 0, total: 1, sede: sedeStr });
 
     // Deja que los primeros chunks salgan al cliente antes del trabajo largo (Playwright)
     await new Promise((r) => setImmediate(r));
@@ -472,43 +359,39 @@ app.get('/api/report/ocupacion/stream', async (req, res) => {
       desde,
       hasta,
       sede: sedeStr,
-      isCancelled: () => cancelled,
+      isCancelled,
       emit: (payload) => {
-        if (cancelled) return;
+        if (isCancelled()) return;
         send(payload);
       },
     });
 
-    if (cancelled) {
+    if (isCancelled()) {
       send({ type: 'cancelled' });
       return res.end();
     }
 
     const { diagnostico: _ocupacionDiag, ...ocupacionCliente } = data;
     send({ type: 'result', ocupacion: ocupacionCliente });
-    send({
-      type: 'progress',
-      phase: 'listo',
-      message: 'Reporte listo',
-      processed: 1,
-      total: 1,
-      sede: sedeStr,
-    });
+    send({ type: 'progress', phase: 'listo', message: 'Reporte listo', processed: 1, total: 1, sede: sedeStr });
     send({ type: 'done' });
     res.end();
   } catch (err) {
     console.error(err);
     if (!res.headersSent) res.status(500);
-    send({
-      type: 'error',
-      error: err && err.message ? err.message : String(err),
-      detalle: err && err.message ? err.message : String(err),
-    });
+    send({ type: 'error', error: err?.message ?? String(err) });
     res.end();
   } finally {
     clearInterval(heartbeat);
   }
 });
+
+// Sirve el frontend en producción (después de todos los endpoints /api)
+const distPath = path.join(__dirname, '..', '..', 'frontend', 'dist');
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+  app.get('*', (_req, res) => res.sendFile(path.join(distPath, 'index.html')));
+}
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {

@@ -1,0 +1,3 @@
+step=2
+name=table_belgrano_c
+sede=CLIC Pilates - Belgrano C

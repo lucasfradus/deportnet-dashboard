@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l ./backend/src/deportnet/reports/*.js)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

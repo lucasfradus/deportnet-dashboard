@@ -2,417 +2,1467 @@
   "sedes": {
     "CLIC Pilates - Palermo Hollywood": {
       "horarios": {
-        "lunes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "martes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "miercoles": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "jueves": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "viernes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "sabado": ["09:00", "10:00", "11:00", "12:00"],
-        "domingo": []
+        "lunes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "martes": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            false
+          ],
+          "13:00": [
+            "Level Up",
+            false
+          ],
+          "14:00": [
+            "Inicial",
+            false
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Level Up",
+            true
+          ],
+          "18:00": [
+            "Inicial",
+            true
+          ],
+          "19:00": [
+            "Level Up",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "miercoles": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "jueves": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "viernes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "sabado": {
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "domingo": {}
       }
-    }, 
+    },
     "CLIC Pilates - Nuñez": {
       "horarios": {
-        "lunes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "martes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "miercoles": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "jueves": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "viernes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "sabado": ["09:00", "10:00", "11:00", "12:00"],
-        "domingo": []
+        "lunes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "martes": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            false
+          ],
+          "13:00": [
+            "Level Up",
+            false
+          ],
+          "14:00": [
+            "Inicial",
+            false
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Level Up",
+            true
+          ],
+          "18:00": [
+            "Inicial",
+            true
+          ],
+          "19:00": [
+            "Level Up",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "miercoles": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "jueves": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "viernes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "sabado": {
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "domingo": {}
       }
     },
     "CLIC Pilates - Escobar": {
       "horarios": {
-        "lunes": [
-          "07:00",
-          "08:00",
-          "09:00",
-          "10:00",
-          "11:00",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "martes": [
-           "07:00",
-          "08:00",
-          "09:00",
-          "10:00",
-          "11:00",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "miercoles": [
-          "07:00",
-          "08:00",
-          "09:00",
-          "10:00",
-          "11:00",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "jueves": [
-           "07:00",
-          "08:00",
-          "09:00",
-          "10:00",
-          "11:00",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "viernes": [
-            "07:00",
-          "08:00",
-          "09:00",
-          "10:00",
-          "11:00",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "sabado": ["09:00", "10:00", "11:00", "12:00"],
-        "domingo": []
+        "lunes": {
+          "07:00": [
+            "Inicial",
+            true
+          ],
+          "08:00": [
+            "Inicial",
+            true
+          ],
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "martes": {
+          "07:00": [
+            "Inicial",
+            true
+          ],
+          "08:00": [
+            "Inicial",
+            true
+          ],
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            false
+          ],
+          "13:00": [
+            "Level Up",
+            false
+          ],
+          "14:00": [
+            "Inicial",
+            false
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Level Up",
+            true
+          ],
+          "18:00": [
+            "Inicial",
+            true
+          ],
+          "19:00": [
+            "Level Up",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "miercoles": {
+          "07:00": [
+            "Inicial",
+            true
+          ],
+          "08:00": [
+            "Inicial",
+            true
+          ],
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "jueves": {
+          "07:00": [
+            "Inicial",
+            true
+          ],
+          "08:00": [
+            "Inicial",
+            true
+          ],
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "viernes": {
+          "07:00": [
+            "Inicial",
+            true
+          ],
+          "08:00": [
+            "Inicial",
+            true
+          ],
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "sabado": {
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "domingo": {}
       }
     },
     "CLIC Pilates - Olivos": {
       "horarios": {
-        "lunes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "martes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "miercoles": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "jueves": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "viernes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "12:00",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00"
-        ],
-        "sabado": ["09:00", "10:00", "11:00", "12:00"],
-        "domingo": []
+        "lunes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "martes": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            false
+          ],
+          "13:00": [
+            "Level Up",
+            false
+          ],
+          "14:00": [
+            "Inicial",
+            false
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Level Up",
+            true
+          ],
+          "18:00": [
+            "Inicial",
+            true
+          ],
+          "19:00": [
+            "Level Up",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "miercoles": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "jueves": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "viernes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "sabado": {
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "domingo": {}
       }
     },
     "Pilates - Office": {
       "horarios": {
-        "lunes": [
-          "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "11:45",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00",
-          "21:00"
-        ],
-        "martes": [
-            "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "11:45",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00",
-          "21:00"
-        ],
-        "miercoles": [
-            "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "11:45",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00",
-          "21:00"
-        ],
-        "jueves": [
-            "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "11:45",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00",
-          "21:00"
-        ],
-        "viernes": [
-           "07:45",
-          "08:45",
-          "09:45",
-          "10:45",
-          "11:45",
-          "13:00",
-          "14:00",
-          "15:00",
-          "16:00",
-          "17:00",
-          "18:00",
-          "19:00",
-          "20:00",
-          "21:00"
-        ],
-        "sabado": ["09:00", "10:00", "11:00", "12:00"],
-        "domingo": []
+        "lunes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "11:45": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ],
+          "21:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "martes": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "11:45": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            false
+          ],
+          "14:00": [
+            "Inicial",
+            false
+          ],
+          "15:00": [
+            "Inicial",
+            false
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Level Up",
+            true
+          ],
+          "18:00": [
+            "Inicial",
+            true
+          ],
+          "19:00": [
+            "Level Up",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ],
+          "21:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "miercoles": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "11:45": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Level Up",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ],
+          "21:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "jueves": {
+          "07:45": [
+            "Level Up",
+            true
+          ],
+          "08:45": [
+            "Inicial",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Inicial",
+            true
+          ],
+          "11:45": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ],
+          "21:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "viernes": {
+          "07:45": [
+            "Inicial",
+            true
+          ],
+          "08:45": [
+            "Level Up",
+            true
+          ],
+          "09:45": [
+            "Inicial",
+            true
+          ],
+          "10:45": [
+            "Level Up",
+            true
+          ],
+          "11:45": [
+            "Inicial",
+            true
+          ],
+          "13:00": [
+            "Inicial",
+            true
+          ],
+          "14:00": [
+            "Inicial",
+            true
+          ],
+          "15:00": [
+            "Inicial",
+            true
+          ],
+          "16:00": [
+            "Inicial",
+            true
+          ],
+          "17:00": [
+            "Inicial",
+            true
+          ],
+          "18:00": [
+            "Level Up",
+            true
+          ],
+          "19:00": [
+            "Inicial",
+            true
+          ],
+          "20:00": [
+            "Inicial",
+            true
+          ],
+          "21:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "sabado": {
+          "09:00": [
+            "Inicial",
+            true
+          ],
+          "10:00": [
+            "Inicial",
+            true
+          ],
+          "11:00": [
+            "Inicial",
+            true
+          ],
+          "12:00": [
+            "Inicial",
+            true
+          ]
+        },
+        "domingo": {}
       }
     }
   }
