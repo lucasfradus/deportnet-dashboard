@@ -78,16 +78,6 @@ const healthPayload = () => ({
   tip: 'Si ves 404 en /api/ping pero este JSON en / o /ping, hay un proxy mal o otro proceso en :4000',
 });
 
-/** Raíz: útil si algo intercepta solo /api/* */
-app.get('/', (_req, res) => {
-  res.json({ ...healthPayload(), path: '/' });
-});
-
-/** Sin prefijo /api (mismo diagnóstico que /api/ping) */
-app.get('/ping', (_req, res) => {
-  res.json({ ...healthPayload(), path: '/ping' });
-});
-
 /** Comprobar que es este backend (útil si ves "Cannot GET" en otras rutas: otro proceso en :4000) */
 app.get('/api/ping', (_req, res) => {
   res.json({ ...healthPayload(), path: '/api/ping' });
