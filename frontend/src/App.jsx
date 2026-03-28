@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Stack, Tab, Tabs, Typography } from '@mui/material';
+import { Button, Container, Stack, Tab, Tabs, Typography } from '@mui/material';
 import './App.css';
 
 import locales from '../../shared/locales.json';
@@ -9,6 +9,8 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { reportDefs } from './constants/reportDefs';
 import { useReporteStream } from './hooks/useReporteStream';
+import { clearToken, isAuthenticated } from './utils/auth';
+import LoginPage from './components/LoginPage';
 import ReportFilters from './components/ReportFilters';
 import LocalesSelector from './components/LocalesSelector';
 import CobrosReport from './components/reports/CobrosReport';
@@ -18,12 +20,24 @@ import ConversionReport from './components/reports/ConversionReport';
 import OcupacionMatrixReport from './components/reports/OcupacionMatrixReport';
 import SociosActivosReport from './components/reports/SociosActivosReport';
 export default function App() {
+  const [authenticated, setAuthenticated] = useState(isAuthenticated());
+
+  if (!authenticated) {
+    return <LoginPage onLogin={() => setAuthenticated(true)} />;
+  }
+
+  return <Dashboard onLogout={() => { clearToken(); setAuthenticated(false); }} />;
+}
+
+function Dashboard({ onLogout }) {
   const [selectedReportId, setSelectedReportId] = useState(reportDefs[0].id);
   const selectedReport = reportDefs.find((r) => r.id === selectedReportId) || reportDefs[0];
 
   const [desde, setDesde] = useState('');
   const [hasta, setHasta] = useState('');
   const [sedesSeleccionadas, setSedesSeleccionadas] = useState(locales);
+
+  const handleUnauthorized = () => { clearToken(); onLogout(); };
 
   const {
     data,
@@ -41,14 +55,19 @@ export default function App() {
     cancelar,
     percent,
     ocupacionIndeterminate,
-  } = useReporteStream({ reportId: selectedReportId, report: selectedReport, desde, hasta, sedesSeleccionadas });
+  } = useReporteStream({ reportId: selectedReportId, report: selectedReport, desde, hasta, sedesSeleccionadas, onUnauthorized: handleUnauthorized });
 
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
       <Stack spacing={2}>
-        <Typography variant="h4" fontWeight={700}>
-          Reportes
-        </Typography>
+        <Stack direction="row" alignItems="center" justifyContent="space-between">
+          <Typography variant="h4" fontWeight={700}>
+            Reportes
+          </Typography>
+          <Button variant="outlined" size="small" onClick={onLogout}>
+            Cerrar sesión
+          </Button>
+        </Stack>
 
         <Tabs
           value={selectedReportId}

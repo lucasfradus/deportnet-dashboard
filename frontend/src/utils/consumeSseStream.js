@@ -6,17 +6,19 @@
  * @param {{ signal?: AbortSignal, onMessage: (obj: object) => void }} options
  * @returns {Promise<void>}
  */
-export async function consumeSseStream(url, { signal, onMessage }) {
+export async function consumeSseStream(url, { signal, onMessage, headers = {} }) {
   const res = await fetch(typeof url === 'string' ? url : url.toString(), {
     method: 'GET',
     signal,
-    headers: { Accept: 'text/event-stream' },
+    headers: { Accept: 'text/event-stream', ...headers },
     cache: 'no-store',
   });
 
   if (!res.ok) {
     const text = await res.text().catch(() => '');
-    throw new Error(text?.slice(0, 500) || `Error HTTP ${res.status}`);
+    const err = new Error(text?.slice(0, 500) || `Error HTTP ${res.status}`);
+    err.status = res.status;
+    throw err;
   }
 
   const reader = res.body?.getReader();

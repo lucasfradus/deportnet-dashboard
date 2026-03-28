@@ -5,12 +5,13 @@ import { resolveApiStreamUrl } from '../constants/reportDefs';
 import { buildOcupacionSkeleton } from '../utils/ocupacionSkeleton';
 import { consumeSseStream } from '../utils/consumeSseStream';
 import { validarRangoFechasBusqueda, validarRangoFechasOcupacion } from '../utils/fechaBusqueda';
+import { clearToken, getToken } from '../utils/auth';
 
 /**
  * Maneja el ciclo de vida completo de un stream SSE para un reporte:
  * estado de datos, progreso, errores, y las acciones generarReporte/cancelar.
  */
-export function useReporteStream({ reportId, report, desde, hasta, sedesSeleccionadas }) {
+export function useReporteStream({ reportId, report, desde, hasta, sedesSeleccionadas, onUnauthorized }) {
   const [data, setData] = useState([]);
   const [preciosMatrix, setPreciosMatrix] = useState({});
   const [preciosSedesColumnas, setPreciosSedesColumnas] = useState([]);
@@ -275,9 +276,19 @@ export function useReporteStream({ reportId, report, desde, hasta, sedesSeleccio
 
     void (async () => {
       try {
-        await consumeSseStream(url, { signal: ac.signal, onMessage: handleMessage });
+        const token = getToken();
+        await consumeSseStream(url, {
+          signal: ac.signal,
+          onMessage: handleMessage,
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        });
       } catch (e) {
         if (ac.signal.aborted || e?.name === 'AbortError') return;
+        if (e?.status === 401) {
+          clearToken();
+          onUnauthorized?.();
+          return;
+        }
         if (streamingRef.current) {
           setError(e?.message || 'Error de conexión con el servidor. ¿Está el backend en el puerto 4000?');
         }

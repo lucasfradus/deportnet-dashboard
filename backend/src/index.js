@@ -14,6 +14,8 @@ const {
 } = require('./deportnetClientFacade');
 const { validateSearchDateRange } = require('./validateSearchDates');
 const { validateOcupacionDateRange } = require('./validateOcupacionDates');
+const { requireAuth } = require('./authMiddleware');
+const jwt = require('jsonwebtoken');
 
 const app = express();
 app.use(cors());
@@ -90,6 +92,32 @@ app.get('/ping', (_req, res) => {
 app.get('/api/ping', (_req, res) => {
   res.json({ ...healthPayload(), path: '/api/ping' });
 });
+
+// ── Autenticación ─────────────────────────────────────────────────────────────
+// AUTH_USERS en .env: "usuario1:clave1,usuario2:clave2"
+// JWT_SECRET en .env: clave secreta para firmar tokens (cámbiala en producción)
+app.post('/api/auth/login', express.json(), (req, res) => {
+  const { username, password } = req.body || {};
+  const rawUsers = process.env.AUTH_USERS || '';
+  const users = Object.fromEntries(
+    rawUsers.split(',')
+      .map((entry) => { const i = entry.trim().indexOf(':'); return i < 0 ? null : [entry.slice(0, i).trim(), entry.slice(i + 1).trim()]; })
+      .filter(Boolean)
+  );
+
+  if (!username || !password || users[username] !== password) {
+    return res.status(401).json({ error: 'Credenciales incorrectas' });
+  }
+
+  const secret = process.env.JWT_SECRET || 'changeme';
+  if (secret === 'changeme') console.warn('[auth] JWT_SECRET no configurado — usá una clave segura en producción');
+
+  const token = jwt.sign({ username }, secret, { expiresIn: '24h' });
+  res.json({ token });
+});
+
+// Protege todos los endpoints de reportes
+app.use('/api/report', requireAuth);
 
 // Streaming con SSE (Server-Sent Events).
 // IMPORTANTE: EventSource solo soporta GET, por eso el stream es GET.
