@@ -418,7 +418,7 @@ app.get('/api/report/ocupacion/stream', async (req, res) => {
 const distPath = path.join(__dirname, '..', '..', 'frontend', 'dist');
 if (fs.existsSync(distPath)) {
   app.use(express.static(distPath));
-  app.get('*', (_req, res) => res.sendFile(path.join(distPath, 'index.html')));
+  app.get('/*splat', (_req, res) => res.sendFile(path.join(distPath, 'index.html')));
 }
 
 const PORT = process.env.PORT || 4000;
